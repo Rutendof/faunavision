@@ -1,0 +1,25 @@
+[project]
+name = "faunavision"
+version = "0.1.0"
+description = "Fine-grained recognition of lookalike Southern African animal species"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "pandas>=2.0",
+    "ijson>=3.2",   # streams the multi-GB LILA JSON files without loading them whole
+    "pillow>=10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

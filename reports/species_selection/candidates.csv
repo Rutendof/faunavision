@@ -1,0 +1,660 @@
+taxon_id,name,common_name,iconic,observations,class_id,class,order_id,order,family_id,family,genus_id,genus
+43694,Loxodonta africana,African Savanna Elephant,Mammalia,13934,40151,Mammalia,43691,Proboscidea,43692,Elephantidae,43693,Loxodonta
+72486,Alopochen aegyptiaca,Egyptian Goose,Aves,13016,3,Aves,6888,Anseriformes,6912,Anatidae,7129,Alopochen
+43335,Equus quagga,Plains Zebra,Mammalia,10881,40151,Mammalia,43327,Perissodactyla,43328,Equidae,43329,Equus
+1510571,Giraffa giraffa,Southern Giraffe,Mammalia,10859,40151,Mammalia,152870,Artiodactyla,42153,Giraffidae,42156,Giraffa
+517449,Sclerophrys pantherina,Western Leopard Toad,Amphibia,10536,20978,Amphibia,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+3743,Bostrychia hagedash,Hadada Ibis,Aves,9547,3,Aves,67566,Pelecaniformes,3727,Threskiornithidae,3742,Bostrychia
+42278,Aepyceros melampus,Impala,Mammalia,9276,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42277,Aepyceros
+1428,Numida meleagris,Helmeted Guineafowl,Aves,9202,3,Aves,573,Galliformes,1426,Numididae,1427,Numida
+4870,Vanellus armatus,Blacksmith Lapwing,Aves,8790,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+31150,Agama atra,Southern Rock Agama,Reptilia,8790,26036,Reptilia,26172,Squamata,31096,Agamidae,31115,Agama
+57556,Papio ursinus,Chacma Baboon,Mammalia,8705,40151,Mammalia,43367,Primates,43443,Cercopithecidae,43534,Papio
+42339,Tragelaphus strepsiceros,Greater Kudu,Mammalia,8512,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+204531,Lanius collaris,Southern Fiscal,Aves,8135,3,Aves,7251,Passeriformes,12015,Laniidae,12016,Lanius
+40021,Chersina angulata,Angulate Tortoise,Reptilia,7800,26036,Reptilia,39532,Testudines,40019,Testudinidae,40020,Chersina
+13853,Passer melanurus,Cape Sparrow,Aves,7196,3,Aves,7251,Passeriformes,13685,Passeridae,13847,Passer
+13804,Ploceus velatus,Southern Masked Weaver,Aves,7158,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+41964,Panthera leo,Lion,Mammalia,7132,40151,Mammalia,41573,Carnivora,41944,Felidae,41962,Panthera
+13699,Motacilla capensis,Cape Wagtail,Aves,7122,3,Aves,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+42122,Phacochoerus africanus,Common Warthog,Mammalia,7078,40151,Mammalia,152870,Artiodactyla,42118,Suidae,42121,Phacochoerus
+1455922,Spilopelia senegalensis,Laughing Dove,Aves,7056,3,Aves,2708,Columbiformes,2715,Columbidae,1425710,Spilopelia
+8268,Dicrurus adsimilis,Fork-tailed Drongo,Aves,7039,3,Aves,7251,Passeriformes,71318,Dicruridae,8263,Dicrurus
+34303,Lygodactylus capensis,Common Dwarf Gecko,Reptilia,6840,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34235,Lygodactylus
+4954,Ardea cinerea,Grey Heron,Aves,6676,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+68137,Chlorocebus pygerythrus,Vervet Monkey,Mammalia,6590,40151,Mammalia,43367,Primates,43443,Cercopithecidae,43522,Chlorocebus
+13801,Ploceus capensis,Cape Weaver,Aves,6536,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+40092,Stigmochelys pardalis,Leopard Tortoise,Reptilia,6491,26036,Reptilia,39532,Testudines,40019,Testudinidae,92254,Stigmochelys
+4388,Larus dominicanus,Kelp Gull,Aves,6490,3,Aves,67561,Charadriiformes,4342,Laridae,4343,Larus
+20526,Struthio camelus,Common Ostrich,Aves,6451,3,Aves,20487,Struthioniformes,20523,Struthionidae,20524,Struthio
+508246,Microcarbo africanus,Reed Cormorant,Aves,6339,3,Aves,71268,Suliformes,4262,Phalacrocoracidae,370634,Microcarbo
+42149,Hippopotamus amphibius,Common Hippopotamus,Mammalia,6250,40151,Mammalia,152870,Artiodactyla,42146,Hippopotamidae,42147,Hippopotamus
+3739,Threskiornis aethiopicus,African Sacred Ibis,Aves,6206,3,Aves,67566,Pelecaniformes,3727,Threskiornithidae,3737,Threskiornis
+2988,Streptopelia semitorquata,Red-eyed Dove,Aves,6161,3,Aves,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+42280,Connochaetes taurinus,Common Wildebeest,Mammalia,6151,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42279,Connochaetes
+204554,Onychognathus morio,Red-winged Starling,Aves,5895,3,Aves,7251,Passeriformes,14841,Sturnidae,14968,Onychognathus
+42405,Syncerus caffer,African Buffalo,Mammalia,5845,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42404,Syncerus
+145157,Cinnyris chalybeus,Southern Double-collared Sunbird,Aves,5791,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+32954,Bradypodion pumilum,Cape Dwarf Chameleon,Reptilia,5746,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+23331,Hyperolius marmoratus,Painted Reed Frog,Amphibia,5701,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+43086,Procavia capensis,Rock Hyrax,Mammalia,5654,40151,Mammalia,43083,Hyracoidea,43084,Procaviidae,43085,Procavia
+1505670,Icthyophaga vocifer,African Fish-Eagle,Aves,5536,3,Aves,71261,Accipitriformes,5067,Accipitridae,1505651,Icthyophaga
+1585912,Dessonornis caffer,Cape Robin-Chat,Aves,5508,3,Aves,7251,Passeriformes,12704,Muscicapidae,1585903,Dessonornis
+41742,Arctocephalus pusillus,Brown Fur Seal,Mammalia,5468,40151,Mammalia,41573,Carnivora,41736,Otariidae,41741,Arctocephalus
+14588,Pycnonotus barbatus,Common Bulbul,Aves,5406,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+13251,Sigelus silens,Fiscal Flycatcher,Aves,5353,3,Aves,7251,Passeriformes,12704,Muscicapidae,13250,Sigelus
+4972,Ardea melanocephala,Black-headed Heron,Aves,5332,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+3036,Columba guinea,Speckled Pigeon,Aves,5324,3,Aves,2708,Columbiformes,2715,Columbidae,3000,Columba
+13962,Euplectes orix,Southern Red Bishop,Aves,5289,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+2346,Halcyon albiventris,Brown-hooded Kingfisher,Aves,5215,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+472770,Zosterops virens,Cape White-eye,Aves,5205,3,Aves,7251,Passeriformes,17438,Zosteropidae,17439,Zosterops
+14594,Pycnonotus capensis,Cape Bulbul,Aves,5168,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+6965,Anas undulata,Yellow-billed Duck,Aves,5141,3,Aves,6888,Anseriformes,6912,Anatidae,6922,Anas
+487,Fulica cristata,Red-knobbed Coot,Aves,5056,3,Aves,4,Gruiformes,154,Rallidae,472,Fulica
+5198,Buteo rufofuscus,Jackal Buzzard,Aves,4975,3,Aves,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+4270,Phalacrocorax carbo,Great Cormorant,Aves,4952,3,Aves,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+8038,Corvus albus,Pied Crow,Aves,4912,3,Aves,7251,Passeriformes,7823,Corvidae,7998,Corvus
+980204,Oenanthe familiaris,Familiar Chat,Aves,4776,3,Aves,7251,Passeriformes,12704,Muscicapidae,980200,Oenanthe
+341972,Crocodylus niloticus,Nile Crocodile,Reptilia,4746,26036,Reptilia,26039,Crocodylia,26041,Crocodylidae,26042,Crocodylus
+14930,Lamprotornis nitens,Cape Starling,Aves,4734,3,Aves,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+5363,Gyps africanus,White-backed Vulture,Aves,4729,3,Aves,71261,Accipitriformes,5067,Accipitridae,5362,Gyps
+1431867,Tragelaphus sylvaticus,Southern Bushbuck,Mammalia,4643,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+3704,Colius striatus,Speckled Mousebird,Aves,4608,3,Aves,3686,Coliiformes,3687,Coliidae,3702,Colius
+42328,Kobus ellipsiprymnus,Waterbuck,Mammalia,4553,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42325,Kobus
+55371,Saxicola torquatus,African Stonechat,Aves,4541,3,Aves,7251,Passeriformes,12704,Muscicapidae,979942,Saxicola
+64912,Amietia fuscigula,Cape River Frog,Amphibia,4490,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+2269,Coracias caudatus,Lilac-breasted Roller,Aves,4468,3,Aves,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+144509,Chroicocephalus hartlaubii,Hartlaub's Gull,Aves,4353,3,Aves,67561,Charadriiformes,4342,Laridae,144320,Chroicocephalus
+5066,Anhinga rufa,African Darter,Aves,4351,3,Aves,71268,Suliformes,5059,Anhingidae,5060,Anhinga
+343746,Pternistis capensis,Cape Spurfowl,Aves,4326,3,Aves,573,Galliformes,574,Phasianidae,343747,Pternistis
+13300,Nectarinia famosa,Malachite Sunbird,Aves,4303,3,Aves,7251,Passeriformes,13273,Nectariniidae,13274,Nectarinia
+42283,Antidorcas marsupialis,Springbok,Mammalia,4283,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42282,Antidorcas
+411086,Ardea ibis,Western Cattle-Egret,Aves,4216,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+13442,Promerops cafer,Cape Sugarbird,Aves,4171,3,Aves,7251,Passeriformes,71357,Promeropidae,13441,Promerops
+1210966,Lupulella mesomelas,Black-backed Jackal,Mammalia,4053,40151,Mammalia,41573,Carnivora,42043,Canidae,1210963,Lupulella
+42342,Tragelaphus angasii,Nyala,Mammalia,4033,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+201282,Gallinula chloropus,Eurasian Moorhen,Aves,4012,3,Aves,4,Gruiformes,154,Rallidae,979864,Gallinula
+2662,Ceryle rudis,Pied Kingfisher,Aves,4009,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2661,Ceryle
+4943,Egretta garzetta,Little Egret,Aves,4006,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4933,Egretta
+4839,Haematopus moquini,African Oystercatcher,Aves,4002,3,Aves,67561,Charadriiformes,71325,Haematopodidae,4837,Haematopus
+42375,Raphicerus campestris,Steenbok,Mammalia,3996,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42373,Raphicerus
+517132,Sclerophrys capensis,Raucous Toad,Amphibia,3963,20978,Amphibia,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+2959,Streptopelia capicola,Cape Turtle Dove,Aves,3961,3,Aves,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+44173,Hystrix africaeaustralis,Cape Porcupine,Mammalia,3949,40151,Mammalia,43698,Rodentia,44167,Hystricidae,44168,Hystrix
+3813,Spheniscus demersus,African Penguin,Aves,3929,3,Aves,67564,Sphenisciformes,3806,Spheniscidae,3811,Spheniscus
+7730,Prinia maculosa,Karoo Prinia,Aves,3860,3,Aves,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+73152,Passer diffusus,Southern Grey-headed Sparrow,Aves,3825,3,Aves,7251,Passeriformes,13685,Passeridae,13847,Passer
+5479,Tockus leucomelas,Southern Yellow-billed Hornbill,Aves,3809,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+43348,Ceratotherium simum,White Rhinoceros,Mammalia,3778,40151,Mammalia,43327,Perissodactyla,43341,Rhinocerotidae,43347,Ceratotherium
+41963,Panthera pardus,Leopard,Mammalia,3751,40151,Mammalia,41573,Carnivora,41944,Felidae,41962,Panthera
+42275,Damaliscus pygargus,Bontebok/Blesbok,Mammalia,3721,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42273,Damaliscus
+68492,Hemidactylus mabouia,Tropical House Gecko,Reptilia,3684,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34434,Hemidactylus
+41886,Crocuta crocuta,Spotted Hyena,Mammalia,3635,40151,Mammalia,41573,Carnivora,41884,Hyaenidae,41885,Crocuta
+1580335,Thinornis tricollaris,Three-banded Plover,Aves,3615,3,Aves,67561,Charadriiformes,4783,Charadriidae,4911,Thinornis
+13858,Passer domesticus,House Sparrow,Aves,3605,3,Aves,7251,Passeriformes,13685,Passeridae,13847,Passer
+5268,Milvus migrans,Black Kite,Aves,3571,3,Aves,71261,Accipitriformes,5067,Accipitridae,5265,Milvus
+4835,Himantopus himantopus,Black-winged Stilt,Aves,3557,3,Aves,67561,Charadriiformes,71361,Recurvirostridae,4831,Himantopus
+1506034,Crinifer concolor,Grey Go-away-bird,Aves,3528,3,Aves,793433,Musophagiformes,7194,Musophagidae,7246,Crinifer
+204470,Bubo africanus,Spotted Eagle-Owl,Aves,3527,3,Aves,19350,Strigiformes,19728,Strigidae,20034,Bubo
+7146,Plectropterus gambensis,Spur-winged Goose,Aves,3520,3,Aves,6888,Anseriformes,6912,Anatidae,7145,Plectropterus
+5275,Elanus caeruleus,Black-winged Kite,Aves,3508,3,Aves,71261,Accipitriformes,5067,Accipitridae,5273,Elanus
+75192,Tragelaphus oryx,Common Eland,Mammalia,3502,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+4237,Tachybaptus ruficollis,Little Grebe,Aves,3488,3,Aves,67563,Podicipediformes,4203,Podicipedidae,4236,Tachybaptus
+20969,Upupa epops,Common Hoopoe,Aves,3478,3,Aves,525653,Bucerotiformes,20967,Upupidae,20968,Upupa
+5338,Melierax canorus,Pale Chanting-Goshawk,Aves,3476,3,Aves,71261,Accipitriformes,5067,Accipitridae,5336,Melierax
+42308,Oryx gazella,Gemsbok,Mammalia,3455,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42307,Oryx
+145142,Chalcomitra amethystina,Amethyst Sunbird,Aves,3454,3,Aves,7251,Passeriformes,13273,Nectariniidae,144401,Chalcomitra
+30851,Bitis arietans,Puff Adder,Reptilia,3245,26036,Reptilia,26172,Squamata,30667,Viperidae,30850,Bitis
+14850,Sturnus vulgaris,European Starling,Aves,3231,3,Aves,7251,Passeriformes,14841,Sturnidae,14842,Sturnus
+145130,Anthobaphes violacea,Orange-breasted Sunbird,Aves,3213,3,Aves,7251,Passeriformes,13273,Nectariniidae,144399,Anthobaphes
+872122,Acanthocercus atricollis,Southern Tree Agama,Reptilia,3209,26036,Reptilia,26172,Squamata,31096,Agamidae,31425,Acanthocercus
+47,Grus paradisea,Blue Crane,Aves,3179,3,Aves,4,Gruiformes,23,Gruidae,508058,Grus
+7660,Cisticola tinniens,Levaillant's Cisticola,Aves,3154,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+4877,Vanellus coronatus,Crowned Lapwing,Aves,3143,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+5079,Aquila rapax,Tawny Eagle,Aves,3060,3,Aves,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+4922,Burhinus capensis,Spotted Thick-knee,Aves,3032,3,Aves,67561,Charadriiformes,4917,Burhinidae,4921,Burhinus
+73222,Phoenicopterus roseus,Greater Flamingo,Aves,3015,3,Aves,67569,Phoenicopteriformes,4255,Phoenicopteridae,4256,Phoenicopterus
+1584479,Buphagus erythroryncha,Red-billed Oxpecker,Aves,3010,3,Aves,7251,Passeriformes,200987,Buphagidae,46,Buphagus
+4585,Actophilornis africanus,African Jacana,Aves,3001,3,Aves,67561,Charadriiformes,4574,Jacanidae,4583,Actophilornis
+472764,Falco rupicolus,Rock Kestrel,Aves,2996,3,Aves,67570,Falconiformes,4637,Falconidae,4638,Falco
+116950,Lybius torquatus,Black-collared Barbet,Aves,2953,3,Aves,17550,Piciformes,200961,Lybiidae,71711,Lybius
+3734,Platalea alba,African Spoonbill,Aves,2943,3,Aves,67566,Pelecaniformes,3727,Threskiornithidae,3728,Platalea
+37418,Trachylepis striata,African Striped Skink,Reptilia,2937,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+145163,Cinnyris afer,Greater Double-collared Sunbird,Aves,2925,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+3834,Scopus umbretta,Hamerkop,Aves,2922,3,Aves,67566,Pelecaniformes,3832,Scopidae,3833,Scopus
+32854,Chamaeleo dilepis,Flap-necked Chameleon,Reptilia,2916,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32806,Chamaeleo
+42418,Alcelaphus buselaphus,Hartebeest,Mammalia,2882,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42417,Alcelaphus
+14011,Vidua macroura,Pin-tailed Whydah,Aves,2867,3,Aves,7251,Passeriformes,68491,Viduidae,14008,Vidua
+42384,Oreotragus oreotragus,Klipspringer,Mammalia,2840,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42383,Oreotragus
+26214,Strongylopus grayii,Clicking Stream Frog,Amphibia,2820,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,26200,Strongylopus
+144651,Corythornis cristatus,Malachite Kingfisher,Aves,2820,3,Aves,2114,Coraciiformes,2314,Alcedinidae,144334,Corythornis
+12978,Muscicapa adusta,African Dusky Flycatcher,Aves,2813,3,Aves,7251,Passeriformes,12704,Muscicapidae,12964,Muscicapa
+5231,Terathopius ecaudatus,Bateleur,Aves,2755,3,Aves,71261,Accipitriformes,5067,Accipitridae,5230,Terathopius
+6898,Dendrocygna viduata,White-faced Whistling-Duck,Aves,2732,3,Aves,6888,Anseriformes,6912,Anatidae,6890,Dendrocygna
+4287,Phalacrocorax capensis,Cape Cormorant,Aves,2726,3,Aves,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+117135,Trachyphonus vaillantii,Crested Barbet,Aves,2713,3,Aves,17550,Piciformes,200961,Lybiidae,85091,Trachyphonus
+13770,Estrilda astrild,Common Waxbill,Aves,2695,3,Aves,7251,Passeriformes,71322,Estrildidae,13763,Estrilda
+203815,Turdus olivaceus,Olive Thrush,Aves,2695,3,Aves,7251,Passeriformes,15977,Turdidae,12705,Turdus
+1505776,Anarhynchus marginatus,White-fronted Plover,Aves,2692,3,Aves,67561,Charadriiformes,4783,Charadriidae,4899,Anarhynchus
+13796,Ploceus cucullatus,Village Weaver,Aves,2685,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+42424,Sylvicapra grimmia,Bush Duiker,Mammalia,2683,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42423,Sylvicapra
+71085,Varanus niloticus,Nile Monitor,Reptilia,2681,26036,Reptilia,26172,Squamata,39392,Varanidae,39393,Varanus
+93486,Afrogecko porphyreus,Marbled Leaf-toed Gecko,Reptilia,2674,26036,Reptilia,26172,Squamata,33177,Gekkonidae,33454,Afrogecko
+5246,Polyboroides typus,African Harrier-Hawk,Aves,2630,3,Aves,71261,Accipitriformes,5067,Accipitridae,5245,Polyboroides
+33062,Cordylus niger,Black Girdled Lizard,Reptilia,2623,26036,Reptilia,26172,Squamata,33023,Cordylidae,33024,Cordylus
+14026,Uraeginthus angolensis,Southern Cordonbleu,Aves,2614,3,Aves,7251,Passeriformes,71322,Estrildidae,14025,Uraeginthus
+14115,Plocepasser mahali,White-browed Sparrow-Weaver,Aves,2577,3,Aves,7251,Passeriformes,71354,Ploceidae,14111,Plocepasser
+2248,Merops bullockoides,White-fronted Bee-eater,Aves,2575,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+115,Ardeotis kori,Kori Bustard,Aves,2544,3,Aves,71266,Otidiformes,75,Otididae,107,Ardeotis
+144663,Tockus rufirostris,Southern Red-billed Hornbill,Aves,2541,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+144540,Thalasseus bergii,Greater Crested Tern,Aves,2500,3,Aves,67561,Charadriiformes,4342,Laridae,144327,Thalasseus
+1630133,Trachylepis margaritifer,Rainbow Skink,Reptilia,2485,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+367700,Spermestes cucullata,Bronze Mannikin,Aves,2471,3,Aves,7251,Passeriformes,71322,Estrildidae,144421,Spermestes
+8224,Laniarius ferrugineus,Southern Boubou,Aves,2450,3,Aves,7251,Passeriformes,71333,Malaconotidae,8206,Laniarius
+9271,Serinus canicollis,Cape Canary,Aves,2440,3,Aves,7251,Passeriformes,9079,Fringillidae,9227,Serinus
+46110,Paraxerus cepapi,Smith's Bush Squirrel,Mammalia,2436,40151,Mammalia,43698,Rodentia,45933,Sciuridae,46105,Paraxerus
+8188,Telophorus zeylonus,Bokmakierie,Aves,2384,3,Aves,7251,Passeriformes,71333,Malaconotidae,8184,Telophorus
+117214,Sagittarius serpentarius,Secretarybird,Aves,2383,3,Aves,71261,Accipitriformes,200957,Sagittariidae,71756,Sagittarius
+145208,Anthus cinnamomeus,African Pipit,Aves,2382,3,Aves,7251,Passeriformes,71339,Motacillidae,13706,Anthus
+5344,Polemaetus bellicosus,Martial Eagle,Aves,2377,3,Aves,71261,Accipitriformes,5067,Accipitridae,5343,Polemaetus
+6984,Anas erythrorhyncha,Red-billed Teal,Aves,2376,3,Aves,6888,Anseriformes,6912,Anatidae,6922,Anas
+4926,Burhinus vermiculatus,Water Thick-knee,Aves,2368,3,Aves,67561,Charadriiformes,4917,Burhinidae,4921,Burhinus
+1583337,Centropus burchellii,Burchell's Coucal,Aves,2358,3,Aves,1623,Cuculiformes,1627,Cuculidae,1628,Centropus
+11920,Hirundo albigularis,White-throated Swallow,Aves,2341,3,Aves,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+21861,Schismaderma carens,African Red Toad,Amphibia,2335,20978,Amphibia,20979,Anura,21359,Bufonidae,21860,Schismaderma
+558601,Crithagra mozambica,Yellow-fronted Canary,Aves,2329,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+13701,Motacilla aguimp,African Pied Wagtail,Aves,2323,3,Aves,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+1429237,Ciconia microscelis,African Woolly-necked Stork,Aves,2311,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+144281,Bucorvus leadbeateri,Southern Ground Hornbill,Aves,2306,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,5435,Bucorvus
+4744,Mycteria ibis,Yellow-billed Stork,Aves,2301,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4741,Mycteria
+2185,Merops pusillus,Little Bee-eater,Aves,2258,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+3722,Colius colius,White-backed Mousebird,Aves,2195,3,Aves,3686,Coliiformes,3687,Coliidae,3702,Colius
+204472,Buteo buteo,Common Buzzard,Aves,2193,3,Aves,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+558436,Spatula smithii,Cape Shoveler,Aves,2180,3,Aves,6888,Anseriformes,6912,Anatidae,558404,Spatula
+14005,Quelea quelea,Red-billed Quelea,Aves,2165,3,Aves,7251,Passeriformes,71354,Ploceidae,14004,Quelea
+114294,Trachylepis punctatissima,Speckled Rock Skink,Reptilia,2142,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+1585977,Tychaedon coryphoeus,Karoo Scrub-Robin,Aves,2126,3,Aves,7251,Passeriformes,12704,Muscicapidae,1585976,Tychaedon
+8354,Terpsiphone viridis,African Paradise-Flycatcher,Aves,2085,3,Aves,7251,Passeriformes,71338,Monarchidae,8351,Terpsiphone
+1720305,Fringillaria capensis,Cape Bunting,Aves,2063,3,Aves,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+7729,Prinia subflava,Tawny-flanked Prinia,Aves,2054,3,Aves,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+201031,Leptoptilos crumenifer,Marabou Stork,Aves,2048,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4748,Leptoptilos
+11901,Hirundo rustica,Barn Swallow,Aves,2041,3,Aves,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+144508,Chroicocephalus cirrocephalus,Gray-hooded Gull,Aves,2008,3,Aves,67561,Charadriiformes,4342,Laridae,144320,Chroicocephalus
+37436,Trachylepis capensis,Cape Skink,Reptilia,2006,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+144791,Cecropis cucullata,Greater Striped Swallow,Aves,2005,3,Aves,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+7876,Oriolus larvatus,Black-headed Oriole,Aves,2003,3,Aves,7251,Passeriformes,71343,Oriolidae,7863,Oriolus
+145187,Cinnyris talatala,White-bellied Sunbird,Aves,1986,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+4969,Ardea goliath,Goliath Heron,Aves,1985,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+13964,Euplectes capensis,Yellow Bishop,Aves,1978,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+4754,Ephippiorhynchus senegalensis,Saddle-billed Stork,Aves,1971,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4752,Ephippiorhynchus
+20934,Phoeniculus purpureus,Green Woodhoopoe,Aves,1961,3,Aves,525653,Bucerotiformes,20932,Phoeniculidae,20933,Phoeniculus
+6986,Anas capensis,Cape Teal,Aves,1958,3,Aves,6888,Anseriformes,6912,Anatidae,6922,Anas
+144795,Cecropis abyssinica,Lesser Striped Swallow,Aves,1958,3,Aves,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+30358,Dispholidus typus,Boomslang,Reptilia,1957,26036,Reptilia,26172,Squamata,26504,Colubridae,30357,Dispholidus
+26656,Chiromantis xerampelina,Grey Foam-nest Tree Frog,Amphibia,1935,20978,Amphibia,20979,Anura,26279,Rhacophoridae,26653,Chiromantis
+72729,Cisticola chiniana,Rattling Cisticola,Aves,1931,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+14625,Pycnonotus nigricans,African Red-eyed Bulbul,Aves,1926,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+8296,Dryoscopus cubla,Black-backed Puffback,Aves,1922,3,Aves,7251,Passeriformes,71333,Malaconotidae,8292,Dryoscopus
+41911,Cynictis penicillata,Yellow Mongoose,Mammalia,1911,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41910,Cynictis
+8004,Corvus albicollis,White-necked Raven,Aves,1892,3,Aves,7251,Passeriformes,7823,Corvidae,7998,Corvus
+14708,Andropadus importunus,Sombre Greenbul,Aves,1886,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14692,Andropadus
+41921,Mungos mungo,Banded Mongoose,Mammalia,1886,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41920,Mungos
+508918,Zapornia flavirostra,Black Crake,Aves,1885,3,Aves,4,Gruiformes,154,Rallidae,508913,Zapornia
+517357,Amietia delalandii,Common River Frog,Amphibia,1882,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+517053,Sclerophrys gutturalis,Guttural Toad,Amphibia,1878,20978,Amphibia,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+41955,Acinonyx jubatus,Cheetah,Mammalia,1853,40151,Mammalia,41573,Carnivora,41944,Felidae,41954,Acinonyx
+871614,Geosciurus inauris,South African Ground Squirrel,Mammalia,1852,40151,Mammalia,43698,Rodentia,45933,Sciuridae,871612,Geosciurus
+5241,Circaetus cinereus,Brown Snake-Eagle,Aves,1850,3,Aves,71261,Accipitriformes,5067,Accipitridae,5239,Circaetus
+30326,Duberria lutrix,Common Slug-eater,Reptilia,1845,26036,Reptilia,26172,Squamata,1148890,Pseudoxyrhophiidae,30324,Duberria
+13185,Melaenornis pammelaina,Southern Black-Flycatcher,Aves,1836,3,Aves,7251,Passeriformes,12704,Muscicapidae,13184,Melaenornis
+13956,Philetairus socius,Sociable Weaver,Aves,1834,3,Aves,7251,Passeriformes,71354,Ploceidae,13955,Philetairus
+43330,Equus zebra,Mountain Zebra,Mammalia,1816,40151,Mammalia,43327,Perissodactyla,43328,Equidae,43329,Equus
+28948,Pseudaspis cana,Mole Snake,Reptilia,1796,26036,Reptilia,26172,Squamata,1148891,Pseudaspididae,28947,Pseudaspis
+527609,Crithagra flaviventris,Yellow Canary,Aves,1777,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+495984,Pternistis swainsonii,Swainson's Spurfowl,Aves,1769,3,Aves,573,Galliformes,574,Phasianidae,343747,Pternistis
+144764,Calendulauda sabota,Sabota Lark,Aves,1768,3,Aves,7251,Passeriformes,7284,Alaudidae,144344,Calendulauda
+73010,Megaceryle maxima,Giant Kingfisher,Aves,1767,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2547,Megaceryle
+8396,Batis capensis,Cape Batis,Aves,1759,3,Aves,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+3689,Urocolius indicus,Red-faced Mousebird,Aves,1756,3,Aves,3686,Coliiformes,3687,Coliidae,3688,Urocolius
+14064,Amblyospiza albifrons,Grosbeak Weaver,Aves,1755,3,Aves,7251,Passeriformes,71354,Ploceidae,14063,Amblyospiza
+3652,Oena capensis,Namaqua Dove,Aves,1754,3,Aves,2708,Columbiformes,2715,Columbidae,3651,Oena
+1506260,Dendropicos fuscescens,Cardinal Woodpecker,Aves,1754,3,Aves,17550,Piciformes,17599,Picidae,1506248,Dendropicos
+7071,Tadorna cana,South African Shelduck,Aves,1748,3,Aves,6888,Anseriformes,6912,Anatidae,7065,Tadorna
+72762,Urolestes melanoleucus,Magpie Shrike,Aves,1739,3,Aves,7251,Passeriformes,12015,Laniidae,92745,Urolestes
+144455,Ardea alba,Great Egret,Aves,1722,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+4327,Pelecanus onocrotalus,Great White Pelican,Aves,1716,3,Aves,67566,Pelecaniformes,4323,Pelecanidae,4324,Pelecanus
+4868,Vanellus senegallus,Wattled Lapwing,Aves,1688,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+14098,Macronyx capensis,Orange-throated Longclaw,Aves,1682,3,Aves,7251,Passeriformes,71339,Motacillidae,14097,Macronyx
+72731,Cisticola fulvicapilla,Piping Cisticola,Aves,1670,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+4951,Ardea purpurea,Purple Heron,Aves,1669,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+42093,Lycaon pictus,African Wild Dog,Mammalia,1668,40151,Mammalia,41573,Carnivora,42043,Canidae,42092,Lycaon
+1505668,Anarhynchus pecuarius,Kittlitz's Plover,Aves,1668,3,Aves,67561,Charadriiformes,4783,Charadriidae,4899,Anarhynchus
+201216,Turdus libonyana,Kurrichane Thrush,Aves,1666,3,Aves,7251,Passeriformes,15977,Turdidae,12705,Turdus
+144789,Ptyonoprogne fuligula,Southern Crag-Martin,Aves,1651,3,Aves,7251,Passeriformes,11853,Hirundinidae,144348,Ptyonoprogne
+495975,Pternistis natalensis,Natal Spurfowl,Aves,1646,3,Aves,573,Galliformes,574,Phasianidae,343747,Pternistis
+517007,Lamprotornis bicolor,African Pied Starling,Aves,1633,3,Aves,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+14931,Lamprotornis australis,Burchell's Starling,Aves,1621,3,Aves,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+12839,Oenanthe pileata,Capped Wheatear,Aves,1618,3,Aves,7251,Passeriformes,12704,Muscicapidae,980200,Oenanthe
+512166,Lophoceros nasutus,African Gray Hornbill,Aves,1616,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,512157,Lophoceros
+15052,Turdoides jardineii,Arrow-marked Babbler,Aves,1604,3,Aves,7251,Passeriformes,980192,Leiothrichidae,15051,Turdoides
+539396,Boaedon capensis,Cape House Snake,Reptilia,1591,26036,Reptilia,26172,Squamata,85853,Lamprophiidae,121047,Boaedon
+204454,Acridotheres tristis,Common Myna,Aves,1587,3,Aves,7251,Passeriformes,14841,Sturnidae,14868,Acridotheres
+2191,Merops apiaster,European Bee-eater,Aves,1582,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+3017,Columba livia,Rock Pigeon,Aves,1577,3,Aves,2708,Columbiformes,2715,Columbidae,3000,Columba
+1289692,Ortygornis sephaena,Crested Francolin,Aves,1557,3,Aves,573,Galliformes,574,Phasianidae,1289352,Ortygornis
+3327,Turtur chalcospilos,Emerald-spotted Wood-Dove,Aves,1549,3,Aves,2708,Columbiformes,2715,Columbidae,3325,Turtur
+13147,Monticola rupestris,Cape Rock-Thrush,Aves,1537,3,Aves,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+2266,Coracias garrulus,European Roller,Aves,1513,3,Aves,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+39420,Varanus albigularis,Rock Monitor,Reptilia,1504,26036,Reptilia,26172,Squamata,39392,Varanidae,39393,Varanus
+4883,Recurvirostra avosetta,Pied Avocet,Aves,1491,3,Aves,67561,Charadriiformes,71361,Recurvirostridae,4881,Recurvirostra
+117140,Tricholaema leucomelas,Acacia Pied Barbet,Aves,1489,3,Aves,17550,Piciformes,200961,Lybiidae,71771,Tricholaema
+12038,Lanius collurio,Red-backed Shrike,Aves,1488,3,Aves,7251,Passeriformes,12015,Laniidae,12016,Lanius
+7742,Apalis thoracica,Bar-throated Apalis,Aves,1483,3,Aves,7251,Passeriformes,7649,Cisticolidae,7739,Apalis
+558618,Crithagra sulphurata,Brimstone Canary,Aves,1474,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+40126,Pelusios sinuatus,Serrated Hinged Terrapin,Reptilia,1458,26036,Reptilia,39532,Testudines,40118,Pelomedusidae,40119,Pelusios
+979671,Crithagra gularis,Streaky-headed Seedeater,Aves,1453,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+979663,Coccopygia melanotis,Swee Waxbill,Aves,1450,3,Aves,7251,Passeriformes,71322,Estrildidae,144416,Coccopygia
+8211,Laniarius atrococcineus,Crimson-breasted Gonolek,Aves,1448,3,Aves,7251,Passeriformes,71333,Malaconotidae,8206,Laniarius
+980202,Myrmecocichla monticola,Mountain Chat,Aves,1444,3,Aves,7251,Passeriformes,12704,Muscicapidae,980201,Myrmecocichla
+15030,Cinnyricinclus leucogaster,Violet-backed Starling,Aves,1442,3,Aves,7251,Passeriformes,14841,Sturnidae,15027,Cinnyricinclus
+3756,Plegadis falcinellus,Glossy Ibis,Aves,1438,3,Aves,67566,Pelecaniformes,3727,Threskiornithidae,3755,Plegadis
+46017,Sciurus carolinensis,Eastern Gray Squirrel,Mammalia,1430,40151,Mammalia,43698,Rodentia,45933,Sciuridae,45994,Sciurus
+1505971,Afrotis afraoides,Northern Black Korhaan,Aves,1419,3,Aves,71266,Otidiformes,75,Otididae,1505955,Afrotis
+144469,Hieraaetus wahlbergi,Wahlberg's Eagle,Aves,1415,3,Aves,71261,Accipitriformes,5067,Accipitridae,5148,Hieraaetus
+1636180,Butorides atricapilla,Little Heron,Aves,1415,3,Aves,67566,Pelecaniformes,4929,Ardeidae,5019,Butorides
+14051,Lagonosticta senegala,Red-billed Firefinch,Aves,1414,3,Aves,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+45723,Rhabdomys pumilio,Cape Four-striped Grass Mouse,Mammalia,1414,40151,Mammalia,43698,Rodentia,44185,Muridae,45722,Rhabdomys
+1505966,Lophotis ruficrista,Red-crested Bustard,Aves,1407,3,Aves,71266,Otidiformes,75,Otididae,1505953,Lophotis
+3888,Tringa glareola,Wood Sandpiper,Aves,1406,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3874,Tringa
+560427,Pelomedusa galeata,Cape Terrapin,Reptilia,1402,26036,Reptilia,39532,Testudines,40118,Pelomedusidae,40138,Pelomedusa
+5335,Lophaetus occipitalis,Long-crested Eagle,Aves,1391,3,Aves,71261,Accipitriformes,5067,Accipitridae,5334,Lophaetus
+102930,Homopus areolatus,Parrot-beaked Tortoise,Reptilia,1389,26036,Reptilia,39532,Testudines,40019,Testudinidae,40073,Homopus
+8006,Corvus capensis,Cape Crow,Aves,1385,3,Aves,7251,Passeriformes,7823,Corvidae,7998,Corvus
+508247,Microcarbo coronatus,Crowned Cormorant,Aves,1385,3,Aves,71268,Suliformes,4262,Phalacrocoracidae,370634,Microcarbo
+15717,Sphenoeacus afer,Cape Grassbird,Aves,1379,3,Aves,7251,Passeriformes,144307,Macrosphenidae,15716,Sphenoeacus
+14923,Lamprotornis chalybaeus,Greater Blue-eared Starling,Aves,1376,3,Aves,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+82808,Crotaphopeltis hotamboeia,Red-lipped Snake,Reptilia,1371,26036,Reptilia,26172,Squamata,26504,Colubridae,26863,Crotaphopeltis
+33027,Cordylus cordylus,Cape Girdled Lizard,Reptilia,1370,26036,Reptilia,26172,Squamata,33023,Cordylidae,33024,Cordylus
+5077,Aquila verreauxii,Verreaux's Eagle,Aves,1367,3,Aves,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+12873,Myrmecocichla formicivora,Southern Anteater-Chat,Aves,1354,3,Aves,7251,Passeriformes,12704,Muscicapidae,980201,Myrmecocichla
+4259,Phoeniconaias minor,Lesser Flamingo,Aves,1346,3,Aves,67569,Phoenicopteriformes,4255,Phoenicopteridae,91013,Phoeniconaias
+72733,Cisticola subruficapilla,Grey-backed Cisticola,Aves,1334,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+145122,Hedydipna collaris,Collared Sunbird,Aves,1330,3,Aves,7251,Passeriformes,13273,Nectariniidae,144396,Hedydipna
+1578999,Astur melanoleucus,Black Goshawk,Aves,1327,3,Aves,71261,Accipitriformes,5067,Accipitridae,1577581,Astur
+32972,Bradypodion damaranum,Knysna Dwarf Chameleon,Reptilia,1316,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+116798,Acrocephalus gracilirostris,Lesser Swamp Warbler,Aves,1313,3,Aves,7251,Passeriformes,200983,Acrocephalidae,6701,Acrocephalus
+4776,Anastomus lamelligerus,African Openbill,Aves,1309,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4774,Anastomus
+5426,Necrosyrtes monachus,Hooded Vulture,Aves,1295,3,Aves,71261,Accipitriformes,5067,Accipitridae,5425,Necrosyrtes
+5401,Torgos tracheliotos,Lappet-faced Vulture,Aves,1277,3,Aves,71261,Accipitriformes,5067,Accipitridae,5400,Torgos
+2337,Halcyon senegalensis,Woodland Kingfisher,Aves,1276,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+13837,Ploceus ocularis,Spectacled Weaver,Aves,1275,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+74413,Herpestes pulverulentus,Cape Grey Mongoose,Mammalia,1263,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41894,Herpestes
+8399,Batis molitor,Chinspot Batis,Aves,1254,3,Aves,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+5240,Circaetus pectoralis,Black-chested Snake-Eagle,Aves,1245,3,Aves,71261,Accipitriformes,5067,Accipitridae,5239,Circaetus
+145083,Turdus smithi,Karoo Thrush,Aves,1241,3,Aves,7251,Passeriformes,15977,Turdidae,12705,Turdus
+41906,Helogale parvula,Common Dwarf Mongoose,Mammalia,1240,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41905,Helogale
+37415,Trachylepis varia,Variable Skink,Reptilia,1237,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+1572860,Corypha africana,Rufous-naped Lark,Aves,1235,3,Aves,7251,Passeriformes,7284,Alaudidae,1572850,Corypha
+474333,Porphyrio madagascariensis,African Swamphen,Aves,1234,3,Aves,4,Gruiformes,154,Rallidae,502,Porphyrio
+507913,Bycanistes bucinator,Trumpeter Hornbill,Aves,1233,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,507910,Bycanistes
+12803,Bradornis mariquensis,Marico Flycatcher,Aves,1232,3,Aves,7251,Passeriformes,12704,Muscicapidae,12798,Bradornis
+7205,Tauraco corythaix,Knysna Turaco,Aves,1230,3,Aves,793433,Musophagiformes,7194,Musophagidae,7195,Tauraco
+37416,Trachylepis sulcata,Western Rock Skink,Reptilia,1226,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+42334,Hippotragus niger,Sable Antelope,Mammalia,1222,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42331,Hippotragus
+28954,Psammophylax rhombeatus,Rhombic Skaapsteker,Reptilia,1220,26036,Reptilia,26172,Squamata,121043,Psammophiidae,28951,Psammophylax
+4994,Ardeola ralloides,Squacco Heron,Aves,1216,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4989,Ardeola
+3878,Tringa nebularia,Common Greenshank,Aves,1213,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3874,Tringa
+25457,Xenopus laevis,African Clawed Frog,Amphibia,1209,20978,Amphibia,20979,Anura,25437,Pipidae,25443,Xenopus
+3901,Numenius phaeopus,Eurasian Whimbrel,Aves,1201,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3894,Numenius
+13999,Pytilia melba,Green-winged Pytilia,Aves,1199,3,Aves,7251,Passeriformes,71322,Estrildidae,13998,Pytilia
+145030,Cercotrichas leucophrys,White-browed Scrub-Robin,Aves,1189,3,Aves,7251,Passeriformes,12704,Muscicapidae,13055,Cercotrichas
+1505988,Gallirex porphyreolophus,Purple-crested Turaco,Aves,1186,3,Aves,793433,Musophagiformes,7194,Musophagidae,1505973,Gallirex
+1720264,Fringillaria flaviventris,Golden-breasted Bunting,Aves,1172,3,Aves,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+1423667,Turdus litsitsirupa,Groundscraper Thrush,Aves,1165,3,Aves,7251,Passeriformes,15977,Turdidae,12705,Turdus
+6976,Anas sparsa,African Black Duck,Aves,1162,3,Aves,6888,Anseriformes,6912,Anatidae,6922,Anas
+117070,Prionops plumatus,White-crested Helmetshrike,Aves,1161,3,Aves,7251,Passeriformes,71374,Vangidae,71740,Prionops
+1738,Chrysococcyx caprius,Diederik Cuckoo,Aves,1152,3,Aves,1623,Cuculiformes,1627,Cuculidae,1708,Chrysococcyx
+37431,Trachylepis homalocephala,Red-sided Skink,Reptilia,1146,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+68556,Agama aculeata,Ground Agama,Reptilia,1136,26036,Reptilia,26172,Squamata,31096,Agamidae,31115,Agama
+527434,Crithagra albogularis,White-throated Canary,Aves,1129,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+3405,Treron calvus,African Green-Pigeon,Aves,1126,3,Aves,2708,Columbiformes,2715,Columbidae,3339,Treron
+144298,Thamnolaea cinnamomeiventris,Mocking Cliff-Chat,Aves,1125,3,Aves,7251,Passeriformes,12704,Muscicapidae,144266,Thamnolaea
+13842,Ploceus intermedius,Lesser Masked Weaver,Aves,1123,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+74414,Herpestes sanguineus,Common Slender Mongoose,Mammalia,1118,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41894,Herpestes
+117115,Stactolaema leucotis,White-eared Barbet,Aves,1116,3,Aves,17550,Piciformes,200961,Lybiidae,20409,Stactolaema
+31127,Agama planiceps,Namib Rock Agama,Reptilia,1113,26036,Reptilia,26172,Squamata,31096,Agamidae,31115,Agama
+15032,Creatophora cinerea,Wattled Starling,Aves,1112,3,Aves,7251,Passeriformes,14841,Sturnidae,15031,Creatophora
+29536,Lycodonomorphus rufulus,Common Brown Water Snake,Reptilia,1112,26036,Reptilia,26172,Squamata,85853,Lamprophiidae,29532,Lycodonomorphus
+495974,Pternistis adspersus,Red-billed Spurfowl,Aves,1111,3,Aves,573,Galliformes,574,Phasianidae,343747,Pternistis
+512160,Lophoceros alboterminatus,Crowned Hornbill,Aves,1110,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,512157,Lophoceros
+979832,Notopholia corusca,Black-bellied Starling,Aves,1103,3,Aves,7251,Passeriformes,14841,Sturnidae,516877,Notopholia
+30487,Naja nivea,Cape Cobra,Reptilia,1100,26036,Reptilia,26172,Squamata,30403,Elapidae,30475,Naja
+204473,Calandrella cinerea,Red-capped Lark,Aves,1099,3,Aves,7251,Passeriformes,7284,Alaudidae,7388,Calandrella
+144468,Aquila spilogaster,African Hawk-Eagle,Aves,1098,3,Aves,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+979641,Camaroptera brachyura,Green-backed Camaroptera,Aves,1093,3,Aves,7251,Passeriformes,7649,Cisticolidae,7733,Camaroptera
+3838,Calidris minuta,Little Stint,Aves,1092,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+17619,Campethera abingoni,Golden-tailed Woodpecker,Aves,1073,3,Aves,17550,Piciformes,17599,Picidae,17600,Campethera
+144537,Hydroprogne caspia,Caspian Tern,Aves,1072,3,Aves,67561,Charadriiformes,4342,Laridae,144326,Hydroprogne
+23431,Leptopelis natalensis,Natal Forest Tree Frog,Amphibia,1069,20978,Amphibia,20979,Anura,24545,Arthroleptidae,23396,Leptopelis
+3978,Actitis hypoleucos,Common Sandpiper,Aves,1066,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3977,Actitis
+14688,Chlorocichla flaviventris,Yellow-bellied Greenbul,Aves,1065,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14685,Chlorocichla
+1720270,Fringillaria impetuani,Lark-like Bunting,Aves,1058,3,Aves,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+29073,Philothamnus semivariegatus,Spotted Bush Snake,Reptilia,1057,26036,Reptilia,26172,Squamata,26504,Colubridae,29071,Philothamnus
+2203,Merops hirundineus,Swallow-tailed Bee-eater,Aves,1054,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+5365,Gyps coprotheres,Cape Griffon,Aves,1049,3,Aves,71261,Accipitriformes,5067,Accipitridae,5362,Gyps
+42336,Pelea capreolus,Grey Rhebok,Mammalia,1046,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42335,Pelea
+34156,Chondrodactylus bibronii,Bibron's Thick-toed Gecko,Reptilia,1044,26036,Reptilia,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+4450,Sterna hirundo,Common Tern,Aves,1039,3,Aves,67561,Charadriiformes,4342,Laridae,4424,Sterna
+145143,Chalcomitra senegalensis,Scarlet-chested Sunbird,Aves,1035,3,Aves,7251,Passeriformes,13273,Nectariniidae,144401,Chalcomitra
+42042,Caracal caracal,Caracal,Mammalia,1033,40151,Mammalia,41573,Carnivora,41944,Felidae,42041,Caracal
+4684,Falco biarmicus,Lanner Falcon,Aves,1032,3,Aves,67570,Falconiformes,4637,Falconidae,4638,Falco
+42281,Connochaetes gnou,Black Wildebeest,Mammalia,1030,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42279,Connochaetes
+3012,Columba arquatrix,Rameron Pigeon,Aves,1026,3,Aves,2708,Columbiformes,2715,Columbidae,3000,Columba
+43350,Diceros bicornis,Black Rhinoceros,Mammalia,1026,40151,Mammalia,43327,Perissodactyla,43341,Rhinocerotidae,43349,Diceros
+7358,Galerida magnirostris,Large-billed Lark,Aves,1025,3,Aves,7251,Passeriformes,7284,Alaudidae,7355,Galerida
+11896,Hirundo smithii,Wire-tailed Swallow,Aves,1023,3,Aves,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+12060,Eurocephalus anguitimens,Southern White-crowned Shrike,Aves,1020,3,Aves,7251,Passeriformes,12015,Laniidae,12058,Eurocephalus
+1506403,Dendropicos griseocephalus,Olive Woodpecker,Aves,1020,3,Aves,17550,Piciformes,17599,Picidae,1506248,Dendropicos
+67434,Merops nubicoides,Southern Carmine Bee-eater,Aves,1008,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+5154,Hieraaetus pennatus,Booted Eagle,Aves,1005,3,Aves,71261,Accipitriformes,5067,Accipitridae,5148,Hieraaetus
+13977,Euplectes progne,Long-tailed Widowbird,Aves,1000,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+14104,Macronyx croceus,Yellow-throated Longclaw,Aves,989,3,Aves,7251,Passeriformes,71339,Motacillidae,14097,Macronyx
+12784,Cossypha natalensis,Red-capped Robin-Chat,Aves,987,3,Aves,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+558607,Crithagra scotops,Forest Canary,Aves,984,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+4981,Nycticorax nycticorax,Black-crowned Night Heron,Aves,977,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4979,Nycticorax
+14969,Onychognathus nabouroup,Pale-winged Starling,Aves,972,3,Aves,7251,Passeriformes,14841,Sturnidae,14968,Onychognathus
+15254,Sylvietta rufescens,Long-billed Crombec,Aves,972,3,Aves,7251,Passeriformes,144307,Macrosphenidae,15244,Sylvietta
+26717,Dasypeltis scabra,Egg-eating Snake,Reptilia,960,26036,Reptilia,26172,Squamata,26504,Colubridae,26716,Dasypeltis
+41943,Suricata suricatta,Meerkat,Mammalia,951,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41942,Suricata
+42276,Damaliscus lunatus,Tsessebe,Mammalia,946,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42273,Damaliscus
+42329,Kobus leche,Lechwe,Mammalia,942,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42325,Kobus
+42095,Otocyon megalotis,Bat-eared Fox,Mammalia,934,40151,Mammalia,41573,Carnivora,42043,Canidae,42094,Otocyon
+19882,Glaucidium perlatum,Pearl-spotted Owlet,Aves,923,3,Aves,19350,Strigiformes,19728,Strigidae,19803,Glaucidium
+117079,Pterocles bicinctus,Double-banded Sandgrouse,Aves,920,3,Aves,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+1225676,Trachylepis wahlbergii,Wahlberg’s Striped Skink,Reptilia,920,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+144834,Melaniparus niger,Southern Black Tit,Aves,911,3,Aves,7251,Passeriformes,13547,Paridae,144355,Melaniparus
+144541,Thalasseus sandvicensis,Sandwich Tern,Aves,906,3,Aves,67561,Charadriiformes,4342,Laridae,144327,Thalasseus
+41919,Atilax paludinosus,Marsh Mongoose,Mammalia,896,40151,Mammalia,41573,Carnivora,41893,Herpestidae,41918,Atilax
+1638841,Lutra capensis,African Clawless Otter,Mammalia,892,40151,Mammalia,41573,Carnivora,41770,Mustelidae,41848,Lutra
+3863,Calidris ferruginea,Curlew Sandpiper,Aves,887,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+5323,Stephanoaetus coronatus,Crowned Eagle,Aves,887,3,Aves,71261,Accipitriformes,5067,Accipitridae,5322,Stephanoaetus
+14095,Amadina erythrocephala,Red-headed Finch,Aves,881,3,Aves,7251,Passeriformes,71322,Estrildidae,14094,Amadina
+14143,Bubalornis niger,Red-billed Buffalo-Weaver,Aves,879,3,Aves,7251,Passeriformes,71354,Ploceidae,14142,Bubalornis
+144659,Coracias naevius,Purple Roller,Aves,875,3,Aves,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+1424115,Guttera edouardi,Southern Crested Guineafowl,Aves,874,3,Aves,573,Galliformes,1426,Numididae,1438,Guttera
+1730,Chrysococcyx klaas,Klaas's Cuckoo,Aves,872,3,Aves,1623,Cuculiformes,1627,Cuculidae,1708,Chrysococcyx
+3803,Morus capensis,Cape Gannet,Aves,869,3,Aves,71268,Suliformes,3784,Sulidae,3800,Morus
+30820,Causus rhombeatus,Rhombic Night Adder,Reptilia,868,26036,Reptilia,26172,Squamata,30667,Viperidae,30818,Causus
+1441745,Ketupa lactea,Verreaux's Eagle-Owl,Aves,867,3,Aves,19350,Strigiformes,19728,Strigidae,20338,Ketupa
+12971,Muscicapa striata,Spotted Flycatcher,Aves,866,3,Aves,7251,Passeriformes,12704,Muscicapidae,12964,Muscicapa
+1289485,Curruca subcoerulea,Chestnut-vented Warbler,Aves,861,3,Aves,7251,Passeriformes,15050,Sylviidae,1289192,Curruca
+117087,Pterocles namaqua,Namaqua Sandgrouse,Aves,856,3,Aves,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+4855,Vanellus albiceps,White-crowned Lapwing,Aves,850,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+4801,Charadrius hiaticula,Common Ringed Plover,Aves,847,3,Aves,67561,Charadriiformes,4783,Charadriidae,4784,Charadrius
+13921,Sporopipes squamifrons,Scaly Weaver,Aves,844,3,Aves,7251,Passeriformes,71354,Ploceidae,13919,Sporopipes
+145170,Cinnyris mariquensis,Marico Sunbird,Aves,837,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+7721,Prinia flavicans,Black-chested Prinia,Aves,835,3,Aves,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+111451,Python natalensis,Southern African Python,Reptilia,830,26036,Reptilia,26172,Squamata,67532,Pythonidae,32149,Python
+13836,Ploceus subaureus,African Golden-Weaver,Aves,829,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+114297,Trachylepis variegata,Variegated Skink,Reptilia,826,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+1714351,Pseudocordylus melanotus,Common Crag Lizard,Reptilia,820,26036,Reptilia,26172,Squamata,33023,Cordylidae,144050,Pseudocordylus
+53,Balearica regulorum,Gray Crowned-Crane,Aves,814,3,Aves,4,Gruiformes,23,Gruidae,49,Balearica
+14941,Lamprotornis mevesii,Meves's Starling,Aves,811,3,Aves,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+35738,Pedioplanis lineoocellata,Spotted Sand Lizard,Reptilia,802,26036,Reptilia,26172,Squamata,35360,Lacertidae,35731,Pedioplanis
+33061,Karusasaurus polyzonus,Karoo Girdled Lizard,Reptilia,797,26036,Reptilia,26172,Squamata,33023,Cordylidae,144062,Karusasaurus
+6612,Apus affinis,Little Swift,Aves,791,3,Aves,1583761,Apodiformes,6544,Apodidae,6611,Apus
+42305,Redunca arundinum,Southern Reedbuck,Mammalia,788,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42303,Redunca
+11945,Riparia paludicola,Brown-throated Martin,Aves,785,3,Aves,7251,Passeriformes,11853,Hirundinidae,11940,Riparia
+145028,Cercotrichas paena,Kalahari Scrub-Robin,Aves,780,3,Aves,7251,Passeriformes,12704,Muscicapidae,13055,Cercotrichas
+12792,Cossypha heuglini,White-browed Robin-Chat,Aves,775,3,Aves,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+7160,Sarkidiornis melanotos,Knob-billed Duck,Aves,772,3,Aves,6888,Anseriformes,6912,Anatidae,7159,Sarkidiornis
+33102,Platysaurus intermedius,Common Flat Lizard,Reptilia,769,26036,Reptilia,26172,Squamata,33023,Cordylidae,33082,Platysaurus
+144460,Micronisus gabar,Gabar Goshawk,Aves,768,3,Aves,71261,Accipitriformes,5067,Accipitridae,144313,Micronisus
+116831,Buphagus africanus,Yellow-billed Oxpecker,Aves,759,3,Aves,7251,Passeriformes,200987,Buphagidae,46,Buphagus
+23342,Hyperolius tuberilinguis,Tinker Reed Frog,Amphibia,758,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+42376,Raphicerus melanotis,Cape Grysbok,Mammalia,758,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42373,Raphicerus
+41834,Mellivora capensis,Ratel,Mammalia,756,40151,Mammalia,41573,Carnivora,41770,Mustelidae,41833,Mellivora
+14148,Anaplectes rubriceps,Red-headed Weaver,Aves,751,3,Aves,7251,Passeriformes,71354,Ploceidae,14147,Anaplectes
+4208,Podiceps cristatus,Great Crested Grebe,Aves,741,3,Aves,67563,Podicipediformes,4203,Podicipedidae,4204,Podiceps
+4892,Pluvialis squatarola,Black-bellied Plover,Aves,740,3,Aves,67561,Charadriiformes,4783,Charadriidae,4888,Pluvialis
+797605,Chondrodactylus laevigatus,Fischer's Thick-toed Gecko,Reptilia,735,26036,Reptilia,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+47062,Orycteropus afer,Aardvark,Mammalia,733,40151,Mammalia,47059,Tubulidentata,47060,Orycteropodidae,47061,Orycteropus
+1505778,Ardea brachyrhyncha,Yellow-billed Egret,Aves,733,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+2245,Merops persicus,Blue-cheeked Bee-eater,Aves,730,3,Aves,2114,Coraciiformes,2183,Meropidae,2184,Merops
+339593,Calidris pugnax,Ruff,Aves,725,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+43125,Lepus saxatilis,Scrub Hare,Mammalia,724,40151,Mammalia,43094,Lagomorpha,43095,Leporidae,43117,Lepus
+204449,Vidua paradisaea,Eastern Paradise-Whydah,Aves,724,3,Aves,7251,Passeriformes,68491,Viduidae,14008,Vidua
+34161,Chondrodactylus turneri,Turner's Thick-toed Gecko,Reptilia,719,26036,Reptilia,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+1431002,Cephalophorus natalensis,Red Forest Duiker,Mammalia,716,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,1430989,Cephalophorus
+6619,Apus caffer,White-rumped Swift,Aves,711,3,Aves,1583761,Apodiformes,6544,Apodidae,6611,Apus
+85,Neotis denhami,Denham's Bustard,Aves,707,3,Aves,71266,Otidiformes,75,Otididae,84,Neotis
+7123,Netta erythrophthalma,Southern Pochard,Aves,702,3,Aves,6888,Anseriformes,6912,Anatidae,7121,Netta
+145189,Cinnyris fuscus,Dusky Sunbird,Aves,702,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+4689,Falco rupicoloides,Greater Kestrel,Aves,699,3,Aves,67570,Falconiformes,4637,Falconidae,4638,Falco
+43759,Bathyergus suillus,Cape Dune Molerat,Mammalia,695,40151,Mammalia,43698,Rodentia,43744,Bathyergidae,43757,Bathyergus
+495994,Pternistis afer,Red-necked Spurfowl,Aves,695,3,Aves,573,Galliformes,574,Phasianidae,343747,Pternistis
+145338,Granatina granatina,Violet-eared Waxbill,Aves,693,3,Aves,7251,Passeriformes,71322,Estrildidae,144417,Granatina
+8446,Tchagra australis,Brown-crowned Tchagra,Aves,690,3,Aves,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+2334,Halcyon chelicuti,Striped Kingfisher,Aves,688,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+522872,Fraseria caerulescens,Ashy Flycatcher,Aves,686,3,Aves,7251,Passeriformes,12704,Muscicapidae,13192,Fraseria
+20964,Rhinopomastus cyanomelas,Common Scimitarbill,Aves,681,3,Aves,525653,Bucerotiformes,20932,Phoeniculidae,20955,Rhinopomastus
+204483,Chersomanes albofasciata,Spike-heeled Lark,Aves,679,3,Aves,7251,Passeriformes,7284,Alaudidae,7407,Chersomanes
+1720286,Fringillaria tahapisi,Cinnamon-breasted Bunting,Aves,677,3,Aves,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+19079,Agapornis roseicollis,Rosy-faced Lovebird,Aves,670,3,Aves,18874,Psittaciformes,367704,Psittaculidae,19070,Agapornis
+114296,Trachylepis spilogaster,Kalahari Tree Skink,Reptilia,670,26036,Reptilia,26172,Squamata,36982,Scincidae,37413,Trachylepis
+7749,Apalis flavida,Yellow-breasted Apalis,Aves,668,3,Aves,7251,Passeriformes,7649,Cisticolidae,7739,Apalis
+539980,Matobosaurus validus,Common Giant Plated Lizard,Reptilia,667,26036,Reptilia,26172,Squamata,34696,Gerrhosauridae,539167,Matobosaurus
+41571,Eubalaena australis,Southern Right Whale,Mammalia,663,40151,Mammalia,152870,Artiodactyla,41567,Balaenidae,41568,Eubalaena
+4647,Falco peregrinus,Peregrine Falcon,Aves,659,3,Aves,67570,Falconiformes,4637,Falconidae,4638,Falco
+7697,Cisticola juncidis,Zitting Cisticola,Aves,656,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+1643992,Genetta fieldiana,Rusty-spotted Genet,Mammalia,656,40151,Mammalia,41573,Carnivora,41574,Viverridae,41591,Genetta
+5174,Circus maurus,Black Harrier,Aves,655,3,Aves,71261,Accipitriformes,5067,Accipitridae,5163,Circus
+62148,Chlidonias hybrida,Whiskered Tern,Aves,655,3,Aves,67561,Charadriiformes,4342,Laridae,4510,Chlidonias
+5165,Circus ranivorus,African Marsh Harrier,Aves,652,3,Aves,71261,Accipitriformes,5067,Accipitridae,5163,Circus
+1578973,Aerospiza tachiro,African Goshawk,Aves,649,3,Aves,71261,Accipitriformes,5067,Accipitridae,1577579,Aerospiza
+33038,Pseudocordylus microlepidotus,Cape Crag Lizard,Reptilia,646,26036,Reptilia,26172,Squamata,33023,Cordylidae,144050,Pseudocordylus
+6902,Thalassornis leuconotus,White-backed Duck,Aves,644,3,Aves,6888,Anseriformes,6912,Anatidae,6901,Thalassornis
+558609,Crithagra atrogularis,Black-throated Canary,Aves,643,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+4733,Ciconia ciconia,White Stork,Aves,642,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+512762,Buteo trizonatus,Forest Buzzard,Aves,639,3,Aves,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+13970,Euplectes axillaris,Fan-tailed Widowbird,Aves,637,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+37301,Acontias meleagris,Cape Legless Skink,Reptilia,636,26036,Reptilia,26172,Squamata,36982,Scincidae,37294,Acontias
+793461,Pogoniulus bilineatus,Yellow-rumped Tinkerbird,Aves,635,3,Aves,17550,Piciformes,200961,Lybiidae,71739,Pogoniulus
+500648,Parahyaena brunnea,Brown Hyaena,Mammalia,633,40151,Mammalia,41573,Carnivora,41884,Hyaenidae,500647,Parahyaena
+23512,Kassina senegalensis,Senegal Running Frog,Amphibia,630,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23499,Kassina
+23323,Hyperolius pusillus,Water Lily Reed Frog,Amphibia,626,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+20836,Apaloderma narina,Narina Trogon,Aves,624,3,Aves,20715,Trogoniformes,20716,Trogonidae,20835,Apaloderma
+43486,Cercopithecus mitis,Blue Monkey,Mammalia,619,40151,Mammalia,43367,Primates,43443,Cercopithecidae,43469,Cercopithecus
+558430,Spatula hottentota,Blue-billed Teal,Aves,613,3,Aves,6888,Anseriformes,6912,Anatidae,558404,Spatula
+3849,Calidris alba,Sanderling,Aves,611,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+979725,Gymnoris superciliaris,Yellow-throated Bush Sparrow,Aves,611,3,Aves,7251,Passeriformes,13685,Passeridae,827235,Gymnoris
+28963,Psammophis subtaeniatus,Stripe-bellied Sand Snake,Reptilia,606,26036,Reptilia,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+4686,Falco amurensis,Amur Falcon,Aves,601,3,Aves,67570,Falconiformes,4637,Falconidae,4638,Falco
+1649495,Elaiophis inornatus,Olive House Snake,Reptilia,598,26036,Reptilia,26172,Squamata,85853,Lamprophiidae,1649494,Elaiophis
+980210,Emarginata schlegelii,Karoo Chat,Aves,597,3,Aves,7251,Passeriformes,12704,Muscicapidae,980198,Emarginata
+8412,Batis pririt,Pririt Batis,Aves,594,3,Aves,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+91,Neotis ludwigii,Ludwig's Bustard,Aves,588,3,Aves,71266,Otidiformes,75,Otididae,84,Neotis
+3754,Geronticus calvus,Southern Bald Ibis,Aves,587,3,Aves,67566,Pelecaniformes,3727,Threskiornithidae,3752,Geronticus
+13978,Euplectes ardens,Red-collared Widowbird,Aves,586,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+34148,Pachydactylus geitje,Cradock Thick-toed Gecko,Reptilia,585,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+792926,Chloropicus namaquus,Bearded Woodpecker,Aves,585,3,Aves,17550,Piciformes,17599,Picidae,792895,Chloropicus
+42138,Potamochoerus larvatus,Bushpig,Mammalia,583,40151,Mammalia,152870,Artiodactyla,42118,Suidae,42137,Potamochoerus
+8257,Malaconotus blanchoti,Grey-headed Bushshrike,Aves,582,3,Aves,7251,Passeriformes,71333,Malaconotidae,8256,Malaconotus
+14563,Phyllastrephus terrestris,Terrestrial Brownbul,Aves,581,3,Aves,7251,Passeriformes,14556,Pycnonotidae,14561,Phyllastrephus
+20445,Tyto alba,Western Barn Owl,Aves,581,3,Aves,19350,Strigiformes,20413,Tytonidae,20414,Tyto
+12054,Lanius minor,Lesser Grey Shrike,Aves,580,3,Aves,7251,Passeriformes,12015,Laniidae,12016,Lanius
+5392,Trigonoceps occipitalis,White-headed Vulture,Aves,579,3,Aves,71261,Accipitriformes,5067,Accipitridae,5391,Trigonoceps
+517052,Sclerophrys garmani,Garman's Toad,Amphibia,578,20978,Amphibia,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+25778,Ptychadena anchietae,Anchieta's Ridged Frog,Amphibia,570,20978,Amphibia,20979,Anura,64738,Ptychadenidae,25741,Ptychadena
+371414,Felis lybica,African Wildcat,Mammalia,565,40151,Mammalia,41573,Carnivora,41944,Felidae,41956,Felis
+28985,Psammophis crucifer,Cross-marked Sand Snake,Reptilia,560,26036,Reptilia,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+144796,Cecropis semirufa,Rufous-chested Swallow,Aves,560,3,Aves,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+12796,Cossypha dichroa,Chorister Robin-Chat,Aves,559,3,Aves,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+1585917,Dessonornis humeralis,White-throated Robin-Chat,Aves,556,3,Aves,7251,Passeriformes,12704,Muscicapidae,1585903,Dessonornis
+13965,Euplectes albonotatus,White-winged Widowbird,Aves,554,3,Aves,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+18469,Geocolaptes olivaceus,Ground Woodpecker,Aves,553,3,Aves,17550,Piciformes,17599,Picidae,18468,Geocolaptes
+74870,Philantomba monticola,Blue Duiker,Mammalia,553,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,71895,Philantomba
+204526,Indicator minor,Lesser Honeyguide,Aves,553,3,Aves,17550,Piciformes,17551,Indicatoridae,17552,Indicator
+42332,Hippotragus equinus,Roan Antelope,Mammalia,549,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42331,Hippotragus
+4736,Ciconia nigra,Black Stork,Aves,547,3,Aves,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+23455,Afrixalus fornasini,Fornasini's Spiny Reed Frog,Amphibia,544,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23449,Afrixalus
+1630140,Homopholis wahlbergii,Wahlberg's Velvet Gecko,Reptilia,544,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34394,Homopholis
+7374,Eremopterix verticalis,Grey-backed Sparrow-Lark,Aves,542,3,Aves,7251,Passeriformes,7284,Alaudidae,7371,Eremopterix
+1582755,Tachyspiza minulla,Little Sparrowhawk,Aves,541,3,Aves,71261,Accipitriformes,5067,Accipitridae,1577580,Tachyspiza
+1505970,Afrotis afra,Southern Black Korhaan,Aves,537,3,Aves,71266,Otidiformes,75,Otididae,1505955,Afrotis
+34741,Gerrhosaurus flavigularis,Yellow-throated Plated Lizard,Reptilia,536,26036,Reptilia,26172,Squamata,34696,Gerrhosauridae,34729,Gerrhosaurus
+19050,Poicephalus cryptoxanthus,Brown-headed Parrot,Aves,534,3,Aves,18874,Psittaciformes,18875,Psittacidae,19047,Poicephalus
+1586878,Chlorophoneus sulfureopectus,Sulphur-breasted Bushshrike,Aves,532,3,Aves,7251,Passeriformes,71333,Malaconotidae,1586868,Chlorophoneus
+4335,Pelecanus rufescens,Pink-backed Pelican,Aves,527,3,Aves,67566,Pelecaniformes,4323,Pelecanidae,4324,Pelecanus
+73475,Tchagra senegalus,Black-crowned Tchagra,Aves,523,3,Aves,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+3938,Arenaria interpres,Ruddy Turnstone,Aves,521,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3937,Arenaria
+6899,Dendrocygna bicolor,Fulvous Whistling-Duck,Aves,521,3,Aves,6888,Anseriformes,6912,Anatidae,6890,Dendrocygna
+25806,Tomopterna delalandii,Cape sand frog,Amphibia,519,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25800,Tomopterna
+41595,Genetta tigrina,Cape Genet,Mammalia,517,40151,Mammalia,41573,Carnivora,41574,Viverridae,41591,Genetta
+6681,Cypsiurus parvus,African Palm Swift,Aves,516,3,Aves,1583761,Apodiformes,6544,Apodidae,6675,Cypsiurus
+11905,Hirundo dimidiata,Pearl-breasted Swallow,Aves,516,3,Aves,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+67433,Kinixys spekii,Speke's Hinge-back Tortoise,Reptilia,515,26036,Reptilia,39532,Testudines,40019,Testudinidae,40064,Kinixys
+144472,Lissotis melanogaster,Black-bellied Bustard,Aves,511,3,Aves,71266,Otidiformes,75,Otididae,144314,Lissotis
+26376,Aparallactus capensis,Cape Centipede-Eater,Reptilia,510,26036,Reptilia,26172,Squamata,1148893,Atractaspididae,26340,Aparallactus
+116999,Pandion haliaetus,Osprey,Aves,509,3,Aves,71261,Accipitriformes,200958,Pandionidae,71725,Pandion
+1789,Clamator jacobinus,Pied Cuckoo,Aves,504,3,Aves,1623,Cuculiformes,1627,Cuculidae,1786,Clamator
+25383,Phrynobatrachus natalensis,Natal Puddle Frog,Amphibia,502,20978,Amphibia,20979,Anura,64742,Phrynobatrachidae,25337,Phrynobatrachus
+145136,Cyanomitra olivacea,Olive Sunbird,Aves,494,3,Aves,7251,Passeriformes,13273,Nectariniidae,144400,Cyanomitra
+204475,Campethera bennettii,Bennett's Woodpecker,Aves,492,3,Aves,17550,Piciformes,17599,Picidae,17600,Campethera
+1903,Cuculus solitarius,Red-chested Cuckoo,Aves,491,3,Aves,1623,Cuculiformes,1627,Cuculidae,1897,Cuculus
+797739,Philothamnus occidentalis,Western Natal Green Snake,Reptilia,491,26036,Reptilia,26172,Squamata,26504,Colubridae,29071,Philothamnus
+1505960,Heterotetrax rueppelii,Rüppell's Bustard,Aves,491,3,Aves,71266,Otidiformes,75,Otididae,1505952,Heterotetrax
+28976,Psammophis notostictus,Karoo Sand Snake,Reptilia,490,26036,Reptilia,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+979944,Campicoloides bifasciatus,Buff-streaked Chat,Aves,489,3,Aves,7251,Passeriformes,12704,Muscicapidae,979943,Campicoloides
+18455,Jynx ruficollis,Red-throated Wryneck,Aves,487,3,Aves,17550,Piciformes,17599,Picidae,18447,Jynx
+24899,Phrynomantis bifasciatus,Red-Banded Rubber Frog,Amphibia,486,20978,Amphibia,20979,Anura,24736,Microhylidae,24897,Phrynomantis
+116869,Chaetops frenatus,Cape Rockjumper,Aves,485,3,Aves,7251,Passeriformes,200977,Chaetopidae,71680,Chaetops
+204528,Lagonosticta rhodopareia,Jameson's Firefinch,Aves,484,3,Aves,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+25411,Cacosternum boettgeri,Boettger's dainty frog,Amphibia,478,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25407,Cacosternum
+4604,Glareola pratincola,Collared Pratincole,Aves,475,3,Aves,67561,Charadriiformes,4590,Glareolidae,4600,Glareola
+5340,Melierax metabates,Dark Chanting-Goshawk,Aves,475,3,Aves,71261,Accipitriformes,5067,Accipitridae,5336,Melierax
+13820,Ploceus xanthops,Holub's Golden-Weaver,Aves,469,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+57,Grus carunculata,Wattled Crane,Aves,464,3,Aves,4,Gruiformes,23,Gruidae,508058,Grus
+8313,Campephaga flava,Black Cuckooshrike,Aves,464,3,Aves,7251,Passeriformes,71303,Campephagidae,8311,Campephaga
+30488,Naja mossambica,Mozambique Spitting Cobra,Reptilia,464,26036,Reptilia,26172,Squamata,30403,Elapidae,30475,Naja
+558631,Crithagra totta,Cape Siskin,Aves,463,3,Aves,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+13788,Ploceus bicolor,Dark-backed Weaver,Aves,459,3,Aves,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+19392,Caprimulgus pectoralis,Fiery-necked Nightjar,Aves,459,3,Aves,67573,Caprimulgiformes,19376,Caprimulgidae,19377,Caprimulgus
+1423879,Aplopelia larvata,Lemon Dove,Aves,459,3,Aves,2708,Columbiformes,2715,Columbidae,1423878,Aplopelia
+550880,Scleroptila afra,Gray-winged Francolin,Aves,458,3,Aves,573,Galliformes,574,Phasianidae,550879,Scleroptila
+7076,Oxyura maccoa,Maccoa Duck,Aves,457,3,Aves,6888,Anseriformes,6912,Anatidae,7073,Oxyura
+1430934,Madoqua damarensis,Damara Dik-dik,Mammalia,457,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42358,Madoqua
+13708,Anthus leucophrys,Plain-backed Pipit,Aves,454,3,Aves,7251,Passeriformes,71339,Motacillidae,13706,Anthus
+2288,Eurystomus glaucurus,Broad-billed Roller,Aves,452,3,Aves,2114,Coraciiformes,2262,Coraciidae,2283,Eurystomus
+15054,Turdoides bicolor,Southern Pied-Babbler,Aves,450,3,Aves,7251,Passeriformes,980192,Leiothrichidae,15051,Turdoides
+32944,Bradypodion ventrale,Eastern Cape Dwarf Chameleon,Reptilia,449,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+30863,Bitis atropos,Berg Adder,Reptilia,447,26036,Reptilia,26172,Squamata,30667,Viperidae,30850,Bitis
+925659,Genetta felina,Southern Small-spotted Genet,Mammalia,445,40151,Mammalia,41573,Carnivora,41574,Viverridae,41591,Genetta
+1585991,Tychaedon quadrivirgata,Bearded Scrub-Robin,Aves,444,3,Aves,7251,Passeriformes,12704,Muscicapidae,1585976,Tychaedon
+144498,Smutsornis africanus,Double-banded Courser,Aves,443,3,Aves,67561,Charadriiformes,4590,Glareolidae,144317,Smutsornis
+4205,Podiceps nigricollis,Eared Grebe,Aves,441,3,Aves,67563,Podicipediformes,4203,Podicipedidae,4204,Podiceps
+209233,Equus caballus,Domestic Horse,Mammalia,439,40151,Mammalia,43327,Perissodactyla,43328,Equidae,43329,Equus
+41566,Megaptera novaeangliae,Humpback Whale,Mammalia,438,40151,Mammalia,152870,Artiodactyla,41546,Balaenopteridae,41565,Megaptera
+67258,Vandijkophrynus angusticeps,Sand Toad,Amphibia,438,20978,Amphibia,20979,Anura,21359,Bufonidae,64827,Vandijkophrynus
+117080,Pterocles burchelli,Burchell's Sandgrouse,Aves,437,3,Aves,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+1204,Pavo cristatus,Indian Peafowl,Aves,435,3,Aves,573,Galliformes,574,Phasianidae,1199,Pavo
+2618,Alcedo semitorquata,Half-collared Kingfisher,Aves,435,3,Aves,2114,Coraciiformes,2314,Alcedinidae,2561,Alcedo
+3924,Gallinago nigripennis,African Snipe,Aves,434,3,Aves,67561,Charadriiformes,3835,Scolopacidae,3912,Gallinago
+95802,Bitis caudalis,Horned Adder,Reptilia,434,26036,Reptilia,26172,Squamata,30667,Viperidae,30850,Bitis
+14012,Vidua regia,Shaft-tailed Whydah,Aves,433,3,Aves,7251,Passeriformes,68491,Viduidae,14008,Vidua
+4934,Egretta ardesiaca,Black Heron,Aves,432,3,Aves,67566,Pelecaniformes,4929,Ardeidae,4933,Egretta
+35735,Pedioplanis namaquensis,Namaqua Sand Lizard,Reptilia,432,26036,Reptilia,26172,Squamata,35360,Lacertidae,35731,Pedioplanis
+1306005,Proteles cristatus,Southern Aardwolf,Mammalia,428,40151,Mammalia,41573,Carnivora,41884,Hyaenidae,41891,Proteles
+7703,Malcorus pectoralis,Rufous-eared Warbler,Aves,426,3,Aves,7251,Passeriformes,7649,Cisticolidae,7702,Malcorus
+1505956,Heterotetrax vigorsii,Karoo Bustard,Aves,426,3,Aves,71266,Otidiformes,75,Otididae,1505952,Heterotetrax
+67259,Vandijkophrynus gariepensis,Karoo Toad,Amphibia,424,20978,Amphibia,20979,Anura,21359,Bufonidae,64827,Vandijkophrynus
+31154,Agama anchietae,Anchieta's Agama,Reptilia,417,26036,Reptilia,26172,Squamata,31096,Agamidae,31115,Agama
+42306,Redunca fulvorufula,Mountain Reedbuck,Mammalia,416,40151,Mammalia,152870,Artiodactyla,42241,Bovidae,42303,Redunca
+116525,Homoroselaps lacteus,Spotted Harlequin Snake,Reptilia,412,26036,Reptilia,26172,Squamata,1148893,Atractaspididae,116642,Homoroselaps
+6930,Anas platyrhynchos,Mallard,Aves,410,3,Aves,6888,Anseriformes,6912,Anatidae,6922,Anas
+32830,Chamaeleo namaquensis,Namaqua Chameleon,Reptilia,409,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32806,Chamaeleo
+41627,Civettictis civetta,African Civet,Mammalia,407,40151,Mammalia,41573,Carnivora,41574,Viverridae,41626,Civettictis
+7127,Nettapus auritus,African Pygmy-Goose,Aves,406,3,Aves,6888,Anseriformes,6912,Anatidae,7125,Nettapus
+145175,Cinnyris bifasciatus,Purple-banded Sunbird,Aves,405,3,Aves,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+13139,Monticola brevipes,Short-toed Rock-Thrush,Aves,404,3,Aves,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+2951,Streptopelia decipiens,Mourning Collared Dove,Aves,403,3,Aves,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+34293,Lygodactylus chobiensis,Chobe Dwarf Gecko,Reptilia,403,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34235,Lygodactylus
+40052,Psammobates tentorius,Tent Tortoise,Reptilia,402,26036,Reptilia,39532,Testudines,40019,Testudinidae,40051,Psammobates
+25801,Tomopterna natalensis,Natal sand frog,Amphibia,401,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25800,Tomopterna
+26197,Pyxicephalus edulis,Edible bullfrog,Amphibia,397,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,26192,Pyxicephalus
+28334,Thelotornis capensis,Twig Snake,Reptilia,395,26036,Reptilia,26172,Squamata,26504,Colubridae,28332,Thelotornis
+4499,Rynchops flavirostris,African Skimmer,Aves,393,3,Aves,67561,Charadriiformes,4342,Laridae,4495,Rynchops
+35825,Meroles knoxii,Knox's Ocellated Sand Lizard,Reptilia,391,26036,Reptilia,26172,Squamata,35360,Lacertidae,35819,Meroles
+144655,Ispidina picta,African Pygmy Kingfisher,Aves,391,3,Aves,2114,Coraciiformes,2314,Alcedinidae,144335,Ispidina
+20301,Otus senegalensis,African Scops-Owl,Aves,389,3,Aves,19350,Strigiformes,19728,Strigidae,20190,Otus
+35981,Heliobolus lugubris,Bushveld Lizard,Reptilia,387,26036,Reptilia,26172,Squamata,35360,Lacertidae,35971,Heliobolus
+42513,Chrysochloris asiatica,Cape Golden Mole,Mammalia,386,40151,Mammalia,42434,Afrosoricida,42478,Chrysochloridae,42512,Chrysochloris
+145348,Spermestes bicolor,Black-and-white Mannikin,Aves,386,3,Aves,7251,Passeriformes,71322,Estrildidae,144421,Spermestes
+3328,Turtur tympanistria,Tambourine Dove,Aves,384,3,Aves,2708,Columbiformes,2715,Columbidae,3325,Turtur
+472771,Zosterops pallidus,Orange River White-eye,Aves,384,3,Aves,7251,Passeriformes,17438,Zosteropidae,17439,Zosterops
+964785,Panaspis wahlbergii,Wahlberg's Snake-eyed Skink,Reptilia,378,26036,Reptilia,26172,Squamata,36982,Scincidae,37825,Panaspis
+11953,Psalidoprocne pristoptera,Black Sawwing,Aves,377,3,Aves,7251,Passeriformes,11853,Hirundinidae,11947,Psalidoprocne
+13704,Motacilla clara,Mountain Wagtail,Aves,376,3,Aves,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+464495,Amietia poyntoni,Poynton's River Frog,Amphibia,373,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+13148,Monticola explorator,Sentinel Rock-Thrush,Aves,372,3,Aves,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+14053,Lagonosticta rubricata,African Firefinch,Aves,371,3,Aves,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+5418,Gypohierax angolensis,Palm-nut Vulture,Aves,370,3,Aves,71261,Accipitriformes,5067,Accipitridae,5417,Gypohierax
+29080,Philothamnus natalensis,Eastern Green Snake,Reptilia,370,26036,Reptilia,26172,Squamata,26504,Colubridae,29071,Philothamnus
+8580,Nilaus afer,Brubru,Aves,362,3,Aves,7251,Passeriformes,71333,Malaconotidae,8579,Nilaus
+117071,Prionops retzii,Retz's Helmetshrike,Aves,362,3,Aves,7251,Passeriformes,71374,Vangidae,71740,Prionops
+34141,Pachydactylus maculatus,Spotted Thick-toed Gecko,Reptilia,361,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+318701,Kinixys zombensis,Eastern Hinged-Back Tortoise,Reptilia,360,26036,Reptilia,39532,Testudines,40019,Testudinidae,40064,Kinixys
+1793,Clamator levaillantii,Levaillant's Cuckoo,Aves,359,3,Aves,1623,Cuculiformes,1627,Cuculidae,1786,Clamator
+35824,Meroles cuneirostris,Wedge-snouted Desert Lizard,Reptilia,359,26036,Reptilia,26172,Squamata,35360,Lacertidae,35819,Meroles
+33112,Platysaurus broadleyi,Augrabies flat lizard,Reptilia,358,26036,Reptilia,26172,Squamata,33023,Cordylidae,33082,Platysaurus
+1289377,Brunhilda erythronotos,Black-faced Waxbill,Aves,357,3,Aves,7251,Passeriformes,71322,Estrildidae,1289290,Brunhilda
+19055,Poicephalus meyeri,Meyer's Parrot,Aves,356,3,Aves,18874,Psittaciformes,18875,Psittacidae,19047,Poicephalus
+5325,Pernis apivorus,European Honey-buzzard,Aves,353,3,Aves,71261,Accipitriformes,5067,Accipitridae,5324,Pernis
+14010,Vidua chalybeata,Village Indigobird,Aves,353,3,Aves,7251,Passeriformes,68491,Viduidae,14008,Vidua
+29508,Lycophidion capense,Cape Wolf Snake,Reptilia,353,26036,Reptilia,26172,Squamata,85853,Lamprophiidae,29507,Lycophidion
+85377,Pelomedusa subrufa,Helmeted Turtle,Reptilia,353,26036,Reptilia,39532,Testudines,40118,Pelomedusidae,40138,Pelomedusa
+4862,Vanellus crassirostris,Long-toed Lapwing,Aves,351,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+14096,Amadina fasciata,Cut-throat Finch,Aves,350,3,Aves,7251,Passeriformes,71322,Estrildidae,14094,Amadina
+72516,Tachymarptis melba,Alpine Swift,Aves,350,3,Aves,1583761,Apodiformes,6544,Apodidae,92356,Tachymarptis
+5478,Tockus monteiri,Monteiro's Hornbill,Aves,349,3,Aves,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+32968,Bradypodion melanocephalum,Black-headed Dwarf Chameleon,Reptilia,349,26036,Reptilia,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+43567,Otolemur crassicaudatus,Brown Greater Galago,Mammalia,349,40151,Mammalia,43367,Primates,71390,Galagidae,43566,Otolemur
+3999,Rostratula benghalensis,Greater Painted-Snipe,Aves,348,3,Aves,67561,Charadriiformes,3995,Rostratulidae,3998,Rostratula
+522889,Agricola infuscatus,Chat Flycatcher,Aves,348,3,Aves,7251,Passeriformes,12704,Muscicapidae,522883,Agricola
+4309,Phalacrocorax neglectus,Bank Cormorant,Aves,346,3,Aves,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+5430,Kaupifalco monogrammicus,Lizard Buzzard,Aves,346,3,Aves,71261,Accipitriformes,5067,Accipitridae,5429,Kaupifalco
+34154,Pachydactylus affinis,Transvaal Thick-toed Gecko,Reptilia,345,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+4724,Polihierax semitorquatus,Pygmy Falcon,Aves,341,3,Aves,67570,Falconiformes,4637,Falconidae,4722,Polihierax
+8563,Trochocercus cyanomelas,African Crested Flycatcher,Aves,339,3,Aves,7251,Passeriformes,71338,Monarchidae,8558,Trochocercus
+144765,Calendulauda africanoides,Fawn-colored Lark,Aves,338,3,Aves,7251,Passeriformes,7284,Alaudidae,144344,Calendulauda
+17570,Indicator indicator,Greater Honeyguide,Aves,337,3,Aves,17550,Piciformes,17551,Indicatoridae,17552,Indicator
+24583,Arthroleptis wahlbergii,Bush Squeaker,Amphibia,335,20978,Amphibia,20979,Anura,24545,Arthroleptidae,24581,Arthroleptis
+34724,Tetradactylus seps,Short-legged Seps,Reptilia,333,26036,Reptilia,26172,Squamata,34696,Gerrhosauridae,34719,Tetradactylus
+1289491,Neophedina cincta,Banded Martin,Aves,333,3,Aves,7251,Passeriformes,11853,Hirundinidae,1289310,Neophedina
+30405,Dendroaspis polylepis,Black Mamba,Reptilia,329,26036,Reptilia,26172,Squamata,30403,Elapidae,30404,Dendroaspis
+43561,Galago moholi,Southern Lesser Galago,Mammalia,327,40151,Mammalia,43367,Primates,71390,Galagidae,43560,Galago
+83534,Pachydactylus rangei,Namib Sand Gecko,Reptilia,326,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+1578961,Botaurus minutus,Little Bittern,Aves,326,3,Aves,67566,Pelecaniformes,4929,Ardeidae,5030,Botaurus
+28960,Psammophis brevirostris,Short-snouted Whip Snake,Reptilia,324,26036,Reptilia,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+34132,Pachydactylus punctatus,Pointed Thick-toed Gecko,Reptilia,323,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+42025,Leptailurus serval,Serval,Mammalia,321,40151,Mammalia,41573,Carnivora,41944,Felidae,42024,Leptailurus
+45437,Otomys irroratus,Southern Vlei Rat,Mammalia,321,40151,Mammalia,43698,Rodentia,44185,Muridae,45433,Otomys
+72477,Serinus alario,Black-headed Canary,Aves,320,3,Aves,7251,Passeriformes,9079,Fringillidae,9227,Serinus
+13867,Passer motitensis,Great Rufous Sparrow,Aves,319,3,Aves,7251,Passeriformes,13685,Passeridae,13847,Passer
+204455,Acrocephalus scirpaceus,Common Reed Warbler,Aves,319,3,Aves,7251,Passeriformes,200983,Acrocephalidae,6701,Acrocephalus
+23327,Hyperolius argus,argus reed frog,Amphibia,318,20978,Amphibia,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+8451,Tchagra tchagra,Southern Tchagra,Aves,317,3,Aves,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+26196,Pyxicephalus adspersus,Giant African Bullfrog,Amphibia,313,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,26192,Pyxicephalus
+204481,Certhilauda subcoronata,Karoo Long-billed Lark,Aves,313,3,Aves,7251,Passeriformes,7284,Alaudidae,7285,Certhilauda
+1585528,Ceblepyris caesius,Grey Cuckooshrike,Aves,312,3,Aves,7251,Passeriformes,71303,Campephagidae,1585519,Ceblepyris
+29084,Philothamnus hoplogaster,Green Water Snake,Reptilia,311,26036,Reptilia,26172,Squamata,26504,Colubridae,29071,Philothamnus
+204508,Eremomela icteropygialis,Yellow-bellied Eremomela,Aves,311,3,Aves,7251,Passeriformes,7649,Cisticolidae,15453,Eremomela
+7672,Cisticola aberrans,Rock-loving Cisticola,Aves,308,3,Aves,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+117118,Stenostira scita,Fairy Flycatcher,Aves,303,3,Aves,7251,Passeriformes,144306,Stenostiridae,7291,Stenostira
+4861,Vanellus lugubris,Senegal Lapwing,Aves,302,3,Aves,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+34152,Pachydactylus capensis,Cape Thick-toed Gecko,Reptilia,302,26036,Reptilia,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+26218,Strongylopus fasciatus,Striped Stream Frog,Amphibia,301,20978,Amphibia,20979,Anura,64726,Pyxicephalidae,26200,Strongylopus
+32696,Afrotyphlops bibronii,Bibron's Blind Snake,Reptilia,301,26036,Reptilia,26172,Squamata,32548,Typhlopidae,86268,Afrotyphlops
+117055,Phylloscopus trochilus,Willow Warbler,Aves,301,3,Aves,7251,Passeriformes,200982,Phylloscopidae,71737,Phylloscopus
+33088,Platysaurus orientalis,Sekukhune flat lizard,Reptilia,300,26036,Reptilia,26172,Squamata,33023,Cordylidae,33082,Platysaurus
+145138,Cyanomitra veroxii,Mouse-colored Sunbird,Aves,300,3,Aves,7251,Passeriformes,13273,Nectariniidae,144400,Cyanomitra

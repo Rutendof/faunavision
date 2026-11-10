@@ -1,0 +1,437 @@
+cluster,level,class,suggested,taxon_id,name,common_name,iconic,observations,class_id,order_id,order,family_id,family,genus_id,genus
+Bovidae,family,Mammalia,False,42278,Aepyceros melampus,Impala,Mammalia,9276,40151,152870,Artiodactyla,42241,Bovidae,42277,Aepyceros
+Bovidae,family,Mammalia,False,42280,Connochaetes taurinus,Common Wildebeest,Mammalia,6151,40151,152870,Artiodactyla,42241,Bovidae,42279,Connochaetes
+Bovidae,family,Mammalia,False,42405,Syncerus caffer,African Buffalo,Mammalia,5845,40151,152870,Artiodactyla,42241,Bovidae,42404,Syncerus
+Bovidae,family,Mammalia,False,42328,Kobus ellipsiprymnus,Waterbuck,Mammalia,4553,40151,152870,Artiodactyla,42241,Bovidae,42325,Kobus
+Bovidae,family,Mammalia,False,42283,Antidorcas marsupialis,Springbok,Mammalia,4283,40151,152870,Artiodactyla,42241,Bovidae,42282,Antidorcas
+Tragelaphus,genus,Mammalia,True,42339,Tragelaphus strepsiceros,Greater Kudu,Mammalia,8512,40151,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+Tragelaphus,genus,Mammalia,True,1431867,Tragelaphus sylvaticus,Southern Bushbuck,Mammalia,4643,40151,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+Tragelaphus,genus,Mammalia,True,42342,Tragelaphus angasii,Nyala,Mammalia,4033,40151,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+Tragelaphus,genus,Mammalia,True,75192,Tragelaphus oryx,Common Eland,Mammalia,3502,40151,152870,Artiodactyla,42241,Bovidae,42337,Tragelaphus
+Accipitridae,family,Aves,False,1505670,Icthyophaga vocifer,African Fish-Eagle,Aves,5536,3,71261,Accipitriformes,5067,Accipitridae,1505651,Icthyophaga
+Accipitridae,family,Aves,False,5363,Gyps africanus,White-backed Vulture,Aves,4729,3,71261,Accipitriformes,5067,Accipitridae,5362,Gyps
+Accipitridae,family,Aves,False,5268,Milvus migrans,Black Kite,Aves,3571,3,71261,Accipitriformes,5067,Accipitridae,5265,Milvus
+Accipitridae,family,Aves,False,5275,Elanus caeruleus,Black-winged Kite,Aves,3508,3,71261,Accipitriformes,5067,Accipitridae,5273,Elanus
+Accipitridae,family,Aves,False,5338,Melierax canorus,Pale Chanting-Goshawk,Aves,3476,3,71261,Accipitriformes,5067,Accipitridae,5336,Melierax
+Muscicapidae,family,Aves,False,1585912,Dessonornis caffer,Cape Robin-Chat,Aves,5508,3,7251,Passeriformes,12704,Muscicapidae,1585903,Dessonornis
+Muscicapidae,family,Aves,False,13251,Sigelus silens,Fiscal Flycatcher,Aves,5353,3,7251,Passeriformes,12704,Muscicapidae,13250,Sigelus
+Muscicapidae,family,Aves,False,980204,Oenanthe familiaris,Familiar Chat,Aves,4776,3,7251,Passeriformes,12704,Muscicapidae,980200,Oenanthe
+Muscicapidae,family,Aves,False,55371,Saxicola torquatus,African Stonechat,Aves,4541,3,7251,Passeriformes,12704,Muscicapidae,979942,Saxicola
+Muscicapidae,family,Aves,False,12978,Muscicapa adusta,African Dusky Flycatcher,Aves,2813,3,7251,Passeriformes,12704,Muscicapidae,12964,Muscicapa
+Pycnonotus,genus,Aves,True,14588,Pycnonotus barbatus,Common Bulbul,Aves,5406,3,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+Pycnonotus,genus,Aves,True,14594,Pycnonotus capensis,Cape Bulbul,Aves,5168,3,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+Pycnonotus,genus,Aves,True,14625,Pycnonotus nigricans,African Red-eyed Bulbul,Aves,1926,3,7251,Passeriformes,14556,Pycnonotidae,14587,Pycnonotus
+Coliidae,family,Aves,False,3704,Colius striatus,Speckled Mousebird,Aves,4608,3,3686,Coliiformes,3687,Coliidae,3702,Colius
+Coliidae,family,Aves,False,3722,Colius colius,White-backed Mousebird,Aves,2195,3,3686,Coliiformes,3687,Coliidae,3702,Colius
+Coliidae,family,Aves,False,3689,Urocolius indicus,Red-faced Mousebird,Aves,1756,3,3686,Coliiformes,3687,Coliidae,3688,Urocolius
+Anatidae,family,Aves,False,72486,Alopochen aegyptiaca,Egyptian Goose,Aves,13016,3,6888,Anseriformes,6912,Anatidae,7129,Alopochen
+Anatidae,family,Aves,False,7146,Plectropterus gambensis,Spur-winged Goose,Aves,3520,3,6888,Anseriformes,6912,Anatidae,7145,Plectropterus
+Anatidae,family,Aves,False,6898,Dendrocygna viduata,White-faced Whistling-Duck,Aves,2732,3,6888,Anseriformes,6912,Anatidae,6890,Dendrocygna
+Anatidae,family,Aves,False,558436,Spatula smithii,Cape Shoveler,Aves,2180,3,6888,Anseriformes,6912,Anatidae,558404,Spatula
+Anatidae,family,Aves,False,7071,Tadorna cana,South African Shelduck,Aves,1748,3,6888,Anseriformes,6912,Anatidae,7065,Tadorna
+Ardea,genus,Aves,True,4954,Ardea cinerea,Grey Heron,Aves,6676,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Ardea,genus,Aves,True,4972,Ardea melanocephala,Black-headed Heron,Aves,5332,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Ardea,genus,Aves,True,411086,Ardea ibis,Western Cattle-Egret,Aves,4216,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Ardea,genus,Aves,True,4969,Ardea goliath,Goliath Heron,Aves,1985,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Ardea,genus,Aves,True,144455,Ardea alba,Great Egret,Aves,1722,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Sciuridae,family,Mammalia,False,46110,Paraxerus cepapi,Smith's Bush Squirrel,Mammalia,2436,40151,43698,Rodentia,45933,Sciuridae,46105,Paraxerus
+Sciuridae,family,Mammalia,False,871614,Geosciurus inauris,South African Ground Squirrel,Mammalia,1852,40151,43698,Rodentia,45933,Sciuridae,871612,Geosciurus
+Sciuridae,family,Mammalia,False,46017,Sciurus carolinensis,Eastern Gray Squirrel,Mammalia,1430,40151,43698,Rodentia,45933,Sciuridae,45994,Sciurus
+Corvus,genus,Aves,True,8038,Corvus albus,Pied Crow,Aves,4912,3,7251,Passeriformes,7823,Corvidae,7998,Corvus
+Corvus,genus,Aves,True,8004,Corvus albicollis,White-necked Raven,Aves,1892,3,7251,Passeriformes,7823,Corvidae,7998,Corvus
+Corvus,genus,Aves,True,8006,Corvus capensis,Cape Crow,Aves,1385,3,7251,Passeriformes,7823,Corvidae,7998,Corvus
+Ciconiidae,family,Aves,False,4744,Mycteria ibis,Yellow-billed Stork,Aves,2301,3,3726,Ciconiiformes,4730,Ciconiidae,4741,Mycteria
+Ciconiidae,family,Aves,False,201031,Leptoptilos crumenifer,Marabou Stork,Aves,2048,3,3726,Ciconiiformes,4730,Ciconiidae,4748,Leptoptilos
+Ciconiidae,family,Aves,False,4754,Ephippiorhynchus senegalensis,Saddle-billed Stork,Aves,1971,3,3726,Ciconiiformes,4730,Ciconiidae,4752,Ephippiorhynchus
+Ciconiidae,family,Aves,False,4776,Anastomus lamelligerus,African Openbill,Aves,1309,3,3726,Ciconiiformes,4730,Ciconiidae,4774,Anastomus
+Trachylepis,genus,Reptilia,True,37418,Trachylepis striata,African Striped Skink,Reptilia,2937,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Trachylepis,genus,Reptilia,True,1630133,Trachylepis margaritifer,Rainbow Skink,Reptilia,2485,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Trachylepis,genus,Reptilia,True,114294,Trachylepis punctatissima,Speckled Rock Skink,Reptilia,2142,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Trachylepis,genus,Reptilia,True,37436,Trachylepis capensis,Cape Skink,Reptilia,2006,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Trachylepis,genus,Reptilia,True,37415,Trachylepis varia,Variable Skink,Reptilia,1237,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Rallidae,family,Aves,False,487,Fulica cristata,Red-knobbed Coot,Aves,5056,3,4,Gruiformes,154,Rallidae,472,Fulica
+Rallidae,family,Aves,False,201282,Gallinula chloropus,Eurasian Moorhen,Aves,4012,3,4,Gruiformes,154,Rallidae,979864,Gallinula
+Rallidae,family,Aves,False,508918,Zapornia flavirostra,Black Crake,Aves,1885,3,4,Gruiformes,154,Rallidae,508913,Zapornia
+Rallidae,family,Aves,False,474333,Porphyrio madagascariensis,African Swamphen,Aves,1234,3,4,Gruiformes,154,Rallidae,502,Porphyrio
+Estrildidae,family,Aves,False,13770,Estrilda astrild,Common Waxbill,Aves,2695,3,7251,Passeriformes,71322,Estrildidae,13763,Estrilda
+Estrildidae,family,Aves,False,14026,Uraeginthus angolensis,Southern Cordonbleu,Aves,2614,3,7251,Passeriformes,71322,Estrildidae,14025,Uraeginthus
+Estrildidae,family,Aves,False,367700,Spermestes cucullata,Bronze Mannikin,Aves,2471,3,7251,Passeriformes,71322,Estrildidae,144421,Spermestes
+Estrildidae,family,Aves,False,979663,Coccopygia melanotis,Swee Waxbill,Aves,1450,3,7251,Passeriformes,71322,Estrildidae,144416,Coccopygia
+Estrildidae,family,Aves,False,13999,Pytilia melba,Green-winged Pytilia,Aves,1199,3,7251,Passeriformes,71322,Estrildidae,13998,Pytilia
+Musophagidae,family,Aves,False,1506034,Crinifer concolor,Grey Go-away-bird,Aves,3528,3,793433,Musophagiformes,7194,Musophagidae,7246,Crinifer
+Musophagidae,family,Aves,False,7205,Tauraco corythaix,Knysna Turaco,Aves,1230,3,793433,Musophagiformes,7194,Musophagidae,7195,Tauraco
+Musophagidae,family,Aves,False,1505988,Gallirex porphyreolophus,Purple-crested Turaco,Aves,1186,3,793433,Musophagiformes,7194,Musophagidae,1505973,Gallirex
+Turdus,genus,Aves,False,203815,Turdus olivaceus,Olive Thrush,Aves,2695,3,7251,Passeriformes,15977,Turdidae,12705,Turdus
+Turdus,genus,Aves,False,201216,Turdus libonyana,Kurrichane Thrush,Aves,1666,3,7251,Passeriformes,15977,Turdidae,12705,Turdus
+Turdus,genus,Aves,False,145083,Turdus smithi,Karoo Thrush,Aves,1241,3,7251,Passeriformes,15977,Turdidae,12705,Turdus
+Turdus,genus,Aves,False,1423667,Turdus litsitsirupa,Groundscraper Thrush,Aves,1165,3,7251,Passeriformes,15977,Turdidae,12705,Turdus
+Crithagra,genus,Aves,False,558601,Crithagra mozambica,Yellow-fronted Canary,Aves,2329,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Crithagra,genus,Aves,False,527609,Crithagra flaviventris,Yellow Canary,Aves,1777,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Crithagra,genus,Aves,False,558618,Crithagra sulphurata,Brimstone Canary,Aves,1474,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Crithagra,genus,Aves,False,979671,Crithagra gularis,Streaky-headed Seedeater,Aves,1453,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Crithagra,genus,Aves,False,527434,Crithagra albogularis,White-throated Canary,Aves,1129,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Ploceus,genus,Aves,False,13804,Ploceus velatus,Southern Masked Weaver,Aves,7158,3,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+Ploceus,genus,Aves,False,13801,Ploceus capensis,Cape Weaver,Aves,6536,3,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+Ploceus,genus,Aves,False,13796,Ploceus cucullatus,Village Weaver,Aves,2685,3,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+Ploceus,genus,Aves,False,13837,Ploceus ocularis,Spectacled Weaver,Aves,1275,3,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+Ploceus,genus,Aves,False,13842,Ploceus intermedius,Lesser Masked Weaver,Aves,1123,3,7251,Passeriformes,71354,Ploceidae,13783,Ploceus
+Herpestidae,family,Mammalia,False,41911,Cynictis penicillata,Yellow Mongoose,Mammalia,1911,40151,41573,Carnivora,41893,Herpestidae,41910,Cynictis
+Herpestidae,family,Mammalia,False,41921,Mungos mungo,Banded Mongoose,Mammalia,1886,40151,41573,Carnivora,41893,Herpestidae,41920,Mungos
+Herpestidae,family,Mammalia,False,74413,Herpestes pulverulentus,Cape Grey Mongoose,Mammalia,1263,40151,41573,Carnivora,41893,Herpestidae,41894,Herpestes
+Herpestidae,family,Mammalia,False,41906,Helogale parvula,Common Dwarf Mongoose,Mammalia,1240,40151,41573,Carnivora,41893,Herpestidae,41905,Helogale
+Herpestidae,family,Mammalia,False,74414,Herpestes sanguineus,Common Slender Mongoose,Mammalia,1118,40151,41573,Carnivora,41893,Herpestidae,41894,Herpestes
+Sturnidae,family,Aves,False,204554,Onychognathus morio,Red-winged Starling,Aves,5895,3,7251,Passeriformes,14841,Sturnidae,14968,Onychognathus
+Sturnidae,family,Aves,False,14850,Sturnus vulgaris,European Starling,Aves,3231,3,7251,Passeriformes,14841,Sturnidae,14842,Sturnus
+Sturnidae,family,Aves,False,204454,Acridotheres tristis,Common Myna,Aves,1587,3,7251,Passeriformes,14841,Sturnidae,14868,Acridotheres
+Sturnidae,family,Aves,False,15030,Cinnyricinclus leucogaster,Violet-backed Starling,Aves,1442,3,7251,Passeriformes,14841,Sturnidae,15027,Cinnyricinclus
+Sturnidae,family,Aves,False,15032,Creatophora cinerea,Wattled Starling,Aves,1112,3,7251,Passeriformes,14841,Sturnidae,15031,Creatophora
+Bucerotidae,family,Aves,False,144281,Bucorvus leadbeateri,Southern Ground Hornbill,Aves,2306,3,525653,Bucerotiformes,5438,Bucerotidae,5435,Bucorvus
+Bucerotidae,family,Aves,False,512166,Lophoceros nasutus,African Gray Hornbill,Aves,1616,3,525653,Bucerotiformes,5438,Bucerotidae,512157,Lophoceros
+Bucerotidae,family,Aves,False,507913,Bycanistes bucinator,Trumpeter Hornbill,Aves,1233,3,525653,Bucerotiformes,5438,Bucerotidae,507910,Bycanistes
+Bucerotidae,family,Aves,False,512160,Lophoceros alboterminatus,Crowned Hornbill,Aves,1110,3,525653,Bucerotiformes,5438,Bucerotidae,512157,Lophoceros
+Aquila,genus,Aves,False,5079,Aquila rapax,Tawny Eagle,Aves,3060,3,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+Aquila,genus,Aves,False,5077,Aquila verreauxii,Verreaux's Eagle,Aves,1367,3,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+Aquila,genus,Aves,False,144468,Aquila spilogaster,African Hawk-Eagle,Aves,1098,3,71261,Accipitriformes,5067,Accipitridae,5068,Aquila
+Laridae,family,Aves,False,4388,Larus dominicanus,Kelp Gull,Aves,6490,3,67561,Charadriiformes,4342,Laridae,4343,Larus
+Laridae,family,Aves,False,144509,Chroicocephalus hartlaubii,Hartlaub's Gull,Aves,4353,3,67561,Charadriiformes,4342,Laridae,144320,Chroicocephalus
+Laridae,family,Aves,False,144540,Thalasseus bergii,Greater Crested Tern,Aves,2500,3,67561,Charadriiformes,4342,Laridae,144327,Thalasseus
+Laridae,family,Aves,False,144508,Chroicocephalus cirrocephalus,Gray-hooded Gull,Aves,2008,3,67561,Charadriiformes,4342,Laridae,144320,Chroicocephalus
+Laridae,family,Aves,False,144537,Hydroprogne caspia,Caspian Tern,Aves,1072,3,67561,Charadriiformes,4342,Laridae,144326,Hydroprogne
+Nectariniidae,family,Aves,False,13300,Nectarinia famosa,Malachite Sunbird,Aves,4303,3,7251,Passeriformes,13273,Nectariniidae,13274,Nectarinia
+Nectariniidae,family,Aves,False,145142,Chalcomitra amethystina,Amethyst Sunbird,Aves,3454,3,7251,Passeriformes,13273,Nectariniidae,144401,Chalcomitra
+Nectariniidae,family,Aves,False,145130,Anthobaphes violacea,Orange-breasted Sunbird,Aves,3213,3,7251,Passeriformes,13273,Nectariniidae,144399,Anthobaphes
+Nectariniidae,family,Aves,False,145122,Hedydipna collaris,Collared Sunbird,Aves,1330,3,7251,Passeriformes,13273,Nectariniidae,144396,Hedydipna
+Nectariniidae,family,Aves,False,145143,Chalcomitra senegalensis,Scarlet-chested Sunbird,Aves,1035,3,7251,Passeriformes,13273,Nectariniidae,144401,Chalcomitra
+Columba,genus,Aves,False,3036,Columba guinea,Speckled Pigeon,Aves,5324,3,2708,Columbiformes,2715,Columbidae,3000,Columba
+Columba,genus,Aves,False,3017,Columba livia,Rock Pigeon,Aves,1577,3,2708,Columbiformes,2715,Columbidae,3000,Columba
+Columba,genus,Aves,False,3012,Columba arquatrix,Rameron Pigeon,Aves,1026,3,2708,Columbiformes,2715,Columbidae,3000,Columba
+Merops,genus,Aves,False,2248,Merops bullockoides,White-fronted Bee-eater,Aves,2575,3,2114,Coraciiformes,2183,Meropidae,2184,Merops
+Merops,genus,Aves,False,2185,Merops pusillus,Little Bee-eater,Aves,2258,3,2114,Coraciiformes,2183,Meropidae,2184,Merops
+Merops,genus,Aves,False,2191,Merops apiaster,European Bee-eater,Aves,1582,3,2114,Coraciiformes,2183,Meropidae,2184,Merops
+Merops,genus,Aves,False,2203,Merops hirundineus,Swallow-tailed Bee-eater,Aves,1054,3,2114,Coraciiformes,2183,Meropidae,2184,Merops
+Merops,genus,Aves,False,67434,Merops nubicoides,Southern Carmine Bee-eater,Aves,1008,3,2114,Coraciiformes,2183,Meropidae,2184,Merops
+Ardeidae,family,Aves,False,4943,Egretta garzetta,Little Egret,Aves,4006,3,67566,Pelecaniformes,4929,Ardeidae,4933,Egretta
+Ardeidae,family,Aves,False,4951,Ardea purpurea,Purple Heron,Aves,1669,3,67566,Pelecaniformes,4929,Ardeidae,4950,Ardea
+Ardeidae,family,Aves,False,1636180,Butorides atricapilla,Little Heron,Aves,1415,3,67566,Pelecaniformes,4929,Ardeidae,5019,Butorides
+Ardeidae,family,Aves,False,4994,Ardeola ralloides,Squacco Heron,Aves,1216,3,67566,Pelecaniformes,4929,Ardeidae,4989,Ardeola
+Ardeidae,family,Aves,False,4981,Nycticorax nycticorax,Black-crowned Night Heron,Aves,977,3,67566,Pelecaniformes,4929,Ardeidae,4979,Nycticorax
+Canidae,family,Mammalia,False,1210966,Lupulella mesomelas,Black-backed Jackal,Mammalia,4053,40151,41573,Carnivora,42043,Canidae,1210963,Lupulella
+Canidae,family,Mammalia,False,42093,Lycaon pictus,African Wild Dog,Mammalia,1668,40151,41573,Carnivora,42043,Canidae,42092,Lycaon
+Canidae,family,Mammalia,False,42095,Otocyon megalotis,Bat-eared Fox,Mammalia,934,40151,41573,Carnivora,42043,Canidae,42094,Otocyon
+Ploceidae,family,Aves,False,14115,Plocepasser mahali,White-browed Sparrow-Weaver,Aves,2577,3,7251,Passeriformes,71354,Ploceidae,14111,Plocepasser
+Ploceidae,family,Aves,False,14005,Quelea quelea,Red-billed Quelea,Aves,2165,3,7251,Passeriformes,71354,Ploceidae,14004,Quelea
+Ploceidae,family,Aves,False,13956,Philetairus socius,Sociable Weaver,Aves,1834,3,7251,Passeriformes,71354,Ploceidae,13955,Philetairus
+Ploceidae,family,Aves,False,14064,Amblyospiza albifrons,Grosbeak Weaver,Aves,1755,3,7251,Passeriformes,71354,Ploceidae,14063,Amblyospiza
+Ploceidae,family,Aves,False,14143,Bubalornis niger,Red-billed Buffalo-Weaver,Aves,879,3,7251,Passeriformes,71354,Ploceidae,14142,Bubalornis
+Coracias,genus,Aves,False,2269,Coracias caudatus,Lilac-breasted Roller,Aves,4468,3,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+Coracias,genus,Aves,False,2266,Coracias garrulus,European Roller,Aves,1513,3,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+Coracias,genus,Aves,False,144659,Coracias naevius,Purple Roller,Aves,875,3,2114,Coraciiformes,2262,Coraciidae,2263,Coracias
+Prinia,genus,Aves,False,7730,Prinia maculosa,Karoo Prinia,Aves,3860,3,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+Prinia,genus,Aves,False,7729,Prinia subflava,Tawny-flanked Prinia,Aves,2054,3,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+Prinia,genus,Aves,False,7721,Prinia flavicans,Black-chested Prinia,Aves,835,3,7251,Passeriformes,7649,Cisticolidae,7706,Prinia
+Lamprotornis,genus,Aves,False,14930,Lamprotornis nitens,Cape Starling,Aves,4734,3,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+Lamprotornis,genus,Aves,False,517007,Lamprotornis bicolor,African Pied Starling,Aves,1633,3,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+Lamprotornis,genus,Aves,False,14931,Lamprotornis australis,Burchell's Starling,Aves,1621,3,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+Lamprotornis,genus,Aves,False,14923,Lamprotornis chalybaeus,Greater Blue-eared Starling,Aves,1376,3,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+Lamprotornis,genus,Aves,False,14941,Lamprotornis mevesii,Meves's Starling,Aves,811,3,7251,Passeriformes,14841,Sturnidae,14922,Lamprotornis
+Charadriidae,family,Aves,False,1580335,Thinornis tricollaris,Three-banded Plover,Aves,3615,3,67561,Charadriiformes,4783,Charadriidae,4911,Thinornis
+Charadriidae,family,Aves,False,1505776,Anarhynchus marginatus,White-fronted Plover,Aves,2692,3,67561,Charadriiformes,4783,Charadriidae,4899,Anarhynchus
+Charadriidae,family,Aves,False,1505668,Anarhynchus pecuarius,Kittlitz's Plover,Aves,1668,3,67561,Charadriiformes,4783,Charadriidae,4899,Anarhynchus
+Charadriidae,family,Aves,False,4801,Charadrius hiaticula,Common Ringed Plover,Aves,847,3,67561,Charadriiformes,4783,Charadriidae,4784,Charadrius
+Charadriidae,family,Aves,False,4892,Pluvialis squatarola,Black-bellied Plover,Aves,740,3,67561,Charadriiformes,4783,Charadriidae,4888,Pluvialis
+Chondrodactylus,genus,Reptilia,True,34156,Chondrodactylus bibronii,Bibron's Thick-toed Gecko,Reptilia,1044,26036,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+Chondrodactylus,genus,Reptilia,True,797605,Chondrodactylus laevigatus,Fischer's Thick-toed Gecko,Reptilia,735,26036,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+Chondrodactylus,genus,Reptilia,True,34161,Chondrodactylus turneri,Turner's Thick-toed Gecko,Reptilia,719,26036,26172,Squamata,33177,Gekkonidae,33450,Chondrodactylus
+Cinnyris,genus,Aves,False,145157,Cinnyris chalybeus,Southern Double-collared Sunbird,Aves,5791,3,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+Cinnyris,genus,Aves,False,145163,Cinnyris afer,Greater Double-collared Sunbird,Aves,2925,3,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+Cinnyris,genus,Aves,False,145187,Cinnyris talatala,White-bellied Sunbird,Aves,1986,3,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+Cinnyris,genus,Aves,False,145170,Cinnyris mariquensis,Marico Sunbird,Aves,837,3,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+Cinnyris,genus,Aves,False,145189,Cinnyris fuscus,Dusky Sunbird,Aves,702,3,7251,Passeriformes,13273,Nectariniidae,144404,Cinnyris
+Pternistis,genus,Aves,False,343746,Pternistis capensis,Cape Spurfowl,Aves,4326,3,573,Galliformes,574,Phasianidae,343747,Pternistis
+Pternistis,genus,Aves,False,495984,Pternistis swainsonii,Swainson's Spurfowl,Aves,1769,3,573,Galliformes,574,Phasianidae,343747,Pternistis
+Pternistis,genus,Aves,False,495975,Pternistis natalensis,Natal Spurfowl,Aves,1646,3,573,Galliformes,574,Phasianidae,343747,Pternistis
+Pternistis,genus,Aves,False,495974,Pternistis adspersus,Red-billed Spurfowl,Aves,1111,3,573,Galliformes,574,Phasianidae,343747,Pternistis
+Pternistis,genus,Aves,False,495994,Pternistis afer,Red-necked Spurfowl,Aves,695,3,573,Galliformes,574,Phasianidae,343747,Pternistis
+Halcyon,genus,Aves,False,2346,Halcyon albiventris,Brown-hooded Kingfisher,Aves,5215,3,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+Halcyon,genus,Aves,False,2337,Halcyon senegalensis,Woodland Kingfisher,Aves,1276,3,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+Halcyon,genus,Aves,False,2334,Halcyon chelicuti,Striped Kingfisher,Aves,688,3,2114,Coraciiformes,2314,Alcedinidae,2315,Halcyon
+Alaudidae,family,Aves,False,144764,Calendulauda sabota,Sabota Lark,Aves,1768,3,7251,Passeriformes,7284,Alaudidae,144344,Calendulauda
+Alaudidae,family,Aves,False,1572860,Corypha africana,Rufous-naped Lark,Aves,1235,3,7251,Passeriformes,7284,Alaudidae,1572850,Corypha
+Alaudidae,family,Aves,False,204473,Calandrella cinerea,Red-capped Lark,Aves,1099,3,7251,Passeriformes,7284,Alaudidae,7388,Calandrella
+Alaudidae,family,Aves,False,7358,Galerida magnirostris,Large-billed Lark,Aves,1025,3,7251,Passeriformes,7284,Alaudidae,7355,Galerida
+Alaudidae,family,Aves,False,204483,Chersomanes albofasciata,Spike-heeled Lark,Aves,679,3,7251,Passeriformes,7284,Alaudidae,7407,Chersomanes
+Fringillaria,genus,Aves,False,1720305,Fringillaria capensis,Cape Bunting,Aves,2063,3,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+Fringillaria,genus,Aves,False,1720264,Fringillaria flaviventris,Golden-breasted Bunting,Aves,1172,3,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+Fringillaria,genus,Aves,False,1720270,Fringillaria impetuani,Lark-like Bunting,Aves,1058,3,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+Fringillaria,genus,Aves,False,1720286,Fringillaria tahapisi,Cinnamon-breasted Bunting,Aves,677,3,7251,Passeriformes,559249,Emberizidae,1720251,Fringillaria
+Scincidae,family,Reptilia,False,37416,Trachylepis sulcata,Western Rock Skink,Reptilia,1226,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Scincidae,family,Reptilia,False,37431,Trachylepis homalocephala,Red-sided Skink,Reptilia,1146,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Scincidae,family,Reptilia,False,1225676,Trachylepis wahlbergii,Wahlberg’s Striped Skink,Reptilia,920,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Scincidae,family,Reptilia,False,114297,Trachylepis variegata,Variegated Skink,Reptilia,826,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Scincidae,family,Reptilia,False,114296,Trachylepis spilogaster,Kalahari Tree Skink,Reptilia,670,26036,26172,Squamata,36982,Scincidae,37413,Trachylepis
+Cisticola,genus,Aves,False,7660,Cisticola tinniens,Levaillant's Cisticola,Aves,3154,3,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+Cisticola,genus,Aves,False,72729,Cisticola chiniana,Rattling Cisticola,Aves,1931,3,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+Cisticola,genus,Aves,False,72731,Cisticola fulvicapilla,Piping Cisticola,Aves,1670,3,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+Cisticola,genus,Aves,False,72733,Cisticola subruficapilla,Grey-backed Cisticola,Aves,1334,3,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+Cisticola,genus,Aves,False,7697,Cisticola juncidis,Zitting Cisticola,Aves,656,3,7251,Passeriformes,7649,Cisticolidae,7650,Cisticola
+Cordylidae,family,Reptilia,False,33062,Cordylus niger,Black Girdled Lizard,Reptilia,2623,26036,26172,Squamata,33023,Cordylidae,33024,Cordylus
+Cordylidae,family,Reptilia,False,33027,Cordylus cordylus,Cape Girdled Lizard,Reptilia,1370,26036,26172,Squamata,33023,Cordylidae,33024,Cordylus
+Cordylidae,family,Reptilia,False,1714351,Pseudocordylus melanotus,Common Crag Lizard,Reptilia,820,26036,26172,Squamata,33023,Cordylidae,144050,Pseudocordylus
+Cordylidae,family,Reptilia,False,33061,Karusasaurus polyzonus,Karoo Girdled Lizard,Reptilia,797,26036,26172,Squamata,33023,Cordylidae,144062,Karusasaurus
+Cordylidae,family,Reptilia,False,33038,Pseudocordylus microlepidotus,Cape Crag Lizard,Reptilia,646,26036,26172,Squamata,33023,Cordylidae,144050,Pseudocordylus
+Buteo,genus,Aves,False,5198,Buteo rufofuscus,Jackal Buzzard,Aves,4975,3,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+Buteo,genus,Aves,False,204472,Buteo buteo,Common Buzzard,Aves,2193,3,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+Buteo,genus,Aves,False,512762,Buteo trizonatus,Forest Buzzard,Aves,639,3,71261,Accipitriformes,5067,Accipitridae,5179,Buteo
+Lybiidae,family,Aves,False,116950,Lybius torquatus,Black-collared Barbet,Aves,2953,3,17550,Piciformes,200961,Lybiidae,71711,Lybius
+Lybiidae,family,Aves,False,117135,Trachyphonus vaillantii,Crested Barbet,Aves,2713,3,17550,Piciformes,200961,Lybiidae,85091,Trachyphonus
+Lybiidae,family,Aves,False,117140,Tricholaema leucomelas,Acacia Pied Barbet,Aves,1489,3,17550,Piciformes,200961,Lybiidae,71771,Tricholaema
+Lybiidae,family,Aves,False,117115,Stactolaema leucotis,White-eared Barbet,Aves,1116,3,17550,Piciformes,200961,Lybiidae,20409,Stactolaema
+Lybiidae,family,Aves,False,793461,Pogoniulus bilineatus,Yellow-rumped Tinkerbird,Aves,635,3,17550,Piciformes,200961,Lybiidae,71739,Pogoniulus
+Cercopithecidae,family,Mammalia,False,57556,Papio ursinus,Chacma Baboon,Mammalia,8705,40151,43367,Primates,43443,Cercopithecidae,43534,Papio
+Cercopithecidae,family,Mammalia,False,68137,Chlorocebus pygerythrus,Vervet Monkey,Mammalia,6590,40151,43367,Primates,43443,Cercopithecidae,43522,Chlorocebus
+Cercopithecidae,family,Mammalia,False,43486,Cercopithecus mitis,Blue Monkey,Mammalia,619,40151,43367,Primates,43443,Cercopithecidae,43469,Cercopithecus
+Calidris,genus,Aves,False,3838,Calidris minuta,Little Stint,Aves,1092,3,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+Calidris,genus,Aves,False,3863,Calidris ferruginea,Curlew Sandpiper,Aves,887,3,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+Calidris,genus,Aves,False,339593,Calidris pugnax,Ruff,Aves,725,3,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+Calidris,genus,Aves,False,3849,Calidris alba,Sanderling,Aves,611,3,67561,Charadriiformes,3835,Scolopacidae,3836,Calidris
+Falco,genus,Aves,False,472764,Falco rupicolus,Rock Kestrel,Aves,2996,3,67570,Falconiformes,4637,Falconidae,4638,Falco
+Falco,genus,Aves,False,4684,Falco biarmicus,Lanner Falcon,Aves,1032,3,67570,Falconiformes,4637,Falconidae,4638,Falco
+Falco,genus,Aves,False,4689,Falco rupicoloides,Greater Kestrel,Aves,699,3,67570,Falconiformes,4637,Falconidae,4638,Falco
+Falco,genus,Aves,False,4647,Falco peregrinus,Peregrine Falcon,Aves,659,3,67570,Falconiformes,4637,Falconidae,4638,Falco
+Falco,genus,Aves,False,4686,Falco amurensis,Amur Falcon,Aves,601,3,67570,Falconiformes,4637,Falconidae,4638,Falco
+Batis,genus,Aves,False,8396,Batis capensis,Cape Batis,Aves,1759,3,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+Batis,genus,Aves,False,8399,Batis molitor,Chinspot Batis,Aves,1254,3,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+Batis,genus,Aves,False,8412,Batis pririt,Pririt Batis,Aves,594,3,7251,Passeriformes,68490,Platysteiridae,8393,Batis
+Otididae,family,Aves,False,115,Ardeotis kori,Kori Bustard,Aves,2544,3,71266,Otidiformes,75,Otididae,107,Ardeotis
+Otididae,family,Aves,False,1505971,Afrotis afraoides,Northern Black Korhaan,Aves,1419,3,71266,Otidiformes,75,Otididae,1505955,Afrotis
+Otididae,family,Aves,False,1505966,Lophotis ruficrista,Red-crested Bustard,Aves,1407,3,71266,Otidiformes,75,Otididae,1505953,Lophotis
+Otididae,family,Aves,False,85,Neotis denhami,Denham's Bustard,Aves,707,3,71266,Otidiformes,75,Otididae,84,Neotis
+Otididae,family,Aves,False,91,Neotis ludwigii,Ludwig's Bustard,Aves,588,3,71266,Otidiformes,75,Otididae,84,Neotis
+Threskiornithidae,family,Aves,False,3743,Bostrychia hagedash,Hadada Ibis,Aves,9547,3,67566,Pelecaniformes,3727,Threskiornithidae,3742,Bostrychia
+Threskiornithidae,family,Aves,False,3739,Threskiornis aethiopicus,African Sacred Ibis,Aves,6206,3,67566,Pelecaniformes,3727,Threskiornithidae,3737,Threskiornis
+Threskiornithidae,family,Aves,False,3734,Platalea alba,African Spoonbill,Aves,2943,3,67566,Pelecaniformes,3727,Threskiornithidae,3728,Platalea
+Threskiornithidae,family,Aves,False,3756,Plegadis falcinellus,Glossy Ibis,Aves,1438,3,67566,Pelecaniformes,3727,Threskiornithidae,3755,Plegadis
+Threskiornithidae,family,Aves,False,3754,Geronticus calvus,Southern Bald Ibis,Aves,587,3,67566,Pelecaniformes,3727,Threskiornithidae,3752,Geronticus
+Euplectes,genus,Aves,False,13962,Euplectes orix,Southern Red Bishop,Aves,5289,3,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+Euplectes,genus,Aves,False,13964,Euplectes capensis,Yellow Bishop,Aves,1978,3,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+Euplectes,genus,Aves,False,13977,Euplectes progne,Long-tailed Widowbird,Aves,1000,3,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+Euplectes,genus,Aves,False,13970,Euplectes axillaris,Fan-tailed Widowbird,Aves,637,3,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+Euplectes,genus,Aves,False,13978,Euplectes ardens,Red-collared Widowbird,Aves,586,3,7251,Passeriformes,71354,Ploceidae,13961,Euplectes
+Malaconotidae,family,Aves,False,8224,Laniarius ferrugineus,Southern Boubou,Aves,2450,3,7251,Passeriformes,71333,Malaconotidae,8206,Laniarius
+Malaconotidae,family,Aves,False,8188,Telophorus zeylonus,Bokmakierie,Aves,2384,3,7251,Passeriformes,71333,Malaconotidae,8184,Telophorus
+Malaconotidae,family,Aves,False,8296,Dryoscopus cubla,Black-backed Puffback,Aves,1922,3,7251,Passeriformes,71333,Malaconotidae,8292,Dryoscopus
+Malaconotidae,family,Aves,False,8211,Laniarius atrococcineus,Crimson-breasted Gonolek,Aves,1448,3,7251,Passeriformes,71333,Malaconotidae,8206,Laniarius
+Malaconotidae,family,Aves,False,8257,Malaconotus blanchoti,Grey-headed Bushshrike,Aves,582,3,7251,Passeriformes,71333,Malaconotidae,8256,Malaconotus
+Pycnonotidae,family,Aves,False,14708,Andropadus importunus,Sombre Greenbul,Aves,1886,3,7251,Passeriformes,14556,Pycnonotidae,14692,Andropadus
+Pycnonotidae,family,Aves,False,14688,Chlorocichla flaviventris,Yellow-bellied Greenbul,Aves,1065,3,7251,Passeriformes,14556,Pycnonotidae,14685,Chlorocichla
+Pycnonotidae,family,Aves,False,14563,Phyllastrephus terrestris,Terrestrial Brownbul,Aves,581,3,7251,Passeriformes,14556,Pycnonotidae,14561,Phyllastrephus
+Lanius,genus,Aves,False,204531,Lanius collaris,Southern Fiscal,Aves,8135,3,7251,Passeriformes,12015,Laniidae,12016,Lanius
+Lanius,genus,Aves,False,12038,Lanius collurio,Red-backed Shrike,Aves,1488,3,7251,Passeriformes,12015,Laniidae,12016,Lanius
+Lanius,genus,Aves,False,12054,Lanius minor,Lesser Grey Shrike,Aves,580,3,7251,Passeriformes,12015,Laniidae,12016,Lanius
+Sclerophrys,genus,Amphibia,True,517449,Sclerophrys pantherina,Western Leopard Toad,Amphibia,10536,20978,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+Sclerophrys,genus,Amphibia,True,517132,Sclerophrys capensis,Raucous Toad,Amphibia,3963,20978,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+Sclerophrys,genus,Amphibia,True,517053,Sclerophrys gutturalis,Guttural Toad,Amphibia,1878,20978,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+Sclerophrys,genus,Amphibia,True,517052,Sclerophrys garmani,Garman's Toad,Amphibia,578,20978,20979,Anura,21359,Bufonidae,517026,Sclerophrys
+Felidae,family,Mammalia,False,41964,Panthera leo,Lion,Mammalia,7132,40151,41573,Carnivora,41944,Felidae,41962,Panthera
+Felidae,family,Mammalia,False,41963,Panthera pardus,Leopard,Mammalia,3751,40151,41573,Carnivora,41944,Felidae,41962,Panthera
+Felidae,family,Mammalia,False,41955,Acinonyx jubatus,Cheetah,Mammalia,1853,40151,41573,Carnivora,41944,Felidae,41954,Acinonyx
+Felidae,family,Mammalia,False,42042,Caracal caracal,Caracal,Mammalia,1033,40151,41573,Carnivora,41944,Felidae,42041,Caracal
+Felidae,family,Mammalia,False,371414,Felis lybica,African Wildcat,Mammalia,565,40151,41573,Carnivora,41944,Felidae,41956,Felis
+Cecropis,genus,Aves,False,144791,Cecropis cucullata,Greater Striped Swallow,Aves,2005,3,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+Cecropis,genus,Aves,False,144795,Cecropis abyssinica,Lesser Striped Swallow,Aves,1958,3,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+Cecropis,genus,Aves,False,144796,Cecropis semirufa,Rufous-chested Swallow,Aves,560,3,7251,Passeriformes,11853,Hirundinidae,144349,Cecropis
+Cossypha,genus,Aves,False,12784,Cossypha natalensis,Red-capped Robin-Chat,Aves,987,3,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+Cossypha,genus,Aves,False,12792,Cossypha heuglini,White-browed Robin-Chat,Aves,775,3,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+Cossypha,genus,Aves,False,12796,Cossypha dichroa,Chorister Robin-Chat,Aves,559,3,7251,Passeriformes,12704,Muscicapidae,12782,Cossypha
+Picidae,family,Aves,False,1506260,Dendropicos fuscescens,Cardinal Woodpecker,Aves,1754,3,17550,Piciformes,17599,Picidae,1506248,Dendropicos
+Picidae,family,Aves,False,17619,Campethera abingoni,Golden-tailed Woodpecker,Aves,1073,3,17550,Piciformes,17599,Picidae,17600,Campethera
+Picidae,family,Aves,False,1506403,Dendropicos griseocephalus,Olive Woodpecker,Aves,1020,3,17550,Piciformes,17599,Picidae,1506248,Dendropicos
+Picidae,family,Aves,False,792926,Chloropicus namaquus,Bearded Woodpecker,Aves,585,3,17550,Piciformes,17599,Picidae,792895,Chloropicus
+Picidae,family,Aves,False,18469,Geocolaptes olivaceus,Ground Woodpecker,Aves,553,3,17550,Piciformes,17599,Picidae,18468,Geocolaptes
+Ciconia,genus,Aves,False,1429237,Ciconia microscelis,African Woolly-necked Stork,Aves,2311,3,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+Ciconia,genus,Aves,False,4733,Ciconia ciconia,White Stork,Aves,642,3,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+Ciconia,genus,Aves,False,4736,Ciconia nigra,Black Stork,Aves,547,3,3726,Ciconiiformes,4730,Ciconiidae,4731,Ciconia
+Scolopacidae,family,Aves,False,3888,Tringa glareola,Wood Sandpiper,Aves,1406,3,67561,Charadriiformes,3835,Scolopacidae,3874,Tringa
+Scolopacidae,family,Aves,False,3878,Tringa nebularia,Common Greenshank,Aves,1213,3,67561,Charadriiformes,3835,Scolopacidae,3874,Tringa
+Scolopacidae,family,Aves,False,3901,Numenius phaeopus,Eurasian Whimbrel,Aves,1201,3,67561,Charadriiformes,3835,Scolopacidae,3894,Numenius
+Scolopacidae,family,Aves,False,3978,Actitis hypoleucos,Common Sandpiper,Aves,1066,3,67561,Charadriiformes,3835,Scolopacidae,3977,Actitis
+Scolopacidae,family,Aves,False,3938,Arenaria interpres,Ruddy Turnstone,Aves,521,3,67561,Charadriiformes,3835,Scolopacidae,3937,Arenaria
+Hirundo,genus,Aves,False,11920,Hirundo albigularis,White-throated Swallow,Aves,2341,3,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+Hirundo,genus,Aves,False,11901,Hirundo rustica,Barn Swallow,Aves,2041,3,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+Hirundo,genus,Aves,False,11896,Hirundo smithii,Wire-tailed Swallow,Aves,1023,3,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+Hirundo,genus,Aves,False,11905,Hirundo dimidiata,Pearl-breasted Swallow,Aves,516,3,7251,Passeriformes,11853,Hirundinidae,11880,Hirundo
+Cuculidae,family,Aves,False,1583337,Centropus burchellii,Burchell's Coucal,Aves,2358,3,1623,Cuculiformes,1627,Cuculidae,1628,Centropus
+Cuculidae,family,Aves,False,1738,Chrysococcyx caprius,Diederik Cuckoo,Aves,1152,3,1623,Cuculiformes,1627,Cuculidae,1708,Chrysococcyx
+Cuculidae,family,Aves,False,1730,Chrysococcyx klaas,Klaas's Cuckoo,Aves,872,3,1623,Cuculiformes,1627,Cuculidae,1708,Chrysococcyx
+Cuculidae,family,Aves,False,1789,Clamator jacobinus,Pied Cuckoo,Aves,504,3,1623,Cuculiformes,1627,Cuculidae,1786,Clamator
+Cuculidae,family,Aves,False,1903,Cuculus solitarius,Red-chested Cuckoo,Aves,491,3,1623,Cuculiformes,1627,Cuculidae,1897,Cuculus
+Gruidae,family,Aves,False,47,Grus paradisea,Blue Crane,Aves,3179,3,4,Gruiformes,23,Gruidae,508058,Grus
+Gruidae,family,Aves,False,53,Balearica regulorum,Gray Crowned-Crane,Aves,814,3,4,Gruiformes,23,Gruidae,49,Balearica
+Gruidae,family,Aves,False,57,Grus carunculata,Wattled Crane,Aves,464,3,4,Gruiformes,23,Gruidae,508058,Grus
+Columbidae,family,Aves,False,1455922,Spilopelia senegalensis,Laughing Dove,Aves,7056,3,2708,Columbiformes,2715,Columbidae,1425710,Spilopelia
+Columbidae,family,Aves,False,3652,Oena capensis,Namaqua Dove,Aves,1754,3,2708,Columbiformes,2715,Columbidae,3651,Oena
+Columbidae,family,Aves,False,3327,Turtur chalcospilos,Emerald-spotted Wood-Dove,Aves,1549,3,2708,Columbiformes,2715,Columbidae,3325,Turtur
+Columbidae,family,Aves,False,3405,Treron calvus,African Green-Pigeon,Aves,1126,3,2708,Columbiformes,2715,Columbidae,3339,Treron
+Columbidae,family,Aves,False,1423879,Aplopelia larvata,Lemon Dove,Aves,459,3,2708,Columbiformes,2715,Columbidae,1423878,Aplopelia
+Motacillidae,family,Aves,False,145208,Anthus cinnamomeus,African Pipit,Aves,2382,3,7251,Passeriformes,71339,Motacillidae,13706,Anthus
+Motacillidae,family,Aves,False,14098,Macronyx capensis,Orange-throated Longclaw,Aves,1682,3,7251,Passeriformes,71339,Motacillidae,14097,Macronyx
+Motacillidae,family,Aves,False,14104,Macronyx croceus,Yellow-throated Longclaw,Aves,989,3,7251,Passeriformes,71339,Motacillidae,14097,Macronyx
+Motacillidae,family,Aves,False,13708,Anthus leucophrys,Plain-backed Pipit,Aves,454,3,7251,Passeriformes,71339,Motacillidae,13706,Anthus
+Genetta,genus,Mammalia,True,1643992,Genetta fieldiana,Rusty-spotted Genet,Mammalia,656,40151,41573,Carnivora,41574,Viverridae,41591,Genetta
+Genetta,genus,Mammalia,True,41595,Genetta tigrina,Cape Genet,Mammalia,517,40151,41573,Carnivora,41574,Viverridae,41591,Genetta
+Genetta,genus,Mammalia,True,925659,Genetta felina,Southern Small-spotted Genet,Mammalia,445,40151,41573,Carnivora,41574,Viverridae,41591,Genetta
+Podicipedidae,family,Aves,False,4237,Tachybaptus ruficollis,Little Grebe,Aves,3488,3,67563,Podicipediformes,4203,Podicipedidae,4236,Tachybaptus
+Podicipedidae,family,Aves,False,4208,Podiceps cristatus,Great Crested Grebe,Aves,741,3,67563,Podicipediformes,4203,Podicipedidae,4204,Podiceps
+Podicipedidae,family,Aves,False,4205,Podiceps nigricollis,Eared Grebe,Aves,441,3,67563,Podicipediformes,4203,Podicipedidae,4204,Podiceps
+Equus,genus,Mammalia,True,43335,Equus quagga,Plains Zebra,Mammalia,10881,40151,43327,Perissodactyla,43328,Equidae,43329,Equus
+Equus,genus,Mammalia,True,43330,Equus zebra,Mountain Zebra,Mammalia,1816,40151,43327,Perissodactyla,43328,Equidae,43329,Equus
+Equus,genus,Mammalia,True,209233,Equus caballus,Domestic Horse,Mammalia,439,40151,43327,Perissodactyla,43328,Equidae,43329,Equus
+Pterocles,genus,Aves,False,117079,Pterocles bicinctus,Double-banded Sandgrouse,Aves,920,3,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+Pterocles,genus,Aves,False,117087,Pterocles namaqua,Namaqua Sandgrouse,Aves,856,3,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+Pterocles,genus,Aves,False,117080,Pterocles burchelli,Burchell's Sandgrouse,Aves,437,3,470156,Pterocliformes,200960,Pteroclidae,71746,Pterocles
+Phasianidae,family,Aves,False,1289692,Ortygornis sephaena,Crested Francolin,Aves,1557,3,573,Galliformes,574,Phasianidae,1289352,Ortygornis
+Phasianidae,family,Aves,False,550880,Scleroptila afra,Gray-winged Francolin,Aves,458,3,573,Galliformes,574,Phasianidae,550879,Scleroptila
+Phasianidae,family,Aves,False,1204,Pavo cristatus,Indian Peafowl,Aves,435,3,573,Galliformes,574,Phasianidae,1199,Pavo
+Bitis,genus,Reptilia,False,30851,Bitis arietans,Puff Adder,Reptilia,3245,26036,26172,Squamata,30667,Viperidae,30850,Bitis
+Bitis,genus,Reptilia,False,30863,Bitis atropos,Berg Adder,Reptilia,447,26036,26172,Squamata,30667,Viperidae,30850,Bitis
+Bitis,genus,Reptilia,False,95802,Bitis caudalis,Horned Adder,Reptilia,434,26036,26172,Squamata,30667,Viperidae,30850,Bitis
+Hyaenidae,family,Mammalia,False,41886,Crocuta crocuta,Spotted Hyena,Mammalia,3635,40151,41573,Carnivora,41884,Hyaenidae,41885,Crocuta
+Hyaenidae,family,Mammalia,False,500648,Parahyaena brunnea,Brown Hyaena,Mammalia,633,40151,41573,Carnivora,41884,Hyaenidae,500647,Parahyaena
+Hyaenidae,family,Mammalia,False,1306005,Proteles cristatus,Southern Aardwolf,Mammalia,428,40151,41573,Carnivora,41884,Hyaenidae,41891,Proteles
+Bufonidae,family,Amphibia,False,21861,Schismaderma carens,African Red Toad,Amphibia,2335,20978,20979,Anura,21359,Bufonidae,21860,Schismaderma
+Bufonidae,family,Amphibia,False,67258,Vandijkophrynus angusticeps,Sand Toad,Amphibia,438,20978,20979,Anura,21359,Bufonidae,64827,Vandijkophrynus
+Bufonidae,family,Amphibia,False,67259,Vandijkophrynus gariepensis,Karoo Toad,Amphibia,424,20978,20979,Anura,21359,Bufonidae,64827,Vandijkophrynus
+Agama,genus,Reptilia,False,31150,Agama atra,Southern Rock Agama,Reptilia,8790,26036,26172,Squamata,31096,Agamidae,31115,Agama
+Agama,genus,Reptilia,False,68556,Agama aculeata,Ground Agama,Reptilia,1136,26036,26172,Squamata,31096,Agamidae,31115,Agama
+Agama,genus,Reptilia,False,31127,Agama planiceps,Namib Rock Agama,Reptilia,1113,26036,26172,Squamata,31096,Agamidae,31115,Agama
+Agama,genus,Reptilia,False,31154,Agama anchietae,Anchieta's Agama,Reptilia,417,26036,26172,Squamata,31096,Agamidae,31115,Agama
+Anas,genus,Aves,False,6965,Anas undulata,Yellow-billed Duck,Aves,5141,3,6888,Anseriformes,6912,Anatidae,6922,Anas
+Anas,genus,Aves,False,6984,Anas erythrorhyncha,Red-billed Teal,Aves,2376,3,6888,Anseriformes,6912,Anatidae,6922,Anas
+Anas,genus,Aves,False,6986,Anas capensis,Cape Teal,Aves,1958,3,6888,Anseriformes,6912,Anatidae,6922,Anas
+Anas,genus,Aves,False,6976,Anas sparsa,African Black Duck,Aves,1162,3,6888,Anseriformes,6912,Anatidae,6922,Anas
+Anas,genus,Aves,False,6930,Anas platyrhynchos,Mallard,Aves,410,3,6888,Anseriformes,6912,Anatidae,6922,Anas
+Gekkonidae,family,Reptilia,False,34303,Lygodactylus capensis,Common Dwarf Gecko,Reptilia,6840,26036,26172,Squamata,33177,Gekkonidae,34235,Lygodactylus
+Gekkonidae,family,Reptilia,False,68492,Hemidactylus mabouia,Tropical House Gecko,Reptilia,3684,26036,26172,Squamata,33177,Gekkonidae,34434,Hemidactylus
+Gekkonidae,family,Reptilia,False,93486,Afrogecko porphyreus,Marbled Leaf-toed Gecko,Reptilia,2674,26036,26172,Squamata,33177,Gekkonidae,33454,Afrogecko
+Gekkonidae,family,Reptilia,False,1630140,Homopholis wahlbergii,Wahlberg's Velvet Gecko,Reptilia,544,26036,26172,Squamata,33177,Gekkonidae,34394,Homopholis
+Gekkonidae,family,Reptilia,False,34293,Lygodactylus chobiensis,Chobe Dwarf Gecko,Reptilia,403,26036,26172,Squamata,33177,Gekkonidae,34235,Lygodactylus
+Streptopelia,genus,Aves,False,2988,Streptopelia semitorquata,Red-eyed Dove,Aves,6161,3,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+Streptopelia,genus,Aves,False,2959,Streptopelia capicola,Cape Turtle Dove,Aves,3961,3,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+Streptopelia,genus,Aves,False,2951,Streptopelia decipiens,Mourning Collared Dove,Aves,403,3,2708,Columbiformes,2715,Columbidae,2926,Streptopelia
+Testudinidae,family,Reptilia,False,40021,Chersina angulata,Angulate Tortoise,Reptilia,7800,26036,39532,Testudines,40019,Testudinidae,40020,Chersina
+Testudinidae,family,Reptilia,False,40092,Stigmochelys pardalis,Leopard Tortoise,Reptilia,6491,26036,39532,Testudines,40019,Testudinidae,92254,Stigmochelys
+Testudinidae,family,Reptilia,False,102930,Homopus areolatus,Parrot-beaked Tortoise,Reptilia,1389,26036,39532,Testudines,40019,Testudinidae,40073,Homopus
+Testudinidae,family,Reptilia,False,67433,Kinixys spekii,Speke's Hinge-back Tortoise,Reptilia,515,26036,39532,Testudines,40019,Testudinidae,40064,Kinixys
+Testudinidae,family,Reptilia,False,40052,Psammobates tentorius,Tent Tortoise,Reptilia,402,26036,39532,Testudines,40019,Testudinidae,40051,Psammobates
+Pyxicephalidae,family,Amphibia,False,26214,Strongylopus grayii,Clicking Stream Frog,Amphibia,2820,20978,20979,Anura,64726,Pyxicephalidae,26200,Strongylopus
+Pyxicephalidae,family,Amphibia,False,25806,Tomopterna delalandii,Cape sand frog,Amphibia,519,20978,20979,Anura,64726,Pyxicephalidae,25800,Tomopterna
+Pyxicephalidae,family,Amphibia,False,25411,Cacosternum boettgeri,Boettger's dainty frog,Amphibia,478,20978,20979,Anura,64726,Pyxicephalidae,25407,Cacosternum
+Pyxicephalidae,family,Amphibia,False,25801,Tomopterna natalensis,Natal sand frog,Amphibia,401,20978,20979,Anura,64726,Pyxicephalidae,25800,Tomopterna
+Pyxicephalidae,family,Amphibia,False,26197,Pyxicephalus edulis,Edible bullfrog,Amphibia,397,20978,20979,Anura,64726,Pyxicephalidae,26192,Pyxicephalus
+Colubridae,family,Reptilia,False,30358,Dispholidus typus,Boomslang,Reptilia,1957,26036,26172,Squamata,26504,Colubridae,30357,Dispholidus
+Colubridae,family,Reptilia,False,82808,Crotaphopeltis hotamboeia,Red-lipped Snake,Reptilia,1371,26036,26172,Squamata,26504,Colubridae,26863,Crotaphopeltis
+Colubridae,family,Reptilia,False,26717,Dasypeltis scabra,Egg-eating Snake,Reptilia,960,26036,26172,Squamata,26504,Colubridae,26716,Dasypeltis
+Colubridae,family,Reptilia,False,28334,Thelotornis capensis,Twig Snake,Reptilia,395,26036,26172,Squamata,26504,Colubridae,28332,Thelotornis
+Alcedinidae,family,Aves,False,2662,Ceryle rudis,Pied Kingfisher,Aves,4009,3,2114,Coraciiformes,2314,Alcedinidae,2661,Ceryle
+Alcedinidae,family,Aves,False,144651,Corythornis cristatus,Malachite Kingfisher,Aves,2820,3,2114,Coraciiformes,2314,Alcedinidae,144334,Corythornis
+Alcedinidae,family,Aves,False,73010,Megaceryle maxima,Giant Kingfisher,Aves,1767,3,2114,Coraciiformes,2314,Alcedinidae,2547,Megaceryle
+Alcedinidae,family,Aves,False,2618,Alcedo semitorquata,Half-collared Kingfisher,Aves,435,3,2114,Coraciiformes,2314,Alcedinidae,2561,Alcedo
+Alcedinidae,family,Aves,False,144655,Ispidina picta,African Pygmy Kingfisher,Aves,391,3,2114,Coraciiformes,2314,Alcedinidae,144335,Ispidina
+Strigidae,family,Aves,False,204470,Bubo africanus,Spotted Eagle-Owl,Aves,3527,3,19350,Strigiformes,19728,Strigidae,20034,Bubo
+Strigidae,family,Aves,False,19882,Glaucidium perlatum,Pearl-spotted Owlet,Aves,923,3,19350,Strigiformes,19728,Strigidae,19803,Glaucidium
+Strigidae,family,Aves,False,1441745,Ketupa lactea,Verreaux's Eagle-Owl,Aves,867,3,19350,Strigiformes,19728,Strigidae,20338,Ketupa
+Strigidae,family,Aves,False,20301,Otus senegalensis,African Scops-Owl,Aves,389,3,19350,Strigiformes,19728,Strigidae,20190,Otus
+Motacilla,genus,Aves,False,13699,Motacilla capensis,Cape Wagtail,Aves,7122,3,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+Motacilla,genus,Aves,False,13701,Motacilla aguimp,African Pied Wagtail,Aves,2323,3,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+Motacilla,genus,Aves,False,13704,Motacilla clara,Mountain Wagtail,Aves,376,3,7251,Passeriformes,71339,Motacillidae,13686,Motacilla
+Amietia,genus,Amphibia,True,64912,Amietia fuscigula,Cape River Frog,Amphibia,4490,20978,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+Amietia,genus,Amphibia,True,517357,Amietia delalandii,Common River Frog,Amphibia,1882,20978,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+Amietia,genus,Amphibia,True,464495,Amietia poyntoni,Poynton's River Frog,Amphibia,373,20978,20979,Anura,64726,Pyxicephalidae,25867,Amietia
+Monticola,genus,Aves,False,13147,Monticola rupestris,Cape Rock-Thrush,Aves,1537,3,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+Monticola,genus,Aves,False,13139,Monticola brevipes,Short-toed Rock-Thrush,Aves,404,3,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+Monticola,genus,Aves,False,13148,Monticola explorator,Sentinel Rock-Thrush,Aves,372,3,7251,Passeriformes,12704,Muscicapidae,13138,Monticola
+Lagonosticta,genus,Aves,False,14051,Lagonosticta senegala,Red-billed Firefinch,Aves,1414,3,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+Lagonosticta,genus,Aves,False,204528,Lagonosticta rhodopareia,Jameson's Firefinch,Aves,484,3,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+Lagonosticta,genus,Aves,False,14053,Lagonosticta rubricata,African Firefinch,Aves,371,3,7251,Passeriformes,71322,Estrildidae,14050,Lagonosticta
+Lacertidae,family,Reptilia,False,35738,Pedioplanis lineoocellata,Spotted Sand Lizard,Reptilia,802,26036,26172,Squamata,35360,Lacertidae,35731,Pedioplanis
+Lacertidae,family,Reptilia,False,35735,Pedioplanis namaquensis,Namaqua Sand Lizard,Reptilia,432,26036,26172,Squamata,35360,Lacertidae,35731,Pedioplanis
+Lacertidae,family,Reptilia,False,35825,Meroles knoxii,Knox's Ocellated Sand Lizard,Reptilia,391,26036,26172,Squamata,35360,Lacertidae,35819,Meroles
+Lacertidae,family,Reptilia,False,35981,Heliobolus lugubris,Bushveld Lizard,Reptilia,387,26036,26172,Squamata,35360,Lacertidae,35971,Heliobolus
+Lacertidae,family,Reptilia,False,35824,Meroles cuneirostris,Wedge-snouted Desert Lizard,Reptilia,359,26036,26172,Squamata,35360,Lacertidae,35819,Meroles
+Vidua,genus,Aves,False,14011,Vidua macroura,Pin-tailed Whydah,Aves,2867,3,7251,Passeriformes,68491,Viduidae,14008,Vidua
+Vidua,genus,Aves,False,204449,Vidua paradisaea,Eastern Paradise-Whydah,Aves,724,3,7251,Passeriformes,68491,Viduidae,14008,Vidua
+Vidua,genus,Aves,False,14012,Vidua regia,Shaft-tailed Whydah,Aves,433,3,7251,Passeriformes,68491,Viduidae,14008,Vidua
+Vidua,genus,Aves,False,14010,Vidua chalybeata,Village Indigobird,Aves,353,3,7251,Passeriformes,68491,Viduidae,14008,Vidua
+Lamprophiidae,family,Reptilia,False,539396,Boaedon capensis,Cape House Snake,Reptilia,1591,26036,26172,Squamata,85853,Lamprophiidae,121047,Boaedon
+Lamprophiidae,family,Reptilia,False,29536,Lycodonomorphus rufulus,Common Brown Water Snake,Reptilia,1112,26036,26172,Squamata,85853,Lamprophiidae,29532,Lycodonomorphus
+Lamprophiidae,family,Reptilia,False,1649495,Elaiophis inornatus,Olive House Snake,Reptilia,598,26036,26172,Squamata,85853,Lamprophiidae,1649494,Elaiophis
+Lamprophiidae,family,Reptilia,False,29508,Lycophidion capense,Cape Wolf Snake,Reptilia,353,26036,26172,Squamata,85853,Lamprophiidae,29507,Lycophidion
+Pelomedusidae,family,Reptilia,False,40126,Pelusios sinuatus,Serrated Hinged Terrapin,Reptilia,1458,26036,39532,Testudines,40118,Pelomedusidae,40119,Pelusios
+Pelomedusidae,family,Reptilia,False,560427,Pelomedusa galeata,Cape Terrapin,Reptilia,1402,26036,39532,Testudines,40118,Pelomedusidae,40138,Pelomedusa
+Pelomedusidae,family,Reptilia,False,85377,Pelomedusa subrufa,Helmeted Turtle,Reptilia,353,26036,39532,Testudines,40118,Pelomedusidae,40138,Pelomedusa
+Vanellus,genus,Aves,False,4870,Vanellus armatus,Blacksmith Lapwing,Aves,8790,3,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+Vanellus,genus,Aves,False,4877,Vanellus coronatus,Crowned Lapwing,Aves,3143,3,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+Vanellus,genus,Aves,False,4868,Vanellus senegallus,Wattled Lapwing,Aves,1688,3,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+Vanellus,genus,Aves,False,4855,Vanellus albiceps,White-crowned Lapwing,Aves,850,3,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+Vanellus,genus,Aves,False,4862,Vanellus crassirostris,Long-toed Lapwing,Aves,351,3,67561,Charadriiformes,4783,Charadriidae,4853,Vanellus
+Apodidae,family,Aves,False,6612,Apus affinis,Little Swift,Aves,791,3,1583761,Apodiformes,6544,Apodidae,6611,Apus
+Apodidae,family,Aves,False,6619,Apus caffer,White-rumped Swift,Aves,711,3,1583761,Apodiformes,6544,Apodidae,6611,Apus
+Apodidae,family,Aves,False,6681,Cypsiurus parvus,African Palm Swift,Aves,516,3,1583761,Apodiformes,6544,Apodidae,6675,Cypsiurus
+Apodidae,family,Aves,False,72516,Tachymarptis melba,Alpine Swift,Aves,350,3,1583761,Apodiformes,6544,Apodidae,92356,Tachymarptis
+Bradypodion,genus,Reptilia,False,32954,Bradypodion pumilum,Cape Dwarf Chameleon,Reptilia,5746,26036,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+Bradypodion,genus,Reptilia,False,32972,Bradypodion damaranum,Knysna Dwarf Chameleon,Reptilia,1316,26036,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+Bradypodion,genus,Reptilia,False,32944,Bradypodion ventrale,Eastern Cape Dwarf Chameleon,Reptilia,449,26036,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+Bradypodion,genus,Reptilia,False,32968,Bradypodion melanocephalum,Black-headed Dwarf Chameleon,Reptilia,349,26036,26172,Squamata,32805,Chamaeleonidae,32942,Bradypodion
+Tockus,genus,Aves,False,5479,Tockus leucomelas,Southern Yellow-billed Hornbill,Aves,3809,3,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+Tockus,genus,Aves,False,144663,Tockus rufirostris,Southern Red-billed Hornbill,Aves,2541,3,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+Tockus,genus,Aves,False,5478,Tockus monteiri,Monteiro's Hornbill,Aves,349,3,525653,Bucerotiformes,5438,Bucerotidae,5458,Tockus
+Phalacrocorax,genus,Aves,False,4270,Phalacrocorax carbo,Great Cormorant,Aves,4952,3,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+Phalacrocorax,genus,Aves,False,4287,Phalacrocorax capensis,Cape Cormorant,Aves,2726,3,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+Phalacrocorax,genus,Aves,False,4309,Phalacrocorax neglectus,Bank Cormorant,Aves,346,3,71268,Suliformes,4262,Phalacrocoracidae,4263,Phalacrocorax
+Hirundinidae,family,Aves,False,144789,Ptyonoprogne fuligula,Southern Crag-Martin,Aves,1651,3,7251,Passeriformes,11853,Hirundinidae,144348,Ptyonoprogne
+Hirundinidae,family,Aves,False,11945,Riparia paludicola,Brown-throated Martin,Aves,785,3,7251,Passeriformes,11853,Hirundinidae,11940,Riparia
+Hirundinidae,family,Aves,False,11953,Psalidoprocne pristoptera,Black Sawwing,Aves,377,3,7251,Passeriformes,11853,Hirundinidae,11947,Psalidoprocne
+Hirundinidae,family,Aves,False,1289491,Neophedina cincta,Banded Martin,Aves,333,3,7251,Passeriformes,11853,Hirundinidae,1289310,Neophedina
+Gerrhosauridae,family,Reptilia,False,539980,Matobosaurus validus,Common Giant Plated Lizard,Reptilia,667,26036,26172,Squamata,34696,Gerrhosauridae,539167,Matobosaurus
+Gerrhosauridae,family,Reptilia,False,34741,Gerrhosaurus flavigularis,Yellow-throated Plated Lizard,Reptilia,536,26036,26172,Squamata,34696,Gerrhosauridae,34729,Gerrhosaurus
+Gerrhosauridae,family,Reptilia,False,34724,Tetradactylus seps,Short-legged Seps,Reptilia,333,26036,26172,Squamata,34696,Gerrhosauridae,34719,Tetradactylus
+Elapidae,family,Reptilia,False,30487,Naja nivea,Cape Cobra,Reptilia,1100,26036,26172,Squamata,30403,Elapidae,30475,Naja
+Elapidae,family,Reptilia,False,30488,Naja mossambica,Mozambique Spitting Cobra,Reptilia,464,26036,26172,Squamata,30403,Elapidae,30475,Naja
+Elapidae,family,Reptilia,False,30405,Dendroaspis polylepis,Black Mamba,Reptilia,329,26036,26172,Squamata,30403,Elapidae,30404,Dendroaspis
+Psammophis,genus,Reptilia,False,28963,Psammophis subtaeniatus,Stripe-bellied Sand Snake,Reptilia,606,26036,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+Psammophis,genus,Reptilia,False,28985,Psammophis crucifer,Cross-marked Sand Snake,Reptilia,560,26036,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+Psammophis,genus,Reptilia,False,28976,Psammophis notostictus,Karoo Sand Snake,Reptilia,490,26036,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+Psammophis,genus,Reptilia,False,28960,Psammophis brevirostris,Short-snouted Whip Snake,Reptilia,324,26036,26172,Squamata,121043,Psammophiidae,28957,Psammophis
+Pachydactylus,genus,Reptilia,False,34148,Pachydactylus geitje,Cradock Thick-toed Gecko,Reptilia,585,26036,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+Pachydactylus,genus,Reptilia,False,34141,Pachydactylus maculatus,Spotted Thick-toed Gecko,Reptilia,361,26036,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+Pachydactylus,genus,Reptilia,False,34154,Pachydactylus affinis,Transvaal Thick-toed Gecko,Reptilia,345,26036,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+Pachydactylus,genus,Reptilia,False,83534,Pachydactylus rangei,Namib Sand Gecko,Reptilia,326,26036,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+Pachydactylus,genus,Reptilia,False,34132,Pachydactylus punctatus,Pointed Thick-toed Gecko,Reptilia,323,26036,26172,Squamata,33177,Gekkonidae,34110,Pachydactylus
+Fringillidae,family,Aves,False,9271,Serinus canicollis,Cape Canary,Aves,2440,3,7251,Passeriformes,9079,Fringillidae,9227,Serinus
+Fringillidae,family,Aves,False,558607,Crithagra scotops,Forest Canary,Aves,984,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Fringillidae,family,Aves,False,558609,Crithagra atrogularis,Black-throated Canary,Aves,643,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Fringillidae,family,Aves,False,558631,Crithagra totta,Cape Siskin,Aves,463,3,7251,Passeriformes,9079,Fringillidae,524331,Crithagra
+Fringillidae,family,Aves,False,72477,Serinus alario,Black-headed Canary,Aves,320,3,7251,Passeriformes,9079,Fringillidae,9227,Serinus
+Passer,genus,Aves,False,13853,Passer melanurus,Cape Sparrow,Aves,7196,3,7251,Passeriformes,13685,Passeridae,13847,Passer
+Passer,genus,Aves,False,73152,Passer diffusus,Southern Grey-headed Sparrow,Aves,3825,3,7251,Passeriformes,13685,Passeridae,13847,Passer
+Passer,genus,Aves,False,13858,Passer domesticus,House Sparrow,Aves,3605,3,7251,Passeriformes,13685,Passeridae,13847,Passer
+Passer,genus,Aves,False,13867,Passer motitensis,Great Rufous Sparrow,Aves,319,3,7251,Passeriformes,13685,Passeridae,13847,Passer
+Hyperolius,genus,Amphibia,False,23331,Hyperolius marmoratus,Painted Reed Frog,Amphibia,5701,20978,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+Hyperolius,genus,Amphibia,False,23342,Hyperolius tuberilinguis,Tinker Reed Frog,Amphibia,758,20978,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+Hyperolius,genus,Amphibia,False,23323,Hyperolius pusillus,Water Lily Reed Frog,Amphibia,626,20978,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+Hyperolius,genus,Amphibia,False,23327,Hyperolius argus,argus reed frog,Amphibia,318,20978,20979,Anura,23275,Hyperoliidae,23276,Hyperolius
+Tchagra,genus,Aves,False,8446,Tchagra australis,Brown-crowned Tchagra,Aves,690,3,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+Tchagra,genus,Aves,False,73475,Tchagra senegalus,Black-crowned Tchagra,Aves,523,3,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+Tchagra,genus,Aves,False,8451,Tchagra tchagra,Southern Tchagra,Aves,317,3,7251,Passeriformes,71333,Malaconotidae,8445,Tchagra
+Cisticolidae,family,Aves,False,7742,Apalis thoracica,Bar-throated Apalis,Aves,1483,3,7251,Passeriformes,7649,Cisticolidae,7739,Apalis
+Cisticolidae,family,Aves,False,979641,Camaroptera brachyura,Green-backed Camaroptera,Aves,1093,3,7251,Passeriformes,7649,Cisticolidae,7733,Camaroptera
+Cisticolidae,family,Aves,False,7749,Apalis flavida,Yellow-breasted Apalis,Aves,668,3,7251,Passeriformes,7649,Cisticolidae,7739,Apalis
+Cisticolidae,family,Aves,False,7703,Malcorus pectoralis,Rufous-eared Warbler,Aves,426,3,7251,Passeriformes,7649,Cisticolidae,7702,Malcorus
+Cisticolidae,family,Aves,False,204508,Eremomela icteropygialis,Yellow-bellied Eremomela,Aves,311,3,7251,Passeriformes,7649,Cisticolidae,15453,Eremomela
+Philothamnus,genus,Reptilia,False,29073,Philothamnus semivariegatus,Spotted Bush Snake,Reptilia,1057,26036,26172,Squamata,26504,Colubridae,29071,Philothamnus
+Philothamnus,genus,Reptilia,False,797739,Philothamnus occidentalis,Western Natal Green Snake,Reptilia,491,26036,26172,Squamata,26504,Colubridae,29071,Philothamnus
+Philothamnus,genus,Reptilia,False,29080,Philothamnus natalensis,Eastern Green Snake,Reptilia,370,26036,26172,Squamata,26504,Colubridae,29071,Philothamnus
+Philothamnus,genus,Reptilia,False,29084,Philothamnus hoplogaster,Green Water Snake,Reptilia,311,26036,26172,Squamata,26504,Colubridae,29071,Philothamnus
+Platysaurus,genus,Reptilia,False,33102,Platysaurus intermedius,Common Flat Lizard,Reptilia,769,26036,26172,Squamata,33023,Cordylidae,33082,Platysaurus
+Platysaurus,genus,Reptilia,False,33112,Platysaurus broadleyi,Augrabies flat lizard,Reptilia,358,26036,26172,Squamata,33023,Cordylidae,33082,Platysaurus
+Platysaurus,genus,Reptilia,False,33088,Platysaurus orientalis,Sekukhune flat lizard,Reptilia,300,26036,26172,Squamata,33023,Cordylidae,33082,Platysaurus

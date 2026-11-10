@@ -1,0 +1,25 @@
+# Data and images are never committed (licence terms forbid redistribution)
+/data/
+!/data/README.md
+
+# Model weights and run outputs
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+wandb/
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*

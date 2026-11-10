@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FaunaVision Project Document v3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1a17; --soot:#24231f; --char:#2e2c27; --paper:#f4efe4; --paper2:#ebe3d2;
+    --ochre:#c8862b; --rust:#a44a24; --bush:#55613a; --sage:#8b9466; --muted:#6d675b; --line:#d6ccb6;
+    --ir:#cfd6c8;
+  }
+  @page{ size:A4; margin:0 }
+  *{ box-sizing:border-box }
+  html,body{ margin:0; background:var(--paper); color:var(--ink);
+    font:400 9.6pt/1.5 "IBM Plex Sans",system-ui,sans-serif; -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .page{ width:210mm; height:297mm; position:relative; overflow:hidden; page-break-after:always; padding:20mm 18mm 18mm }
+  .page:last-child{ page-break-after:auto }
+  h1,h2,h3{ font-family:"Fraunces",Georgia,serif; font-weight:600; margin:0; letter-spacing:-.01em }
+  h2{ font-size:22pt; line-height:1.1; margin-bottom:5mm }
+  h3{ font-size:11.5pt; margin:5mm 0 2mm }
+  p{ margin:0 0 2.6mm }
+  .mono{ font-family:"IBM Plex Mono",monospace }
+  .kicker{ font:500 7.5pt/1 "IBM Plex Mono",monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--rust); margin-bottom:3mm; display:flex; gap:3mm; align-items:center }
+  .kicker::before{ content:""; width:8mm; height:1.5px; background:var(--rust) }
+  .lede{ font-family:"Fraunces",serif; font-size:12.5pt; line-height:1.45; color:var(--char); margin-bottom:5mm }
+  /* running header/footer */
+  .run{ position:absolute; left:18mm; right:18mm; top:9mm; display:flex; justify-content:space-between;
+        font:500 6.8pt/1 "IBM Plex Mono",monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--muted) }
+  .foot{ position:absolute; left:18mm; right:18mm; bottom:9mm; display:flex; justify-content:space-between;
+        font:500 6.8pt/1 "IBM Plex Mono",monospace; color:var(--muted); border-top:1px solid var(--line); padding-top:2.5mm }
+  .rec{ color:var(--rust) } .rec::before{ content:"● " }
+
+  /* ---------- cover ---------- */
+  .cover{ background:var(--soot); color:var(--paper); padding:0 }
+  .cover .frame{ position:absolute; inset:0; }
+  .cover .photo{ position:absolute; inset:0 0 34% 0; background:url(img/cover.jpg) 0 0/auto 114% no-repeat; filter:grayscale(1) contrast(1.35) brightness(1.05) }
+  .cover .photo::after{ content:""; position:absolute; inset:0;
+     background:linear-gradient(180deg,rgba(36,35,31,.15) 0%,rgba(36,35,31,0) 40%,rgba(36,35,31,.92) 100%),
+                repeating-linear-gradient(0deg,rgba(0,0,0,.08) 0 1px,transparent 1px 3px) }
+  .vf{ position:absolute; width:14mm; height:14mm; border:0 solid rgba(244,239,228,.85) }
+  .vf.tl{ top:14mm; left:14mm; border-top-width:2px; border-left-width:2px }
+  .vf.tr{ top:14mm; right:14mm; border-top-width:2px; border-right-width:2px }
+  .vf.bl{ top:calc(66% - 28mm); left:14mm; border-bottom-width:2px; border-left-width:2px }
+  .vf.br{ top:calc(66% - 28mm); right:14mm; border-bottom-width:2px; border-right-width:2px }
+  .hud{ position:absolute; top:17mm; left:22mm; right:22mm; display:flex; justify-content:space-between;
+        font:500 7.5pt/1 "IBM Plex Mono",monospace; letter-spacing:.14em; color:rgba(244,239,228,.9) }
+  .det{ position:absolute; left:10%; top:10.5%; width:84%; height:50%; border:1.5px solid var(--ochre) }
+  .det span{ position:absolute; top:-5.2mm; left:-1.5px; background:var(--ochre); color:var(--soot);
+             font:600 7pt/1 "IBM Plex Mono",monospace; padding:1.3mm 2mm; letter-spacing:.06em; white-space:nowrap }
+  .cover .title{ position:absolute; left:18mm; right:18mm; bottom:20mm }
+  .cover h1{ font-size:56pt; font-weight:800; line-height:.92; letter-spacing:-.03em }
+  .cover h1 em{ font-style:normal; color:var(--ochre) }
+  .cover .sub{ font-family:"Fraunces",serif; font-size:15pt; line-height:1.3; max-width:140mm; margin-top:5mm; color:#e6dfcf }
+  .cover .meta{ display:flex; gap:9mm; margin-top:9mm; padding-top:4mm; border-top:1px solid rgba(244,239,228,.25);
+                font:500 7.5pt/1.5 "IBM Plex Mono",monospace; letter-spacing:.06em; color:#bdb5a3 }
+  .cover .meta b{ display:block; color:var(--paper); font-weight:500 }
+
+  /* ---------- components ---------- */
+  .stats{ display:flex; border-top:2px solid var(--ink); border-bottom:1px solid var(--line); margin:5mm 0 6mm }
+  .stat{ flex:1; padding:3.5mm 4mm 3.5mm 0 }
+  .stat + .stat{ padding-left:4mm; border-left:1px solid var(--line) }
+  .stat b{ display:block; font:600 22pt/1 "Fraunces",serif; letter-spacing:-.02em }
+  .stat span{ font-size:7.8pt; color:var(--muted); line-height:1.35; display:block; margin-top:1.5mm }
+  .stat b.o{ color:var(--rust) }
+  table{ width:100%; border-collapse:collapse; font-size:8.6pt; margin:2mm 0 4mm }
+  th{ text-align:left; font:500 6.8pt/1.2 "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);
+      padding:0 3mm 2mm 0; border-bottom:1.5px solid var(--ink) }
+  td{ padding:2mm 3mm 2mm 0; border-bottom:1px solid var(--line); vertical-align:top }
+  td.n,th.n{ text-align:right; font-family:"IBM Plex Mono",monospace; font-size:8pt }
+  .tag{ display:inline-block; font:500 6.5pt/1 "IBM Plex Mono",monospace; letter-spacing:.06em; text-transform:uppercase; padding:1mm 1.6mm; border:1px solid currentColor; border-radius:1mm }
+  .tag.p{ color:var(--rust) } .tag.g{ color:var(--bush) } .tag.o{ color:#9a6418 }
+  .cols{ display:grid; grid-template-columns:1fr 1fr; gap:8mm }
+  .cols3{ display:grid; grid-template-columns:repeat(3,1fr); gap:6mm }
+  .note{ border-left:3px solid var(--ochre); padding:2.2mm 0 2.2mm 4mm; background:linear-gradient(90deg,rgba(200,134,43,.10),transparent); margin:4mm 0; font-size:8.8pt }
+  .note b{ font-weight:600 }
+  ul.tick{ list-style:none; padding:0; margin:0 0 3mm }
+  ul.tick li{ padding-left:5mm; position:relative; margin-bottom:1.6mm }
+  ul.tick li::before{ content:""; position:absolute; left:0; top:1.9mm; width:2.2mm; height:1.5px; background:var(--rust) }
+
+  /* changes ledger */
+  .ledger{ display:grid; grid-template-columns:1fr 6mm 1fr; row-gap:0; margin-top:3mm }
+  .ledger div{ padding:2.4mm 0; border-bottom:1px solid var(--line); font-size:8.6pt }
+  .ledger .was{ color:var(--muted); text-decoration:line-through; text-decoration-color:rgba(164,74,36,.5) }
+  .ledger .arr{ color:var(--rust); text-align:center; font-family:"IBM Plex Mono",monospace }
+  .ledger .hd{ font:500 6.8pt/1 "IBM Plex Mono",monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); border-bottom:1.5px solid var(--ink); text-decoration:none }
+
+  /* empty-frame bar */
+  .bar{ display:flex; height:13mm; margin:3mm 0 1.5mm; font:500 7.5pt/1 "IBM Plex Mono",monospace }
+  .bar div{ display:flex; align-items:flex-end; padding:2mm; color:var(--paper) }
+  .bar .e{ background:repeating-linear-gradient(135deg,var(--char) 0 3px,#3a3832 3px 6px) }
+  .bar .a{ background:var(--bush) }
+  .bar .u{ background:var(--ochre); color:var(--soot) }
+  .legend{ display:flex; justify-content:space-between; font-size:7.6pt; color:var(--muted) }
+
+  /* pipeline */
+  .pipe{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin:4mm 0 5mm; counter-reset:s }
+  .stage{ position:relative; padding:4mm 4mm 4mm 0; border-top:3px solid var(--ink) }
+  .stage + .stage{ padding-left:4mm; border-left:1px dashed var(--line) }
+  .stage .no{ font:500 7pt/1 "IBM Plex Mono",monospace; color:var(--rust); letter-spacing:.1em }
+  .stage h4{ font:600 13pt/1.15 "Fraunces",serif; margin:2mm 0 2mm }
+  .stage p{ font-size:8.3pt; color:var(--char) }
+  .stage .io{ font:400 7pt/1.4 "IBM Plex Mono",monospace; color:var(--muted); margin-top:2mm }
+
+  /* film strip of crops */
+  .strip{ display:grid; grid-template-columns:repeat(4,1fr); gap:2mm; margin:3mm 0 5mm }
+  .shot{ position:relative; aspect-ratio:1; background:#111 center/cover; overflow:hidden }
+  .shot::after{ content:""; position:absolute; inset:0; background:repeating-linear-gradient(0deg,rgba(0,0,0,.07) 0 1px,transparent 1px 3px) }
+  .shot i{ position:absolute; left:0; right:0; bottom:0; padding:1.6mm 2mm; background:rgba(20,19,17,.78); color:var(--paper);
+           font:500 6.6pt/1.2 "IBM Plex Mono",monospace; font-style:normal; letter-spacing:.04em; display:flex; justify-content:space-between; z-index:1 }
+  .shot i b{ color:var(--ochre); font-weight:500 }
+  .pair{ display:grid; grid-template-columns:1fr auto 1fr; gap:3mm; align-items:center; margin:2mm 0 4mm }
+  .pair .vs{ font:800 14pt/1 "Fraunces",serif; color:var(--rust) }
+
+  /* lookalike rows */
+  .look td{ padding-top:1.6mm; padding-bottom:1.6mm }
+  .look td.n{ font-size:7.4pt }
+  .look td:nth-child(2){ width:40mm }
+  .look td:first-child{ font-family:"Fraunces",serif; font-weight:600; font-size:9.6pt }
+  .split{ display:flex; height:2.4mm; width:100%; margin-top:1.4mm }
+  .split span{ display:block; height:100% }
+
+  /* reserve map-ish */
+  .res{ display:grid; grid-template-columns:repeat(4,1fr); gap:2mm; margin:2mm 0 3mm }
+  .res div{ border:1px solid var(--line); padding:2.4mm; font-size:7.8pt; line-height:1.3 }
+  .res div b{ display:block; font:500 7pt/1 "IBM Plex Mono",monospace; letter-spacing:.08em; margin-bottom:1.2mm; color:var(--muted) }
+  .res .t{ background:var(--soot); color:var(--paper); border-color:var(--soot) }
+  .res .t b{ color:var(--ochre) }
+
+  /* model ladder */
+  .ladder{ margin:3mm 0 4mm }
+  .rung{ display:grid; grid-template-columns:10mm 1fr 30mm; gap:4mm; padding:2.6mm 0; border-bottom:1px solid var(--line); align-items:baseline }
+  .rung .k{ font:600 15pt/1 "Fraunces",serif; color:var(--ochre) }
+  .rung h5{ margin:0; font:600 10pt/1.25 "IBM Plex Sans",sans-serif }
+  .rung p{ margin:.8mm 0 0; font-size:8.2pt; color:var(--muted) }
+  .rung .where{ font:500 7pt/1.3 "IBM Plex Mono",monospace; text-align:right; color:var(--bush); text-transform:uppercase; letter-spacing:.06em }
+  .rung.main{ background:linear-gradient(90deg,rgba(200,134,43,.13),transparent 80%); }
+
+  /* pillars */
+  .pillar{ border-top:3px solid var(--ochre); padding-top:3mm }
+  .pillar .k{ font:500 7pt/1 "IBM Plex Mono",monospace; color:var(--rust); letter-spacing:.1em }
+  .pillar h4{ font:600 12.5pt/1.2 "Fraunces",serif; margin:2mm 0 2mm }
+  .pillar p{ font-size:8.4pt; color:var(--char) }
+
+  /* roadmap */
+  .road{ position:relative; margin:4mm 0 0 }
+  .wk{ display:grid; grid-template-columns:22mm 1fr 22mm; gap:4mm; padding:3mm 0; border-bottom:1px solid var(--line); align-items:start }
+  .wk .w{ font:500 7.5pt/1.3 "IBM Plex Mono",monospace; letter-spacing:.06em; color:var(--muted) }
+  .wk h5{ margin:0 0 1mm; font:600 10pt/1.2 "Fraunces",serif }
+  .wk p{ margin:0; font-size:8.3pt; color:var(--char) }
+  .wk .st{ text-align:right }
+  .done{ color:var(--bush) } .now{ color:var(--rust) }
+  .back{ background:var(--paper2) }
+</style>
+</head>
+<body>
+
+<!-- =============== COVER =============== -->
+<section class="page cover">
+  <div class="photo"></div>
+  <div class="vf tl"></div><div class="vf tr"></div><div class="vf bl"></div><div class="vf br"></div>
+  <div class="hud"><span class="rec">REC</span><span>MAD01 · 00:16 · IR</span><span>CAM 07</span></div>
+  <div class="det"><span>WHITE RHINO · 0.94 · PRIORITY</span></div>
+  <div class="title">
+    <div class="kicker" style="color:var(--ochre)">Project document · Version 3 · November 2026</div>
+    <h1>Fauna<em>Vision</em></h1>
+    <p class="sub">Camera-trap triage and fine-grained species recognition for Southern African conservancies</p>
+    <div class="meta">
+      <div><b>Author</b>Rutendo S.</div>
+      <div><b>Type</b>Personal portfolio, open research</div>
+      <div><b>Budget</b>Zero, all free tooling</div>
+      <div><b>Supersedes</b>Blueprint v2</div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== 1. SUMMARY + WHAT CHANGED =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>01 · Summary</span></div>
+  <div class="kicker">01 · Executive summary</div>
+  <h2>From a species demo<br>to a tool rangers can use</h2>
+  <p class="lede">Camera traps in Southern African reserves produce millions of photos. More than half are empty, and the rest are sorted by hand, often months late. FaunaVision filters out the empty frames, identifies the species (including notoriously similar lookalikes), flags priority sightings such as rhino, and runs offline at a field station.</p>
+  <p>Version 2 of this blueprint described a fine-grained classifier on a generic iNaturalist subset. Version 3 keeps its scientific core (CNN vs Vision Transformer, metric learning, hierarchical prediction, explainability) and points it at a real conservation problem, with real camera-trap data and a test protocol that reflects how the tool would actually be deployed.</p>
+
+  <div class="stats">
+    <div class="stat"><b>2.17M</b><span>labelled camera-trap images from 12 Southern African reserves</span></div>
+    <div class="stat"><b class="o">54%</b><span>of those images are empty frames: the waste triage removes</span></div>
+    <div class="stat"><b>64</b><span>classes in 23 lookalike clusters, 11 flagged as priority</span></div>
+    <div class="stat"><b>$0</b><span>total cost: free data, free GPUs, free hosting</span></div>
+  </div>
+
+  <h3>What changed from v2</h3>
+  <div class="ledger">
+    <div class="hd was" style="text-decoration:none">Blueprint v2</div><div class="hd"></div><div class="hd">Version 3</div>
+    <div class="was">Upload a photo, get a species</div><div class="arr">→</div><div>Triage whole camera-trap batches: filter, identify, alert, report</div>
+    <div class="was">30–50 iNaturalist species, chosen loosely</div><div class="arr">→</div><div>64 classes built around lookalike clusters that matter to conservation</div>
+    <div class="was">iNaturalist photos only</div><div class="arr">→</div><div>Snapshot Safari camera traps + iNaturalist top-up for rare species</div>
+    <div class="was">Random or stratified train/test split</div><div class="arr">→</div><div>Whole reserves held out: tested on parks the model has never seen</div>
+    <div class="was">Grad-CAM on the top prediction</div><div class="arr">→</div><div>Contrastive explanations: why species A and not lookalike B</div>
+    <div class="was">Low-confidence warning</div><div class="arr">→</div><div>Calibrated confidence, genus fallback and a human review queue</div>
+    <div class="was">Cloud GPU deployment</div><div class="arr">→</div><div>Free Kaggle training, distilled model that runs offline on a laptop</div>
+    <div class="was">Metrics: accuracy, F1</div><div class="arr">→</div><div>Plus ranger metrics: images spared, priority sightings caught</div>
+  </div>
+  <div class="foot"><span>FaunaVision project document</span><span>2</span></div>
+</section>
+
+<!-- =============== 2. PROBLEM =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>02 · The problem</span></div>
+  <div class="kicker">02 · The real-world problem</div>
+  <h2>Half the photos are grass<br>moving in the wind</h2>
+  <p class="lede">Camera traps are one of conservation's most important monitoring tools, and one of its biggest data bottlenecks.</p>
+  <div class="cols">
+    <div>
+      <p>A single reserve can run dozens of cameras, each triggered by heat and motion. Wind, shadows and sun on grass trigger them as reliably as animals do. Teams of staff and volunteers then look through every frame by hand.</p>
+      <p>The consequences are practical: <b>poaching evidence is found weeks late</b>, rare species sightings are missed, and population surveys stall because nobody has time to label the images.</p>
+    </div>
+    <div>
+      <p>Species identification is the second bottleneck. Many reserves hold lookalikes that are hard to separate on a blurry infrared frame: <b>white vs black rhino</b>, <b>plains vs mountain zebra</b>, <b>blue vs black wildebeest</b>, the small antelopes. Volunteers often record these simply as "rhino" or "small antelope", losing exactly the detail conservation needs.</p>
+    </div>
+  </div>
+
+  <h3>Measured on our own data</h3>
+  <p style="color:var(--muted);font-size:8.4pt">Snapshot Safari 2024, 12 Southern African reserves, 2,165,493 labelled images</p>
+  <div class="bar">
+    <div class="e" style="width:53.8%">EMPTY · 1,163,721</div>
+    <div class="a" style="width:39.5%">ANIMALS · 856,120</div>
+    <div class="u" style="width:6.7%">OTHER</div>
+  </div>
+  <div class="legend"><span>Empty frames: no animal present</span><span>Labelled animals</span><span>Unknown / mixed</span></div>
+
+  <div class="stats" style="margin-top:6mm">
+    <div class="stat"><b class="o">≈98%</b><span>of empty frames are removed automatically by MegaDetector at a 0.5 threshold (preliminary)</span></div>
+    <div class="stat"><b>≈5%</b><span>of animal frames get low detector confidence: the reason for a human review queue</span></div>
+    <div class="stat"><b>18,910</b><span>empty frames still flagged as animals: false alarms a human would see</span></div>
+  </div>
+  <div class="note"><b>Caveat.</b> MegaDetector was partly trained on these datasets, so its numbers here are optimistic. The final report will measure triage on reserves held out from every stage of training.</div>
+
+  <div class="strip">
+    <div class="shot" style="background-image:url(img/hippo.jpg)"><i><span>KRU · NIGHT IR</span><b>hippo</b></i></div>
+    <div class="shot" style="background-image:url(img/wildcat.jpg)"><i><span>DEB · NIGHT</span><b>wildcat</b></i></div>
+    <div class="shot" style="background-image:url(img/duiker.jpg)"><i><span>APN · DAY</span><b>duiker</b></i></div>
+    <div class="shot" style="background-image:url(img/warthog.jpg)"><i><span>APN · DAY</span><b>warthog</b></i></div>
+  </div>
+  <div class="foot"><span>Real crops from the FaunaVision pipeline · Snapshot Safari, CDLA-Permissive 1.0</span><span>3</span></div>
+</section>
+
+<!-- =============== 3. SYSTEM =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>03 · System</span></div>
+  <div class="kicker">03 · How the system works</div>
+  <h2>Four stages, from memory<br>card to ranger report</h2>
+  <div class="pipe">
+    <div class="stage"><div class="no">STAGE 01</div><h4>Detect</h4><p>MegaDetector, a free open model built for camera traps, finds animals, people and vehicles, and discards empty frames.</p><div class="io">IN: raw frames<br>OUT: boxes or "empty"</div></div>
+    <div class="stage"><div class="no">STAGE 02</div><h4>Classify</h4><p>Our fine-tuned model identifies the species from a square crop around each animal, at species, genus and family level.</p><div class="io">IN: animal crops<br>OUT: ranked species</div></div>
+    <div class="stage"><div class="no">STAGE 03</div><h4>Triage</h4><p>Calibrated confidence decides: auto-accept, human review, or priority alert (rhino, carnivores, people at night, livestock).</p><div class="io">IN: predictions<br>OUT: queues and alerts</div></div>
+    <div class="stage"><div class="no">STAGE 04</div><h4>Report</h4><p>Per-camera summaries, explanations for each decision, exportable CSV. Runs offline on a field laptop.</p><div class="io">IN: decisions<br>OUT: ranger report</div></div>
+  </div>
+
+  <h3>What the user sees</h3>
+  <ul class="tick">
+    <li><b>Batch mode:</b> point the tool at a folder from a memory card and get back a sorted, labelled set with empty frames removed.</li>
+    <li><b>Priority feed:</b> rhino, wild dog, lion, leopard, cheetah, elephant, hyenas, and livestock or people inside the reserve, surfaced first.</li>
+    <li><b>Lookalike explanation:</b> for any close call, a side-by-side view showing which body parts separate the top two candidates.</li>
+    <li><b>Review queue:</b> uncertain frames go to a human, with a genus or family-level answer ("rhino, species unsure") instead of a guess.</li>
+    <li><b>Single-photo mode:</b> the original v2 upload experience remains for demos and education.</li>
+  </ul>
+
+  <h3>Technology</h3>
+  <table>
+    <tr><th>Layer</th><th>Tools</th><th>Cost</th></tr>
+    <tr><td>Deep learning</td><td>PyTorch, timm, DINOv2 weights, MegaDetector</td><td>Free, open source</td></tr>
+    <tr><td>Data</td><td>pandas, ijson (streams multi-GB metadata), Pillow</td><td>Free</td></tr>
+    <tr><td>Training</td><td>Kaggle notebooks (~30 GPU-hours a week), Colab as backup</td><td>Free tier</td></tr>
+    <tr><td>Tracking</td><td>Weights &amp; Biases free tier or local MLflow</td><td>Free</td></tr>
+    <tr><td>Inference API</td><td>FastAPI, ONNX Runtime, Hugging Face Spaces (CPU)</td><td>Free tier</td></tr>
+    <tr><td>Interface</td><td>Next.js + TypeScript on Vercel Hobby</td><td>Free tier</td></tr>
+  </table>
+  <div class="foot"><span>FaunaVision project document</span><span>4</span></div>
+</section>
+
+<!-- =============== 4. DATA =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>04 · Data</span></div>
+  <div class="kicker">04 · Datasets</div>
+  <h2>Existing, open datasets,<br>used with care</h2>
+  <p class="lede">No new data collection is required. Every source below is public and openly licensed, and images are never redistributed with the code.</p>
+  <table>
+    <tr><th>Dataset</th><th>What it provides</th><th>Role</th><th>Licence</th></tr>
+    <tr><td><b>Snapshot Safari 2024</b> (LILA BC)</td><td>2.17M labelled camera-trap images from 12 Southern African reserves</td><td>Main training and test data</td><td>CDLA-Permissive 1.0</td></tr>
+    <tr><td><b>MegaDetector results</b> (LILA BC)</td><td>Pre-computed animal, person and vehicle boxes for every image</td><td>Cropping and empty-frame filtering at no GPU cost</td><td>Published with dataset</td></tr>
+    <tr><td><b>iNaturalist</b> research-grade observations</td><td>Openly licensed photos, with location, date and taxonomy</td><td>Top-up for rare classes; photo-to-camera-trap transfer; location prior</td><td>CC0 / CC BY / CC BY-NC</td></tr>
+    <tr><td><b>Pretrained weights</b></td><td>DINOv2, ResNet, ConvNeXt, EfficientNet</td><td>Starting point for fine-tuning</td><td>Open</td></tr>
+  </table>
+
+  <h3>From 2.17 million images to a clean training set</h3>
+  <table>
+    <tr><th>Step</th><th>Rule</th><th>Why</th></tr>
+    <tr><td>Stream metadata</td><td>3 GB of JSON read incrementally, never loaded whole</td><td>Runs on a 16 GB laptop</td></tr>
+    <tr><td>Single label only</td><td>Images containing exactly one species</td><td>Clean crop-to-label pairs</td></tr>
+    <tr><td>Detector confidence ≥ 0.5</td><td>MegaDetector must find the animal</td><td>Crops contain the animal</td></tr>
+    <tr><td>One frame per burst</td><td>Keep the most confidently detected frame</td><td>Burst frames are near-duplicates</td></tr>
+    <tr><td>Per-class caps</td><td>4,000 train / 1,500 val and test</td><td>Stops impala and elephant dominating</td></tr>
+    <tr><td>Square crops</td><td>Box + 10% padding, longest side 448 px</td><td>~60 KB each, full set ≈ 9 GB, fits Kaggle</td></tr>
+  </table>
+
+  <div class="stats" style="margin:4mm 0 4mm">
+    <div class="stat"><b>154,502</b><span>images in the training manifest</span></div>
+    <div class="stat"><b>102,523</b><span>train, from 9 reserves</span></div>
+    <div class="stat"><b>24,959</b><span>validation, held-out cameras</span></div>
+    <div class="stat"><b class="o">27,020</b><span>test, from 3 unseen reserves</span></div>
+  </div>
+  <h3 style="margin-top:0">Test on reserves the model has never seen</h3>
+  <div class="res">
+    <div class="t"><b>TEST · PLN</b>Pilanesberg: both rhinos, 49 classes</div>
+    <div class="t"><b>TEST · KRU</b>Kruger: 46 classes, best-known park</div>
+    <div class="t"><b>TEST · CDB</b>Camdeboo: mountain zebra, black wildebeest</div>
+    <div><b>TRAIN · 9 RESERVES</b>Madikwe, APN, Karoo, Mountain Zebra, Kgalagadi, Tswalu, LEC, Cameo (incl. Niassa), Snapshot South Africa</div>
+  </div>
+  <div class="note"><b>Why this matters.</b> Most projects test on random images from the same cameras they trained on, which inflates accuracy. Holding out whole reserves answers the question a new conservancy would ask: will this work on <i>our</i> cameras?</div>
+  <div class="foot"><span>FaunaVision project document</span><span>5</span></div>
+</section>
+
+<!-- =============== 5. LOOKALIKES + SPLITS =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>05 · Classes and splits</span></div>
+  <div class="kicker">05 · Lookalike clusters</div>
+  <h2>The hard cases are<br>the point</h2>
+  <div class="pair">
+    <div class="shot" style="background-image:url(img/pzebra.jpg);aspect-ratio:16/10"><i><span>APN · VAL</span><b>plains zebra</b></i></div>
+    <div class="vs">vs</div>
+    <div class="shot" style="background-image:url(img/mzebra.jpg);aspect-ratio:16/10"><i><span>MTZ · TRAIN</span><b>mountain zebra</b></i></div>
+  </div>
+  <p style="font-size:8.4pt;color:var(--muted)">Plains zebras carry faint "shadow stripes" between the black ones; mountain zebras have a gridiron pattern on the rump and a dewlap. On a blurry night frame, both cues can disappear.</p>
+
+  <table class="look">
+    <tr><th>Cluster</th><th>Members</th><th class="n">Train</th><th class="n">Val</th><th class="n">Test</th><th></th></tr>
+    <tr><td>Rhinos</td><td>White · Black</td><td class="n">1,317 · 868</td><td class="n">90 · 63</td><td class="n">969 · 307</td><td><span class="tag p">Priority</span></td></tr>
+    <tr><td>Zebras</td><td>Plains · Mountain</td><td class="n">4,000 · 4,000</td><td class="n">1,500 · 1,321</td><td class="n">1,500 · 833</td><td><span class="tag o">Vulnerable</span></td></tr>
+    <tr><td>Wildebeest</td><td>Blue · Black</td><td class="n">4,000 · 1,263</td><td class="n">1,051 · 201</td><td class="n">1,027 · 294</td><td></td></tr>
+    <tr><td>Hyaenids</td><td>Spotted · Brown · Aardwolf</td><td class="n">2,242 · 889 · 222</td><td class="n">505 · 128 · 124</td><td class="n">390 · 393 · 66</td><td><span class="tag p">Priority</span></td></tr>
+    <tr><td>Damaliscus &amp; kin</td><td>Bontebok · Blesbok · Hartebeest · Tsessebe</td><td class="n">4,000 · 180 · 3,866 · 17</td><td class="n">850 · 1 · 545 · 40</td><td class="n">0 · 962 · 1,075 · 71</td><td></td></tr>
+    <tr><td>Spiral-horned</td><td>Kudu · Eland · Nyala · Bushbuck</td><td class="n">4,000 · 4,000 · 696 · 329</td><td class="n">1,500 · 952 · 113 · 35</td><td class="n">1,500 · 964 · 109 · 10</td><td></td></tr>
+    <tr><td>Large cats</td><td>Lion · Leopard · Cheetah</td><td class="n">832 · 650 · 52</td><td class="n">161 · 74 · 7</td><td class="n">222 · 83 · 14</td><td><span class="tag p">Priority</span></td></tr>
+    <tr><td>Small antelope</td><td>Duiker · Steenbok · Rhebok · Klipspringer</td><td class="n">4,000 · 4,000 · 445 · 110</td><td class="n">1,082 · 651 · 68 · 9</td><td class="n">1,003 · 317 · 20 · 23</td><td></td></tr>
+  </table>
+  <p style="font-size:8pt;color:var(--muted)">Full table for all 64 classes in <span class="mono">reports/data/coverage.md</span>. Eleven classes have under 100 training images (including wild dog, cheetah, serval and roan) and will be topped up with iNaturalist photos.</p>
+
+  <div class="foot"><span>FaunaVision project document</span><span>6</span></div>
+</section>
+
+<!-- =============== 6. MODELS =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>06 · Models and training</span></div>
+  <div class="kicker">06 · Models</div>
+  <h2>A deep learning ladder,<br>every rung measured</h2>
+  <p class="lede">No model is trained from scratch. Each starts from weights pretrained on millions of images and is fine-tuned on our crops, under identical splits and metrics.</p>
+  <div class="ladder">
+    <div class="rung"><div class="k">1</div><div><h5>DINOv2 ViT-B/14, frozen + linear / k-NN head</h5><p>Fast baseline: how good are pretrained features without fine-tuning?</p></div><div class="where">Laptop · minutes</div></div>
+    <div class="rung"><div class="k">2</div><div><h5>ResNet-50 fine-tune</h5><p>Classic CNN baseline from the v2 blueprint.</p></div><div class="where">Kaggle</div></div>
+    <div class="rung"><div class="k">3</div><div><h5>ConvNeXt or EfficientNet-B3</h5><p>Modern efficient CNN for a fair CNN vs Transformer comparison.</p></div><div class="where">Kaggle</div></div>
+    <div class="rung main"><div class="k">4</div><div><h5>DINOv2 ViT-B/14, fully fine-tuned · main model</h5><p>Expected best at fine-grained detail.</p></div><div class="where">Kaggle</div></div>
+    <div class="rung"><div class="k">5</div><div><h5>Model 4 refined at 448 px</h5><p>2–3 extra epochs at high resolution for stripe, horn and lip detail.</p></div><div class="where">Kaggle</div></div>
+    <div class="rung"><div class="k">6</div><div><h5>Distilled student (ViT-S or EfficientNet-B0)</h5><p>Learns from model 5, exported to ONNX for fast offline use.</p></div><div class="where">Kaggle → laptop</div></div>
+  </div>
+
+  <div class="cols">
+    <div>
+      <h3>Training recipe</h3>
+      <ul class="tick">
+        <li>Linear probe first, then full fine-tune (LP-FT)</li>
+        <li>AdamW, layer-wise LR decay ≈ 0.7, cosine schedule with warmup</li>
+        <li>Label smoothing 0.1, moderate augmentation, weight EMA</li>
+        <li>Mixed precision and gradient checkpointing to fit free T4 GPUs</li>
+        <li>Logit adjustment or class-balanced sampling for rare species</li>
+        <li>Three seeds for headline comparisons; test set used once</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Experiments, one at a time</h3>
+      <ul class="tick">
+        <li><b>Metric learning</b> (SupCon or ArcFace) for tighter species clusters and the similar-species gallery</li>
+        <li><b>Hierarchical heads</b> for species, genus and family, with graceful fallback</li>
+        <li><b>Location and season prior</b> from iNaturalist occurrence data</li>
+        <li><b>iNaturalist top-up</b>: do clean photos help rare camera-trap classes?</li>
+        <li><b>Banner masking</b>: remove camera logos and timestamps so the model cannot cheat</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note"><b>Free compute budget.</b> Roughly 60–80 GPU-hours in total, or 2–3 weeks of Kaggle's free quota. Images are cropped once up front, features are cached, and checkpoints are saved every epoch so 12-hour session limits never lose work.</div>
+  <div class="foot"><span>FaunaVision project document</span><span>7</span></div>
+</section>
+
+<!-- =============== 7. INNOVATION + EVALUATION =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>07 · Innovation and evaluation</span></div>
+  <div class="kicker">07 · What makes it different</div>
+  <h2>Four ideas, each<br>backed by a measurement</h2>
+  <div class="cols" style="row-gap:6mm;margin-top:4mm">
+    <div class="pillar"><div class="k">01 · CONTRASTIVE EXPLANATIONS</div><h4>Why A, not lookalike B</h4><p>Grad-CAM on the difference between the top two scores, plus DINOv2 patch matching against reference images, shows which body parts separate the candidates.</p></div>
+    <div class="pillar"><div class="k">02 · UNSEEN-RESERVE TESTING</div><h4>Honest generalisation</h4><p>Pilanesberg, Kruger and Camdeboo never appear in training. Results show what a new conservancy can expect.</p></div>
+    <div class="pillar"><div class="k">03 · CALIBRATED TRIAGE</div><h4>Knows when it doesn't know</h4><p>Temperature scaling, genus fallback and a review queue, tuned with risk–coverage curves so priority species are almost never auto-dismissed.</p></div>
+    <div class="pillar"><div class="k">04 · PHOTO → CAMERA TRANSFER</div><h4>Learning rare species from citizen science</h4><p>Measures whether iNaturalist photos rescue classes with fewer than 100 camera-trap images, such as wild dog and cheetah.</p></div>
+  </div>
+
+  <h3 style="margin-top:8mm">Evaluation</h3>
+  <table>
+    <tr><th>Metric</th><th>What it shows</th><th>Audience</th></tr>
+    <tr><td>Top-1 / Top-5 accuracy, macro-F1</td><td>Overall and rare-class performance</td><td>Technical</td></tr>
+    <tr><td>Lookalike-pair accuracy</td><td>White vs black rhino, zebras, wildebeest, hyaenids</td><td>Technical</td></tr>
+    <tr><td>Seen vs unseen reserve gap</td><td>How much accuracy drops at a new park</td><td>Both</td></tr>
+    <tr><td>Calibration (ECE), risk–coverage</td><td>Whether confidence can be trusted</td><td>Technical</td></tr>
+    <tr><td>Mistake severity</td><td>Confusing two antelopes vs antelope with lion</td><td>Both</td></tr>
+    <tr><td><b>Images spared</b></td><td>Share of frames no human needs to open</td><td>Rangers</td></tr>
+    <tr><td><b>Priority recall</b></td><td>Share of rhino and carnivore sightings surfaced</td><td>Rangers</td></tr>
+    <tr><td>Latency on CPU</td><td>Images per second on a field laptop</td><td>Rangers</td></tr>
+  </table>
+  <div class="note"><b>No accuracy promises in advance.</b> Baselines come first; every number reported is measured on the held-out test reserves.</div>
+  <div class="foot"><span>FaunaVision project document</span><span>8</span></div>
+</section>
+
+<!-- =============== 8. ROADMAP + STATUS =============== -->
+<section class="page">
+  <div class="run"><span>FaunaVision · v3</span><span>08 · Roadmap</span></div>
+  <div class="kicker">08 · Eight-week roadmap</div>
+  <h2>Where the project<br>stands today</h2>
+  <div class="road">
+    <div class="wk"><div class="w">WEEK 1</div><div><h5>Data foundation</h5><p>Species survey, class list, streamed index of 2.17M images, reserve-level splits, crop downloader, 13 passing tests.</p></div><div class="st"><span class="tag g">Done</span></div></div>
+    <div class="wk"><div class="w">WEEK 2</div><div><h5>Crops and first baseline</h5><p>Download 154k crops on Kaggle; frozen DINOv2 baseline; first lookalike and unseen-reserve numbers.</p></div><div class="st"><span class="tag p">Next</span></div></div>
+    <div class="wk"><div class="w">WEEKS 3–4</div><div><h5>Main models</h5><p>ResNet-50, ConvNeXt or EfficientNet, fine-tuned DINOv2, 448 px refinement.</p></div><div class="st"></div></div>
+    <div class="wk"><div class="w">WEEK 5</div><div><h5>Experiments</h5><p>Metric learning, hierarchical heads, location prior, iNaturalist top-up, banner masking.</p></div><div class="st"></div></div>
+    <div class="wk"><div class="w">WEEK 6</div><div><h5>Evaluation and explanations</h5><p>Calibration, triage thresholds, contrastive explanations, error analysis.</p></div><div class="st"></div></div>
+    <div class="wk"><div class="w">WEEKS 7–8</div><div><h5>Application and write-up</h5><p>Distilled offline model, FastAPI + Next.js app, model card, demo video, technical write-up.</p></div><div class="st"></div></div>
+  </div>
+
+  <h3 style="margin-top:7mm">Risks and responsible use</h3>
+  <ul class="tick">
+    <li><b>Sensitive locations.</b> Rhino sightings with locations are valuable to poachers. The app never publishes coordinates, and demo outputs strip camera and location IDs.</li>
+    <li><b>Not a sole decision-maker.</b> Predictions support people; they don't replace verification before any field action.</li>
+    <li><b>Closed species list.</b> Animals outside the 64 classes may be mislabelled; the supported list is always visible, and low confidence routes to review.</li>
+    <li><b>Dataset bias.</b> Reserves, seasons, camera models and day/night balance vary; results are broken down along these lines.</li>
+    <li><b>Licensing.</b> Snapshot Safari (CDLA-Permissive) and openly licensed iNaturalist photos only; attribution kept; images not committed to the repository.</li>
+  </ul>
+  <div class="foot"><span>FaunaVision project document</span><span>9</span></div>
+</section>
+
+<!-- =============== 9. DELIVERABLES + REFS =============== -->
+<section class="page back">
+  <div class="run"><span>FaunaVision · v3</span><span>09 · Deliverables</span></div>
+  <div class="kicker">09 · Portfolio deliverables</div>
+  <h2>What will exist<br>at the end</h2>
+  <div class="cols3" style="margin-top:4mm">
+    <div class="pillar"><div class="k">CODE</div><h4>Reproducible repository</h4><p>Data pipeline, training configs, tests, model card, and setup instructions that run on free tooling.</p></div>
+    <div class="pillar"><div class="k">EVIDENCE</div><h4>Results report</h4><p>CNN vs Transformer table, ablations, unseen-reserve results, lookalike confusions, calibration and triage curves.</p></div>
+    <div class="pillar"><div class="k">PRODUCT</div><h4>Working triage app</h4><p>Batch and single-photo modes, priority feed, contrastive explanations, offline model, demo video.</p></div>
+  </div>
+
+  <h3 style="margin-top:9mm">Repository layout</h3>
+  <table>
+    <tr><th>Path</th><th>Contents</th><th>Status</th></tr>
+    <tr><td class="mono">src/faunavision/data/</td><td>iNaturalist client, species selection, class list, LILA streaming reader, splits</td><td><span class="tag g">Built</span></td></tr>
+    <tr><td class="mono">scripts/</td><td>select_species, build_camtrap_index, make_manifest, download_crops</td><td><span class="tag g">Built</span></td></tr>
+    <tr><td class="mono">tests/</td><td>13 unit tests for selection, parsing, splits and crop geometry</td><td><span class="tag g">Passing</span></td></tr>
+    <tr><td class="mono">reports/</td><td>Species selection and dataset coverage reports</td><td><span class="tag g">Generated</span></td></tr>
+    <tr><td class="mono">notebooks/ · src/models/ · src/training/</td><td>Kaggle notebooks, model definitions, training loops</td><td><span class="tag p">Next</span></td></tr>
+    <tr><td class="mono">api/ · frontend/</td><td>FastAPI inference service and Next.js interface</td><td>Weeks 7–8</td></tr>
+  </table>
+
+  <h3 style="margin-top:7mm">References</h3>
+  <table style="font-size:8pt">
+    <tr><td>Snapshot Safari 2024 Expansion</td><td class="mono" style="font-size:7.2pt">lila.science/datasets/snapshot-safari-2024-expansion</td></tr>
+    <tr><td>MegaDetector results for LILA datasets</td><td class="mono" style="font-size:7.2pt">lila.science/megadetector-results-for-camera-trap-datasets</td></tr>
+    <tr><td>LILA taxonomy mapping</td><td class="mono" style="font-size:7.2pt">lila.science/taxonomy-mapping-for-camera-trap-data-sets</td></tr>
+    <tr><td>iNaturalist API</td><td class="mono" style="font-size:7.2pt">api.inaturalist.org/v1/docs</td></tr>
+    <tr><td>iNaturalist 2021 competition data</td><td class="mono" style="font-size:7.2pt">github.com/visipedia/inat_comp/tree/master/2021</td></tr>
+    <tr><td>DINOv2 · timm · PyTorch</td><td class="mono" style="font-size:7.2pt">github.com/facebookresearch/dinov2 · huggingface.co/docs/timm · pytorch.org</td></tr>
+  </table>
+  <p style="font-size:7.6pt;color:var(--muted);margin-top:5mm">Camera-trap images in this document: Snapshot Safari project, via LILA BC, CDLA-Permissive 1.0. Counts are from FaunaVision's own pipeline run of November 2026.</p>
+  <div class="foot"><span>FaunaVision project document · v3</span><span>10</span></div>
+</section>
+
+</body>
+</html>
