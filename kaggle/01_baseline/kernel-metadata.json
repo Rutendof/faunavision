@@ -1,0 +1,14 @@
+{
+  "id": "treymz/faunavision-01-crops-and-dinov2-baseline",
+  "title": "FaunaVision 01 crops and DINOv2 baseline",
+  "code_file": "../../notebooks/01_kaggle_crops_and_dinov2_baseline.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
