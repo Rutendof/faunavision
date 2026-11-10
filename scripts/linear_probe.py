@@ -49,7 +49,7 @@ def train_linear(x, y, n_classes, weight_decay, epochs=100, lr=1e-3, balanced=Tr
     torch.manual_seed(seed)
     x, y = torch.from_numpy(x).to(device), torch.from_numpy(y).to(device)
     head = torch.nn.Linear(x.shape[1], n_classes).to(device)
-    opt = torch.optim.AdamW(head.parameters(), lr=lr, weight_decay=weight_decay)
+    opt = torch.optim.Adam(head.parameters(), lr=lr)
     sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, epochs)
     counts = torch.bincount(y, minlength=n_classes).float()
     weight = (counts.sum() / (counts.clamp(min=1) * (counts > 0).sum())) if balanced else None
@@ -60,7 +60,8 @@ def train_linear(x, y, n_classes, weight_decay, epochs=100, lr=1e-3, balanced=Tr
         perm = torch.randperm(len(y), device=device)
         for i in range(0, len(y), batch):
             b = perm[i : i + batch]
-            loss = F.cross_entropy(head(x[b]), y[b], weight=weight)
+            # explicit L2 penalty: AdamW decoupled decay is negligible over ~100 steps
+            loss = F.cross_entropy(head(x[b]), y[b], weight=weight) + weight_decay * head.weight.pow(2).sum()
             opt.zero_grad()
             loss.backward()
             opt.step()
@@ -101,7 +102,7 @@ def main() -> None:
     p.add_argument("--features", type=Path, default=ROOT / "data" / "features")
     p.add_argument("--run", default="dinov2_probe")
     p.add_argument("--epochs", type=int, default=100)
-    p.add_argument("--weight-decays", default="1e-4,1e-3,1e-2,1e-1")
+    p.add_argument("--weight-decays", default="0,1e-4,1e-3,1e-2")
     args = p.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"

@@ -1,0 +1,2132 @@
+{
+ "model": "linear probe",
+ "weight_decay": 0.0,
+ "n_train": 2556,
+ "linear": {
+  "val": {
+   "n": 896,
+   "top1": 0.8392857142857143,
+   "top5": 0.9609375,
+   "macro_f1": 0.8169673415521067,
+   "balanced_accuracy": 0.815995115995116,
+   "ece": 0.025172687526459674,
+   "temperature": 0.7728044902630848,
+   "near_miss_share_of_errors": 0.4166666666666667,
+   "per_class": {
+    "aardvark": {
+     "precision": 0.7857142857142857,
+     "recall": 0.7333333333333333,
+     "f1": 0.7586206896551724,
+     "support": 15
+    },
+    "aardwolf": {
+     "precision": 0.7647058823529411,
+     "recall": 0.8666666666666667,
+     "f1": 0.8125,
+     "support": 15
+    },
+    "african_wildcat": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "baboon": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "bat_eared_fox": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "black_backed_jackal": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "black_rhino": {
+     "precision": 0.45454545454545453,
+     "recall": 0.3333333333333333,
+     "f1": 0.3846153846153846,
+     "support": 15
+    },
+    "black_wildebeest": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "blesbok": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "blue_crane": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "blue_wildebeest": {
+     "precision": 0.7368421052631579,
+     "recall": 0.9333333333333333,
+     "f1": 0.8235294117647058,
+     "support": 15
+    },
+    "bontebok": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "brown_hyena": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "buffalo": {
+     "precision": 0.9285714285714286,
+     "recall": 0.8666666666666667,
+     "f1": 0.896551724137931,
+     "support": 15
+    },
+    "bushbuck": {
+     "precision": 0.7857142857142857,
+     "recall": 0.7333333333333333,
+     "f1": 0.7586206896551724,
+     "support": 15
+    },
+    "bushpig": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "cape_fox": {
+     "precision": 0.6111111111111112,
+     "recall": 0.7333333333333333,
+     "f1": 0.6666666666666666,
+     "support": 15
+    },
+    "caracal": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 13
+    },
+    "cheetah": {
+     "precision": 0.6666666666666666,
+     "recall": 0.8571428571428571,
+     "f1": 0.75,
+     "support": 7
+    },
+    "civet": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "common_duiker": {
+     "precision": 0.38095238095238093,
+     "recall": 0.5333333333333333,
+     "f1": 0.4444444444444444,
+     "support": 15
+    },
+    "domestic_animal": {
+     "precision": 0.9285714285714286,
+     "recall": 0.8666666666666667,
+     "f1": 0.896551724137931,
+     "support": 15
+    },
+    "eland": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "elephant": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "gemsbok": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "genet": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "giraffe": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "grey_rhebok": {
+     "precision": 0.9,
+     "recall": 0.6,
+     "f1": 0.7200000000000001,
+     "support": 15
+    },
+    "grysbok": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "hare": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "helmeted_guineafowl": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "hippo": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "honey_badger": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "impala": {
+     "precision": 0.9166666666666666,
+     "recall": 0.7333333333333333,
+     "f1": 0.8148148148148148,
+     "support": 15
+    },
+    "klipspringer": {
+     "precision": 0.375,
+     "recall": 0.3333333333333333,
+     "f1": 0.35294117647058826,
+     "support": 9
+    },
+    "kori_bustard": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "kudu": {
+     "precision": 0.6111111111111112,
+     "recall": 0.7333333333333333,
+     "f1": 0.6666666666666666,
+     "support": 15
+    },
+    "leopard": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "lion": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "meerkat": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 5
+    },
+    "mongoose": {
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889,
+     "support": 15
+    },
+    "mountain_reedbuck": {
+     "precision": 0.3333333333333333,
+     "recall": 0.3,
+     "f1": 0.3157894736842105,
+     "support": 10
+    },
+    "mountain_zebra": {
+     "precision": 0.9090909090909091,
+     "recall": 0.6666666666666666,
+     "f1": 0.7692307692307692,
+     "support": 15
+    },
+    "nyala": {
+     "precision": 0.7857142857142857,
+     "recall": 0.7333333333333333,
+     "f1": 0.7586206896551724,
+     "support": 15
+    },
+    "oribi": {
+     "precision": 0.2,
+     "recall": 0.1111111111111111,
+     "f1": 0.14285714285714285,
+     "support": 9
+    },
+    "ostrich": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "plains_zebra": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "porcupine": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "red_hartebeest": {
+     "precision": 0.8571428571428571,
+     "recall": 0.8,
+     "f1": 0.8275862068965518,
+     "support": 15
+    },
+    "reedbuck": {
+     "precision": 0.5,
+     "recall": 0.4,
+     "f1": 0.4444444444444445,
+     "support": 15
+    },
+    "roan": {
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889,
+     "support": 5
+    },
+    "sable": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "secretarybird": {
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889,
+     "support": 5
+    },
+    "serval": {
+     "precision": 0.8,
+     "recall": 0.5714285714285714,
+     "f1": 0.6666666666666666,
+     "support": 7
+    },
+    "spotted_hyena": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "springbok": {
+     "precision": 0.7777777777777778,
+     "recall": 0.9333333333333333,
+     "f1": 0.8484848484848485,
+     "support": 15
+    },
+    "springhare": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "steenbok": {
+     "precision": 0.5,
+     "recall": 0.5333333333333333,
+     "f1": 0.5161290322580646,
+     "support": 15
+    },
+    "tortoise": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 15
+    },
+    "tsessebe": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 15
+    },
+    "vervet_monkey": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "warthog": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "waterbuck": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "white_rhino": {
+     "precision": 0.47368421052631576,
+     "recall": 0.6,
+     "f1": 0.5294117647058824,
+     "support": 15
+    },
+    "wild_dog": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    }
+   },
+   "clusters": {
+    "birds": {
+     "n": 65,
+     "accuracy": 0.9538461538461539,
+     "lookalike_share_of_errors": 0.6666666666666666
+    },
+    "bovids_other": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.0
+    },
+    "canids": {
+     "n": 60,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.5
+    },
+    "damaliscus": {
+     "n": 46,
+     "accuracy": 0.8695652173913043,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "domestic": {
+     "n": 15,
+     "accuracy": 0.8666666666666667,
+     "lookalike_share_of_errors": 0.0
+    },
+    "gazelle_like": {
+     "n": 30,
+     "accuracy": 0.8333333333333334,
+     "lookalike_share_of_errors": 0.0
+    },
+    "hippotragus": {
+     "n": 35,
+     "accuracy": 0.8571428571428571,
+     "lookalike_share_of_errors": 0.2
+    },
+    "hyaenids": {
+     "n": 45,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "kobus_reedbucks": {
+     "n": 40,
+     "accuracy": 0.6,
+     "lookalike_share_of_errors": 0.0625
+    },
+    "large_cats": {
+     "n": 37,
+     "accuracy": 0.918918918918919,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "megaherbivores": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 1.0
+    },
+    "primates": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 0.0
+    },
+    "reptiles": {
+     "n": 15,
+     "accuracy": 1.0,
+     "lookalike_share_of_errors": 0.0
+    },
+    "rhinos": {
+     "n": 30,
+     "accuracy": 0.4666666666666667,
+     "lookalike_share_of_errors": 0.75
+    },
+    "small_antelope": {
+     "n": 78,
+     "accuracy": 0.5384615384615384,
+     "lookalike_share_of_errors": 0.6111111111111112
+    },
+    "small_carnivores": {
+     "n": 65,
+     "accuracy": 0.8923076923076924,
+     "lookalike_share_of_errors": 0.0
+    },
+    "small_cats": {
+     "n": 35,
+     "accuracy": 0.8857142857142857,
+     "lookalike_share_of_errors": 0.0
+    },
+    "small_mammals": {
+     "n": 60,
+     "accuracy": 0.9166666666666666,
+     "lookalike_share_of_errors": 0.2
+    },
+    "spiral_horned": {
+     "n": 60,
+     "accuracy": 0.7666666666666667,
+     "lookalike_share_of_errors": 0.5714285714285714
+    },
+    "suids": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 0.0
+    },
+    "wildebeest": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.5
+    },
+    "zebras": {
+     "n": 30,
+     "accuracy": 0.8,
+     "lookalike_share_of_errors": 0.6666666666666666
+    }
+   },
+   "pairs": {
+    "white_rhino vs black_rhino": {
+     "accuracy": 0.5384615384615384,
+     "n": 26
+    },
+    "plains_zebra vs mountain_zebra": {
+     "accuracy": 0.8571428571428571,
+     "n": 28
+    },
+    "blue_wildebeest vs black_wildebeest": {
+     "accuracy": 0.9655172413793104,
+     "n": 29
+    },
+    "spotted_hyena vs brown_hyena": {
+     "accuracy": 1.0,
+     "n": 29
+    },
+    "bontebok vs blesbok": {
+     "accuracy": 1.0,
+     "n": 13
+    },
+    "kudu vs nyala": {
+     "accuracy": 0.7586206896551724,
+     "n": 29
+    },
+    "common_duiker vs steenbok": {
+     "accuracy": 0.8888888888888888,
+     "n": 18
+    },
+    "black_backed_jackal vs cape_fox": {
+     "accuracy": 1.0,
+     "n": 26
+    }
+   }
+  },
+  "test": {
+   "n": 853,
+   "top1": 0.731535756154748,
+   "top5": 0.9109026963657679,
+   "macro_f1": 0.7203888769287758,
+   "balanced_accuracy": 0.7257758370661594,
+   "ece": 0.03734583773618568,
+   "temperature": 0.7728044902630848,
+   "near_miss_share_of_errors": 0.33624454148471616,
+   "per_class": {
+    "aardvark": {
+     "precision": 0.56,
+     "recall": 0.9333333333333333,
+     "f1": 0.7000000000000001,
+     "support": 15
+    },
+    "aardwolf": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "african_wildcat": {
+     "precision": 0.9166666666666666,
+     "recall": 0.8461538461538461,
+     "f1": 0.8799999999999999,
+     "support": 13
+    },
+    "baboon": {
+     "precision": 0.7777777777777778,
+     "recall": 0.9333333333333333,
+     "f1": 0.8484848484848485,
+     "support": 15
+    },
+    "bat_eared_fox": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "black_backed_jackal": {
+     "precision": 0.6190476190476191,
+     "recall": 0.8666666666666667,
+     "f1": 0.7222222222222222,
+     "support": 15
+    },
+    "black_rhino": {
+     "precision": 0.4444444444444444,
+     "recall": 0.5333333333333333,
+     "f1": 0.4848484848484848,
+     "support": 15
+    },
+    "black_wildebeest": {
+     "precision": 0.6666666666666666,
+     "recall": 0.6666666666666666,
+     "f1": 0.6666666666666666,
+     "support": 15
+    },
+    "blesbok": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "blue_crane": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 4
+    },
+    "blue_wildebeest": {
+     "precision": 0.43478260869565216,
+     "recall": 0.6666666666666666,
+     "f1": 0.5263157894736841,
+     "support": 15
+    },
+    "brown_hyena": {
+     "precision": 0.6666666666666666,
+     "recall": 0.5333333333333333,
+     "f1": 0.5925925925925926,
+     "support": 15
+    },
+    "buffalo": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "bushbuck": {
+     "precision": 0.7142857142857143,
+     "recall": 0.5,
+     "f1": 0.588235294117647,
+     "support": 10
+    },
+    "bushpig": {
+     "precision": 0.5,
+     "recall": 0.7333333333333333,
+     "f1": 0.5945945945945945,
+     "support": 15
+    },
+    "cape_fox": {
+     "precision": 0.2,
+     "recall": 1.0,
+     "f1": 0.33333333333333337,
+     "support": 1
+    },
+    "caracal": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "cheetah": {
+     "precision": 0.5294117647058824,
+     "recall": 0.6428571428571429,
+     "f1": 0.5806451612903226,
+     "support": 14
+    },
+    "civet": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "common_duiker": {
+     "precision": 0.4444444444444444,
+     "recall": 0.5333333333333333,
+     "f1": 0.4848484848484848,
+     "support": 15
+    },
+    "domestic_animal": {
+     "precision": 0.5,
+     "recall": 0.26666666666666666,
+     "f1": 0.3478260869565218,
+     "support": 15
+    },
+    "eland": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "elephant": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "gemsbok": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "genet": {
+     "precision": 0.9285714285714286,
+     "recall": 0.8666666666666667,
+     "f1": 0.896551724137931,
+     "support": 15
+    },
+    "giraffe": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "grey_rhebok": {
+     "precision": 0.3333333333333333,
+     "recall": 0.13333333333333333,
+     "f1": 0.19047619047619044,
+     "support": 15
+    },
+    "hare": {
+     "precision": 0.9166666666666666,
+     "recall": 0.7333333333333333,
+     "f1": 0.8148148148148148,
+     "support": 15
+    },
+    "hippo": {
+     "precision": 0.9166666666666666,
+     "recall": 0.7333333333333333,
+     "f1": 0.8148148148148148,
+     "support": 15
+    },
+    "honey_badger": {
+     "precision": 0.7777777777777778,
+     "recall": 0.9333333333333333,
+     "f1": 0.8484848484848485,
+     "support": 15
+    },
+    "impala": {
+     "precision": 0.8181818181818182,
+     "recall": 0.6,
+     "f1": 0.6923076923076923,
+     "support": 15
+    },
+    "klipspringer": {
+     "precision": 0.2727272727272727,
+     "recall": 0.2,
+     "f1": 0.23076923076923075,
+     "support": 15
+    },
+    "kori_bustard": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "kudu": {
+     "precision": 0.6428571428571429,
+     "recall": 0.6,
+     "f1": 0.6206896551724138,
+     "support": 15
+    },
+    "leopard": {
+     "precision": 0.8888888888888888,
+     "recall": 0.5333333333333333,
+     "f1": 0.6666666666666667,
+     "support": 15
+    },
+    "lion": {
+     "precision": 0.8,
+     "recall": 0.8,
+     "f1": 0.8000000000000002,
+     "support": 15
+    },
+    "meerkat": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "mongoose": {
+     "precision": 0.7692307692307693,
+     "recall": 0.6666666666666666,
+     "f1": 0.7142857142857142,
+     "support": 15
+    },
+    "mountain_reedbuck": {
+     "precision": 0.3125,
+     "recall": 0.3333333333333333,
+     "f1": 0.3225806451612903,
+     "support": 15
+    },
+    "mountain_zebra": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "nyala": {
+     "precision": 0.6,
+     "recall": 0.6,
+     "f1": 0.6,
+     "support": 15
+    },
+    "oribi": {
+     "precision": 0.4666666666666667,
+     "recall": 0.4666666666666667,
+     "f1": 0.4666666666666667,
+     "support": 15
+    },
+    "ostrich": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "plains_zebra": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "porcupine": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "red_hartebeest": {
+     "precision": 0.8461538461538461,
+     "recall": 0.7333333333333333,
+     "f1": 0.7857142857142856,
+     "support": 15
+    },
+    "reedbuck": {
+     "precision": 0.21052631578947367,
+     "recall": 0.26666666666666666,
+     "f1": 0.23529411764705882,
+     "support": 15
+    },
+    "roan": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "sable": {
+     "precision": 1.0,
+     "recall": 0.3333333333333333,
+     "f1": 0.5,
+     "support": 3
+    },
+    "secretarybird": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 6
+    },
+    "serval": {
+     "precision": 1.0,
+     "recall": 0.7333333333333333,
+     "f1": 0.846153846153846,
+     "support": 15
+    },
+    "spotted_hyena": {
+     "precision": 0.8,
+     "recall": 0.26666666666666666,
+     "f1": 0.4,
+     "support": 15
+    },
+    "springbok": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "springhare": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "steenbok": {
+     "precision": 0.5833333333333334,
+     "recall": 0.4666666666666667,
+     "f1": 0.5185185185185186,
+     "support": 15
+    },
+    "tortoise": {
+     "precision": 1.0,
+     "recall": 0.9,
+     "f1": 0.9473684210526316,
+     "support": 10
+    },
+    "tsessebe": {
+     "precision": 0.75,
+     "recall": 0.4,
+     "f1": 0.5217391304347827,
+     "support": 15
+    },
+    "vervet_monkey": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "warthog": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "waterbuck": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "white_rhino": {
+     "precision": 0.34782608695652173,
+     "recall": 0.5333333333333333,
+     "f1": 0.4210526315789474,
+     "support": 15
+    },
+    "wild_dog": {
+     "precision": 1.0,
+     "recall": 0.9090909090909091,
+     "f1": 0.9523809523809523,
+     "support": 11
+    }
+   },
+   "clusters": {
+    "birds": {
+     "n": 40,
+     "accuracy": 1.0,
+     "lookalike_share_of_errors": 0.0
+    },
+    "bovids_other": {
+     "n": 30,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.0
+    },
+    "canids": {
+     "n": 42,
+     "accuracy": 0.9285714285714286,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "damaliscus": {
+     "n": 45,
+     "accuracy": 0.6888888888888889,
+     "lookalike_share_of_errors": 0.14285714285714285
+    },
+    "domestic": {
+     "n": 15,
+     "accuracy": 0.26666666666666666,
+     "lookalike_share_of_errors": 0.0
+    },
+    "gazelle_like": {
+     "n": 30,
+     "accuracy": 0.7666666666666667,
+     "lookalike_share_of_errors": 0.0
+    },
+    "hippotragus": {
+     "n": 19,
+     "accuracy": 0.7894736842105263,
+     "lookalike_share_of_errors": 0.0
+    },
+    "hyaenids": {
+     "n": 45,
+     "accuracy": 0.5777777777777777,
+     "lookalike_share_of_errors": 0.21052631578947367
+    },
+    "kobus_reedbucks": {
+     "n": 45,
+     "accuracy": 0.5111111111111111,
+     "lookalike_share_of_errors": 0.13636363636363635
+    },
+    "large_cats": {
+     "n": 44,
+     "accuracy": 0.6590909090909091,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "megaherbivores": {
+     "n": 30,
+     "accuracy": 0.8,
+     "lookalike_share_of_errors": 0.0
+    },
+    "primates": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 1.0
+    },
+    "reptiles": {
+     "n": 10,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.0
+    },
+    "rhinos": {
+     "n": 30,
+     "accuracy": 0.5333333333333333,
+     "lookalike_share_of_errors": 0.9285714285714286
+    },
+    "small_antelope": {
+     "n": 75,
+     "accuracy": 0.36,
+     "lookalike_share_of_errors": 0.5625
+    },
+    "small_carnivores": {
+     "n": 75,
+     "accuracy": 0.8133333333333334,
+     "lookalike_share_of_errors": 0.21428571428571427
+    },
+    "small_cats": {
+     "n": 43,
+     "accuracy": 0.8604651162790697,
+     "lookalike_share_of_errors": 0.16666666666666666
+    },
+    "small_mammals": {
+     "n": 60,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.3333333333333333
+    },
+    "spiral_horned": {
+     "n": 55,
+     "accuracy": 0.6727272727272727,
+     "lookalike_share_of_errors": 0.6111111111111112
+    },
+    "suids": {
+     "n": 30,
+     "accuracy": 0.8333333333333334,
+     "lookalike_share_of_errors": 0.2
+    },
+    "wildebeest": {
+     "n": 30,
+     "accuracy": 0.6666666666666666,
+     "lookalike_share_of_errors": 0.3
+    },
+    "zebras": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.0
+    }
+   },
+   "pairs": {
+    "white_rhino vs black_rhino": {
+     "accuracy": 0.5517241379310345,
+     "n": 29
+    },
+    "plains_zebra vs mountain_zebra": {
+     "accuracy": 1.0,
+     "n": 28
+    },
+    "blue_wildebeest vs black_wildebeest": {
+     "accuracy": 0.8695652173913043,
+     "n": 23
+    },
+    "spotted_hyena vs brown_hyena": {
+     "accuracy": 0.8,
+     "n": 15
+    },
+    "bontebok vs blesbok": {
+     "accuracy": 1.0,
+     "n": 14
+    },
+    "kudu vs nyala": {
+     "accuracy": 0.72,
+     "n": 25
+    },
+    "common_duiker vs steenbok": {
+     "accuracy": 1.0,
+     "n": 15
+    },
+    "black_backed_jackal vs cape_fox": {
+     "accuracy": 0.9333333333333333,
+     "n": 15
+    }
+   }
+  },
+  "test_uncalibrated_ece": 0.04520209032304125
+ },
+ "knn": {
+  "val": {
+   "n": 896,
+   "top1": 0.8404017857142857,
+   "top5": 0.9609375,
+   "macro_f1": 0.8125416599205139,
+   "balanced_accuracy": 0.8197445289752981,
+   "ece": 0.07972703664563593,
+   "temperature": 1.0,
+   "near_miss_share_of_errors": 0.4125874125874126,
+   "per_class": {
+    "aardvark": {
+     "precision": 0.9090909090909091,
+     "recall": 0.6666666666666666,
+     "f1": 0.7692307692307692,
+     "support": 15
+    },
+    "aardwolf": {
+     "precision": 0.75,
+     "recall": 1.0,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "african_wildcat": {
+     "precision": 1.0,
+     "recall": 0.6666666666666666,
+     "f1": 0.8,
+     "support": 15
+    },
+    "baboon": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "bat_eared_fox": {
+     "precision": 0.7894736842105263,
+     "recall": 1.0,
+     "f1": 0.8823529411764706,
+     "support": 15
+    },
+    "black_backed_jackal": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 15
+    },
+    "black_rhino": {
+     "precision": 0.25,
+     "recall": 0.06666666666666667,
+     "f1": 0.10526315789473685,
+     "support": 15
+    },
+    "black_wildebeest": {
+     "precision": 0.875,
+     "recall": 0.9333333333333333,
+     "f1": 0.9032258064516129,
+     "support": 15
+    },
+    "blesbok": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "blue_crane": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "blue_wildebeest": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "bontebok": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "brown_hyena": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "buffalo": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "bushbuck": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "bushpig": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "cape_fox": {
+     "precision": 0.7857142857142857,
+     "recall": 0.7333333333333333,
+     "f1": 0.7586206896551724,
+     "support": 15
+    },
+    "caracal": {
+     "precision": 1.0,
+     "recall": 0.9230769230769231,
+     "f1": 0.9600000000000001,
+     "support": 13
+    },
+    "cheetah": {
+     "precision": 0.8333333333333334,
+     "recall": 0.7142857142857143,
+     "f1": 0.7692307692307692,
+     "support": 7
+    },
+    "civet": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "common_duiker": {
+     "precision": 0.5294117647058824,
+     "recall": 0.6,
+     "f1": 0.5625,
+     "support": 15
+    },
+    "domestic_animal": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "eland": {
+     "precision": 0.7692307692307693,
+     "recall": 0.6666666666666666,
+     "f1": 0.7142857142857142,
+     "support": 15
+    },
+    "elephant": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "gemsbok": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "genet": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "giraffe": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "grey_rhebok": {
+     "precision": 0.7647058823529411,
+     "recall": 0.8666666666666667,
+     "f1": 0.8125,
+     "support": 15
+    },
+    "grysbok": {
+     "precision": 0.9285714285714286,
+     "recall": 0.8666666666666667,
+     "f1": 0.896551724137931,
+     "support": 15
+    },
+    "hare": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "helmeted_guineafowl": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "hippo": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "honey_badger": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "impala": {
+     "precision": 0.7058823529411765,
+     "recall": 0.8,
+     "f1": 0.7500000000000001,
+     "support": 15
+    },
+    "klipspringer": {
+     "precision": 0.4444444444444444,
+     "recall": 0.4444444444444444,
+     "f1": 0.4444444444444444,
+     "support": 9
+    },
+    "kori_bustard": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "kudu": {
+     "precision": 0.631578947368421,
+     "recall": 0.8,
+     "f1": 0.7058823529411765,
+     "support": 15
+    },
+    "leopard": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "lion": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "meerkat": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 5
+    },
+    "mongoose": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "mountain_reedbuck": {
+     "precision": 0.3333333333333333,
+     "recall": 0.1,
+     "f1": 0.15384615384615383,
+     "support": 10
+    },
+    "mountain_zebra": {
+     "precision": 0.875,
+     "recall": 0.4666666666666667,
+     "f1": 0.608695652173913,
+     "support": 15
+    },
+    "nyala": {
+     "precision": 0.8571428571428571,
+     "recall": 0.8,
+     "f1": 0.8275862068965518,
+     "support": 15
+    },
+    "oribi": {
+     "precision": 0.5714285714285714,
+     "recall": 0.4444444444444444,
+     "f1": 0.5,
+     "support": 9
+    },
+    "ostrich": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "plains_zebra": {
+     "precision": 0.7,
+     "recall": 0.9333333333333333,
+     "f1": 0.8,
+     "support": 15
+    },
+    "porcupine": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "red_hartebeest": {
+     "precision": 0.5294117647058824,
+     "recall": 0.6,
+     "f1": 0.5625,
+     "support": 15
+    },
+    "reedbuck": {
+     "precision": 0.5,
+     "recall": 0.4,
+     "f1": 0.4444444444444445,
+     "support": 15
+    },
+    "roan": {
+     "precision": 0.4,
+     "recall": 0.8,
+     "f1": 0.5333333333333333,
+     "support": 5
+    },
+    "sable": {
+     "precision": 1.0,
+     "recall": 0.7333333333333333,
+     "f1": 0.846153846153846,
+     "support": 15
+    },
+    "secretarybird": {
+     "precision": 1.0,
+     "recall": 0.8,
+     "f1": 0.888888888888889,
+     "support": 5
+    },
+    "serval": {
+     "precision": 0.8571428571428571,
+     "recall": 0.8571428571428571,
+     "f1": 0.8571428571428571,
+     "support": 7
+    },
+    "spotted_hyena": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "springbok": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "springhare": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "steenbok": {
+     "precision": 0.5625,
+     "recall": 0.6,
+     "f1": 0.5806451612903225,
+     "support": 15
+    },
+    "tortoise": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 15
+    },
+    "tsessebe": {
+     "precision": 0.7894736842105263,
+     "recall": 1.0,
+     "f1": 0.8823529411764706,
+     "support": 15
+    },
+    "vervet_monkey": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    },
+    "warthog": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "waterbuck": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "white_rhino": {
+     "precision": 0.4583333333333333,
+     "recall": 0.7333333333333333,
+     "f1": 0.5641025641025641,
+     "support": 15
+    },
+    "wild_dog": {
+     "precision": 1.0,
+     "recall": 0.9333333333333333,
+     "f1": 0.9655172413793104,
+     "support": 15
+    }
+   },
+   "clusters": {
+    "birds": {
+     "n": 65,
+     "accuracy": 0.9692307692307692,
+     "lookalike_share_of_errors": 0.5
+    },
+    "bovids_other": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 0.0
+    },
+    "canids": {
+     "n": 60,
+     "accuracy": 0.9166666666666666,
+     "lookalike_share_of_errors": 0.4
+    },
+    "damaliscus": {
+     "n": 46,
+     "accuracy": 0.8260869565217391,
+     "lookalike_share_of_errors": 0.5
+    },
+    "domestic": {
+     "n": 15,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.0
+    },
+    "gazelle_like": {
+     "n": 30,
+     "accuracy": 0.8333333333333334,
+     "lookalike_share_of_errors": 0.2
+    },
+    "hippotragus": {
+     "n": 35,
+     "accuracy": 0.8571428571428571,
+     "lookalike_share_of_errors": 0.8
+    },
+    "hyaenids": {
+     "n": 45,
+     "accuracy": 0.9777777777777777,
+     "lookalike_share_of_errors": 1.0
+    },
+    "kobus_reedbucks": {
+     "n": 40,
+     "accuracy": 0.55,
+     "lookalike_share_of_errors": 0.05555555555555555
+    },
+    "large_cats": {
+     "n": 37,
+     "accuracy": 0.8648648648648649,
+     "lookalike_share_of_errors": 0.4
+    },
+    "megaherbivores": {
+     "n": 30,
+     "accuracy": 0.9666666666666667,
+     "lookalike_share_of_errors": 1.0
+    },
+    "primates": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.5
+    },
+    "reptiles": {
+     "n": 15,
+     "accuracy": 1.0,
+     "lookalike_share_of_errors": 0.0
+    },
+    "rhinos": {
+     "n": 30,
+     "accuracy": 0.4,
+     "lookalike_share_of_errors": 0.7222222222222222
+    },
+    "small_antelope": {
+     "n": 78,
+     "accuracy": 0.6666666666666666,
+     "lookalike_share_of_errors": 0.5384615384615384
+    },
+    "small_carnivores": {
+     "n": 65,
+     "accuracy": 0.9076923076923077,
+     "lookalike_share_of_errors": 0.0
+    },
+    "small_cats": {
+     "n": 35,
+     "accuracy": 0.8,
+     "lookalike_share_of_errors": 0.0
+    },
+    "small_mammals": {
+     "n": 60,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.16666666666666666
+    },
+    "spiral_horned": {
+     "n": 60,
+     "accuracy": 0.7833333333333333,
+     "lookalike_share_of_errors": 0.46153846153846156
+    },
+    "suids": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.0
+    },
+    "wildebeest": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 0.0
+    },
+    "zebras": {
+     "n": 30,
+     "accuracy": 0.7,
+     "lookalike_share_of_errors": 0.7777777777777778
+    }
+   }
+  },
+  "test": {
+   "n": 853,
+   "top1": 0.7045720984759671,
+   "top5": 0.88042203985932,
+   "macro_f1": 0.6853624601566793,
+   "balanced_accuracy": 0.6859908908296004,
+   "ece": 0.05062283596497767,
+   "temperature": 1.0,
+   "near_miss_share_of_errors": 0.39285714285714285,
+   "per_class": {
+    "aardvark": {
+     "precision": 0.7857142857142857,
+     "recall": 0.7333333333333333,
+     "f1": 0.7586206896551724,
+     "support": 15
+    },
+    "aardwolf": {
+     "precision": 0.6086956521739131,
+     "recall": 0.9333333333333333,
+     "f1": 0.7368421052631579,
+     "support": 15
+    },
+    "african_wildcat": {
+     "precision": 1.0,
+     "recall": 0.8461538461538461,
+     "f1": 0.9166666666666666,
+     "support": 13
+    },
+    "baboon": {
+     "precision": 0.7,
+     "recall": 0.9333333333333333,
+     "f1": 0.8,
+     "support": 15
+    },
+    "bat_eared_fox": {
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091,
+     "support": 15
+    },
+    "black_backed_jackal": {
+     "precision": 0.6,
+     "recall": 0.8,
+     "f1": 0.6857142857142857,
+     "support": 15
+    },
+    "black_rhino": {
+     "precision": 0.3333333333333333,
+     "recall": 0.2,
+     "f1": 0.25,
+     "support": 15
+    },
+    "black_wildebeest": {
+     "precision": 0.6470588235294118,
+     "recall": 0.7333333333333333,
+     "f1": 0.6875,
+     "support": 15
+    },
+    "blesbok": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "blue_crane": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 4
+    },
+    "blue_wildebeest": {
+     "precision": 0.5882352941176471,
+     "recall": 0.6666666666666666,
+     "f1": 0.625,
+     "support": 15
+    },
+    "brown_hyena": {
+     "precision": 0.875,
+     "recall": 0.4666666666666667,
+     "f1": 0.608695652173913,
+     "support": 15
+    },
+    "buffalo": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "bushbuck": {
+     "precision": 0.8333333333333334,
+     "recall": 0.5,
+     "f1": 0.625,
+     "support": 10
+    },
+    "bushpig": {
+     "precision": 0.4583333333333333,
+     "recall": 0.7333333333333333,
+     "f1": 0.5641025641025641,
+     "support": 15
+    },
+    "cape_fox": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "caracal": {
+     "precision": 0.9375,
+     "recall": 1.0,
+     "f1": 0.967741935483871,
+     "support": 15
+    },
+    "cheetah": {
+     "precision": 0.5294117647058824,
+     "recall": 0.6428571428571429,
+     "f1": 0.5806451612903226,
+     "support": 14
+    },
+    "civet": {
+     "precision": 0.7222222222222222,
+     "recall": 0.8666666666666667,
+     "f1": 0.7878787878787877,
+     "support": 15
+    },
+    "common_duiker": {
+     "precision": 0.3793103448275862,
+     "recall": 0.7333333333333333,
+     "f1": 0.5,
+     "support": 15
+    },
+    "domestic_animal": {
+     "precision": 1.0,
+     "recall": 0.26666666666666666,
+     "f1": 0.4210526315789474,
+     "support": 15
+    },
+    "eland": {
+     "precision": 0.8571428571428571,
+     "recall": 0.8,
+     "f1": 0.8275862068965518,
+     "support": 15
+    },
+    "elephant": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "gemsbok": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "genet": {
+     "precision": 1.0,
+     "recall": 0.7333333333333333,
+     "f1": 0.846153846153846,
+     "support": 15
+    },
+    "giraffe": {
+     "precision": 0.8235294117647058,
+     "recall": 0.9333333333333333,
+     "f1": 0.8749999999999999,
+     "support": 15
+    },
+    "grey_rhebok": {
+     "precision": 0.3333333333333333,
+     "recall": 0.26666666666666666,
+     "f1": 0.2962962962962963,
+     "support": 15
+    },
+    "hare": {
+     "precision": 0.8,
+     "recall": 0.8,
+     "f1": 0.8000000000000002,
+     "support": 15
+    },
+    "hippo": {
+     "precision": 0.6875,
+     "recall": 0.7333333333333333,
+     "f1": 0.7096774193548386,
+     "support": 15
+    },
+    "honey_badger": {
+     "precision": 0.7777777777777778,
+     "recall": 0.9333333333333333,
+     "f1": 0.8484848484848485,
+     "support": 15
+    },
+    "impala": {
+     "precision": 0.6153846153846154,
+     "recall": 0.5333333333333333,
+     "f1": 0.5714285714285715,
+     "support": 15
+    },
+    "klipspringer": {
+     "precision": 0.25,
+     "recall": 0.06666666666666667,
+     "f1": 0.10526315789473685,
+     "support": 15
+    },
+    "kori_bustard": {
+     "precision": 0.8823529411764706,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "support": 15
+    },
+    "kudu": {
+     "precision": 0.6,
+     "recall": 0.8,
+     "f1": 0.6857142857142857,
+     "support": 15
+    },
+    "leopard": {
+     "precision": 1.0,
+     "recall": 0.7333333333333333,
+     "f1": 0.846153846153846,
+     "support": 15
+    },
+    "lion": {
+     "precision": 1.0,
+     "recall": 0.7333333333333333,
+     "f1": 0.846153846153846,
+     "support": 15
+    },
+    "meerkat": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "mongoose": {
+     "precision": 0.6923076923076923,
+     "recall": 0.6,
+     "f1": 0.6428571428571429,
+     "support": 15
+    },
+    "mountain_reedbuck": {
+     "precision": 0.2,
+     "recall": 0.06666666666666667,
+     "f1": 0.1,
+     "support": 15
+    },
+    "mountain_zebra": {
+     "precision": 1.0,
+     "recall": 0.5333333333333333,
+     "f1": 0.6956521739130436,
+     "support": 15
+    },
+    "nyala": {
+     "precision": 0.7692307692307693,
+     "recall": 0.6666666666666666,
+     "f1": 0.7142857142857142,
+     "support": 15
+    },
+    "oribi": {
+     "precision": 0.4,
+     "recall": 0.5333333333333333,
+     "f1": 0.4571428571428572,
+     "support": 15
+    },
+    "ostrich": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 15
+    },
+    "plains_zebra": {
+     "precision": 0.65,
+     "recall": 0.8666666666666667,
+     "f1": 0.7428571428571429,
+     "support": 15
+    },
+    "porcupine": {
+     "precision": 1.0,
+     "recall": 0.8666666666666667,
+     "f1": 0.9285714285714286,
+     "support": 15
+    },
+    "red_hartebeest": {
+     "precision": 0.6875,
+     "recall": 0.7333333333333333,
+     "f1": 0.7096774193548386,
+     "support": 15
+    },
+    "reedbuck": {
+     "precision": 0.21052631578947367,
+     "recall": 0.26666666666666666,
+     "f1": 0.23529411764705882,
+     "support": 15
+    },
+    "roan": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "sable": {
+     "precision": 1.0,
+     "recall": 0.3333333333333333,
+     "f1": 0.5,
+     "support": 3
+    },
+    "secretarybird": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 6
+    },
+    "serval": {
+     "precision": 0.9285714285714286,
+     "recall": 0.8666666666666667,
+     "f1": 0.896551724137931,
+     "support": 15
+    },
+    "spotted_hyena": {
+     "precision": 0.5714285714285714,
+     "recall": 0.26666666666666666,
+     "f1": 0.36363636363636365,
+     "support": 15
+    },
+    "springbok": {
+     "precision": 0.9230769230769231,
+     "recall": 0.8,
+     "f1": 0.8571428571428571,
+     "support": 15
+    },
+    "springhare": {
+     "precision": 0.8666666666666667,
+     "recall": 0.8666666666666667,
+     "f1": 0.8666666666666667,
+     "support": 15
+    },
+    "steenbok": {
+     "precision": 0.3333333333333333,
+     "recall": 0.26666666666666666,
+     "f1": 0.2962962962962963,
+     "support": 15
+    },
+    "tortoise": {
+     "precision": 0.8181818181818182,
+     "recall": 0.9,
+     "f1": 0.8571428571428572,
+     "support": 10
+    },
+    "tsessebe": {
+     "precision": 0.875,
+     "recall": 0.4666666666666667,
+     "f1": 0.608695652173913,
+     "support": 15
+    },
+    "vervet_monkey": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "warthog": {
+     "precision": 0.9333333333333333,
+     "recall": 0.9333333333333333,
+     "f1": 0.9333333333333333,
+     "support": 15
+    },
+    "waterbuck": {
+     "precision": 0.8125,
+     "recall": 0.8666666666666667,
+     "f1": 0.8387096774193549,
+     "support": 15
+    },
+    "white_rhino": {
+     "precision": 0.2962962962962963,
+     "recall": 0.5333333333333333,
+     "f1": 0.38095238095238093,
+     "support": 15
+    },
+    "wild_dog": {
+     "precision": 1.0,
+     "recall": 0.9090909090909091,
+     "f1": 0.9523809523809523,
+     "support": 11
+    }
+   },
+   "clusters": {
+    "birds": {
+     "n": 40,
+     "accuracy": 1.0,
+     "lookalike_share_of_errors": 0.0
+    },
+    "bovids_other": {
+     "n": 30,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.0
+    },
+    "canids": {
+     "n": 42,
+     "accuracy": 0.8809523809523809,
+     "lookalike_share_of_errors": 0.4
+    },
+    "damaliscus": {
+     "n": 45,
+     "accuracy": 0.6666666666666666,
+     "lookalike_share_of_errors": 0.26666666666666666
+    },
+    "domestic": {
+     "n": 15,
+     "accuracy": 0.26666666666666666,
+     "lookalike_share_of_errors": 0.0
+    },
+    "gazelle_like": {
+     "n": 30,
+     "accuracy": 0.6666666666666666,
+     "lookalike_share_of_errors": 0.1
+    },
+    "hippotragus": {
+     "n": 19,
+     "accuracy": 0.7894736842105263,
+     "lookalike_share_of_errors": 0.0
+    },
+    "hyaenids": {
+     "n": 45,
+     "accuracy": 0.5555555555555556,
+     "lookalike_share_of_errors": 0.3
+    },
+    "kobus_reedbucks": {
+     "n": 45,
+     "accuracy": 0.4,
+     "lookalike_share_of_errors": 0.1111111111111111
+    },
+    "large_cats": {
+     "n": 44,
+     "accuracy": 0.7045454545454546,
+     "lookalike_share_of_errors": 0.23076923076923078
+    },
+    "megaherbivores": {
+     "n": 30,
+     "accuracy": 0.8333333333333334,
+     "lookalike_share_of_errors": 0.0
+    },
+    "primates": {
+     "n": 30,
+     "accuracy": 0.9333333333333333,
+     "lookalike_share_of_errors": 1.0
+    },
+    "reptiles": {
+     "n": 10,
+     "accuracy": 0.9,
+     "lookalike_share_of_errors": 0.0
+    },
+    "rhinos": {
+     "n": 30,
+     "accuracy": 0.36666666666666664,
+     "lookalike_share_of_errors": 0.8421052631578947
+    },
+    "small_antelope": {
+     "n": 75,
+     "accuracy": 0.37333333333333335,
+     "lookalike_share_of_errors": 0.6808510638297872
+    },
+    "small_carnivores": {
+     "n": 75,
+     "accuracy": 0.7866666666666666,
+     "lookalike_share_of_errors": 0.375
+    },
+    "small_cats": {
+     "n": 43,
+     "accuracy": 0.9069767441860465,
+     "lookalike_share_of_errors": 0.25
+    },
+    "small_mammals": {
+     "n": 60,
+     "accuracy": 0.8166666666666667,
+     "lookalike_share_of_errors": 0.2727272727272727
+    },
+    "spiral_horned": {
+     "n": 55,
+     "accuracy": 0.7090909090909091,
+     "lookalike_share_of_errors": 0.625
+    },
+    "suids": {
+     "n": 30,
+     "accuracy": 0.8333333333333334,
+     "lookalike_share_of_errors": 0.2
+    },
+    "wildebeest": {
+     "n": 30,
+     "accuracy": 0.7,
+     "lookalike_share_of_errors": 0.2222222222222222
+    },
+    "zebras": {
+     "n": 30,
+     "accuracy": 0.7,
+     "lookalike_share_of_errors": 0.7777777777777778
+    }
+   },
+   "pairs": {
+    "white_rhino vs black_rhino": {
+     "accuracy": 0.4074074074074074,
+     "n": 27
+    },
+    "plains_zebra vs mountain_zebra": {
+     "accuracy": 0.75,
+     "n": 28
+    },
+    "blue_wildebeest vs black_wildebeest": {
+     "accuracy": 0.9130434782608695,
+     "n": 23
+    },
+    "spotted_hyena vs brown_hyena": {
+     "accuracy": 1.0,
+     "n": 11
+    },
+    "bontebok vs blesbok": {
+     "accuracy": 0.9230769230769231,
+     "n": 13
+    },
+    "kudu vs nyala": {
+     "accuracy": 0.8148148148148148,
+     "n": 27
+    },
+    "common_duiker vs steenbok": {
+     "accuracy": 1.0,
+     "n": 15
+    },
+    "black_backed_jackal vs cape_fox": {
+     "accuracy": 0.9230769230769231,
+     "n": 13
+    }
+   }
+  }
+ }
+}
