@@ -1,0 +1,107 @@
+{
+ "projects": [
+  "CDB",
+  "KRU",
+  "PLN"
+ ],
+ "sequences": 129152,
+ "empty_sequences": 82872,
+ "animal_sequences": 41094,
+ "priority_sequences": 5574,
+ "thresholds": [
+  {
+   "threshold": 0.05,
+   "empty_removed": 0.8975407857901342,
+   "animal_kept": 0.9991969630603008,
+   "priority_kept": 0.9982059562253319,
+   "frames_to_review": 0.5301024538915099
+  },
+  {
+   "threshold": 0.1,
+   "empty_removed": 0.8975407857901342,
+   "animal_kept": 0.9991969630603008,
+   "priority_kept": 0.9982059562253319,
+   "frames_to_review": 0.5301024538915099
+  },
+  {
+   "threshold": 0.2,
+   "empty_removed": 0.9474490780963414,
+   "animal_kept": 0.9987102740059376,
+   "priority_kept": 0.9969501255830642,
+   "frames_to_review": 0.4904179966173684
+  },
+  {
+   "threshold": 0.3,
+   "empty_removed": 0.9668404286128005,
+   "animal_kept": 0.9980775782352654,
+   "priority_kept": 0.9946178686759957,
+   "frames_to_review": 0.4740304606398176
+  },
+  {
+   "threshold": 0.5,
+   "empty_removed": 0.9845303600733661,
+   "animal_kept": 0.9950601060982138,
+   "priority_kept": 0.9870828848223897,
+   "frames_to_review": 0.45858395750939973
+  },
+  {
+   "threshold": 0.7,
+   "empty_removed": 0.9934235930109084,
+   "animal_kept": 0.9808487857108094,
+   "priority_kept": 0.9522784355938285,
+   "frames_to_review": 0.4464565026641403
+  }
+ ],
+ "priority_by_class_at_0.2": [
+  {
+   "cls": "white_rhino",
+   "sequences": 983,
+   "kept": 0.9928789420142421
+  },
+  {
+   "cls": "lion",
+   "sequences": 223,
+   "kept": 0.9955156950672646
+  },
+  {
+   "cls": "black_rhino",
+   "sequences": 308,
+   "kept": 0.9967532467532467
+  },
+  {
+   "cls": "elephant",
+   "sequences": 2985,
+   "kept": 0.997319932998325
+  },
+  {
+   "cls": "domestic_animal",
+   "sequences": 171,
+   "kept": 1.0
+  },
+  {
+   "cls": "cheetah",
+   "sequences": 15,
+   "kept": 1.0
+  },
+  {
+   "cls": "leopard",
+   "sequences": 83,
+   "kept": 1.0
+  },
+  {
+   "cls": "brown_hyena",
+   "sequences": 400,
+   "kept": 1.0
+  },
+  {
+   "cls": "spotted_hyena",
+   "sequences": 395,
+   "kept": 1.0
+  },
+  {
+   "cls": "wild_dog",
+   "sequences": 11,
+   "kept": 1.0
+  }
+ ]
+}
