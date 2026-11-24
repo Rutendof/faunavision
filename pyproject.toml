@@ -11,8 +11,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "httpx>=0.27"]  # httpx: FastAPI TestClient
 export = ["onnx>=1.16", "onnxscript>=0.1", "onnxruntime>=1.18"]  # model 6 export + API runtime
+api = ["fastapi>=0.110", "uvicorn>=0.29", "python-multipart>=0.0.9", "onnxruntime>=1.18", "numpy>=1.24"]  # inference API
 
 [build-system]
 requires = ["setuptools>=68"]

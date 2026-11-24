@@ -1,7 +1,8 @@
 """Export a trained checkpoint (usually the model 6 student) to ONNX and verify it.
 
 Example:
-    python scripts/export_onnx.py --ckpt checkpoints/student_b0/best.pt --out exports/student_b0.onnx
+    python scripts/export_onnx.py --ckpt checkpoints/student_b0/best.pt --out exports/student_b0.onnx \\
+        --metrics reports/results/student_b0/metrics.json
 
 The graph takes a normalised float32 batch (N, 3, S, S) and returns logits
 (N, num_classes); the batch axis is dynamic. A sidecar JSON next to the .onnx
@@ -47,7 +48,7 @@ def export(model: torch.nn.Module, img_size: int, out: Path, opset: int = 17) ->
     out.parent.mkdir(parents=True, exist_ok=True)
     dummy = torch.randn(1, 3, img_size, img_size)
     torch.onnx.export(model, (dummy,), str(out), input_names=["input"], output_names=["logits"],
-                      dynamic_axes={"input": {0: "batch"}, "logits": {0: "batch"}}, opset_version=opset,
+                      dynamic_shapes=({0: torch.export.Dim("batch", min=1, max=1024)},), opset_version=opset,
                       external_data=False)  # one self-contained file (fine below protobuf's 2 GB limit)
 
 
@@ -76,9 +77,13 @@ def main() -> None:
     p.add_argument("--ckpt", type=Path, required=True, help="best.pt written by scripts/train.py")
     p.add_argument("--out", type=Path, required=True, help="output .onnx path")
     p.add_argument("--opset", type=int, default=17)
+    p.add_argument("--metrics", type=Path, default=None,
+                   help="the run's reports/results/<run>/metrics.json: copies the val-fitted temperature")
     args = p.parse_args()
 
     model, meta = load_checkpoint(args.ckpt)
+    if args.metrics:
+        meta["temperature"] = json.loads(args.metrics.read_text(encoding="utf-8"))["val"]["temperature"]
     export(model, meta["img_size"], args.out, args.opset)
     args.out.with_suffix(".json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     diff = verify(model, args.out, meta["img_size"])
