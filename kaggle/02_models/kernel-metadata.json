@@ -1,0 +1,14 @@
+{
+  "id": "treymz/faunavision-02-models",
+  "title": "FaunaVision 02 models",
+  "code_file": "../../notebooks/02_kaggle_models_distill_export.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

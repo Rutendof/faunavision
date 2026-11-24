@@ -82,6 +82,9 @@ these numbers as optimistic.
 
 ## Step 5: fine-tuned models (models 2 to 5)
 
+On Kaggle, `notebooks/02_kaggle_models_distill_export.ipynb` runs steps 5 and 7
+one stage per session (`kaggle kernels push -p kaggle/02_models`).
+
 ```bash
 # Model 2: ResNet-50 baseline
 python scripts/train.py --model resnet50.a1_in1k --run resnet50 --epochs 15
