@@ -229,6 +229,7 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     (out / "metrics.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
     np.savez(out / "test_logits.npz", logits=lt, labels=yt)
+    np.savez(out / "val_logits.npz", logits=lv, labels=yv)  # for tuning thresholds without touching test
     print(f"best val macro-F1 {best_f1:.3f} | test top1 {results['test']['top1']:.3f} "
           f"macro-F1 {results['test']['macro_f1']:.3f} | {out / 'metrics.json'}")
 

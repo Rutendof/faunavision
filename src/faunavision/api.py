@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import io
 import json
+import logging
 import os
 from functools import lru_cache
 from pathlib import Path
@@ -24,10 +25,12 @@ from PIL import Image, UnidentifiedImageError
 
 from faunavision.data.classes import CLASSES, COMMON_NAMES
 
+log = logging.getLogger("faunavision.api")
+
 MAX_UPLOAD_BYTES = 10 * 2**20
 Image.MAX_IMAGE_PIXELS = 40_000_000  # decompression-bomb guard (PIL raises above 2x this)
 ALLOWED_FORMATS = {"JPEG", "PNG", "WEBP"}
-LOOKALIKE_MARGIN = 0.2  # top-2 in one cluster and closer than this -> flag for review
+DEFAULT_REVIEW_MARGIN = 0.2  # used only if the sidecar has no margin tuned on validation data
 
 
 class Classifier:
@@ -41,17 +44,21 @@ class Classifier:
         self.mean = np.asarray(self.meta["mean"], np.float32).reshape(3, 1, 1)
         self.std = np.asarray(self.meta["std"], np.float32).reshape(3, 1, 1)
         self.temperature = float(self.meta.get("temperature", 1.0))
+        self.review_margin = float(self.meta.get("review_margin", DEFAULT_REVIEW_MARGIN))
         self.session = ort.InferenceSession(str(onnx_path), providers=["CPUExecutionProvider"])
 
     def preprocess(self, img: Image.Image) -> np.ndarray:
-        """Match the training eval transform: shorter side to size (bicubic), centre crop, normalise."""
+        """Match the training eval transform: centre square, resized to size (bicubic), normalised.
+
+        The square is cut in source coordinates before resizing, so a long
+        thin image never becomes a huge intermediate (same result as
+        shorter-side resize then centre crop, up to rounding).
+        """
         img = img.convert("RGB")
         w, h = img.size
-        s = self.size / min(w, h)
-        img = img.resize((max(self.size, round(w * s)), max(self.size, round(h * s))), Image.BICUBIC)
-        w, h = img.size
-        left, top = (w - self.size) // 2, (h - self.size) // 2
-        img = img.crop((left, top, left + self.size, top + self.size))
+        side = min(w, h)
+        left, top = (w - side) // 2, (h - side) // 2
+        img = img.resize((self.size, self.size), Image.BICUBIC, box=(left, top, left + side, top + side))
         x = np.asarray(img, np.float32).transpose(2, 0, 1) / 255.0
         return ((x - self.mean) / self.std)[None]
 
@@ -66,7 +73,7 @@ class Classifier:
                   "cluster": CLASSES[names[i]].cluster, "priority": CLASSES[names[i]].priority} for i in order]
         first, second = (preds + [None])[:2]
         lookalike = bool(second and first["cluster"] == second["cluster"]
-                         and first["probability"] - second["probability"] < LOOKALIKE_MARGIN)
+                         and float(p[order[0]] - p[order[1]]) < self.review_margin)
         return {"predictions": preds, "priority_alert": first["priority"], "lookalike_review": lookalike}
 
 
@@ -85,20 +92,24 @@ app = FastAPI(title="FaunaVision", description="Lookalike-aware species classifi
 def health() -> dict:
     try:
         clf = get_classifier()
-    except Exception as e:  # report, don't crash: lets a platform health check show the cause
-        raise HTTPException(503, f"model not loaded: {e}") from e
+    except Exception as e:  # details go to the server log, not to the client
+        log.exception("model failed to load")
+        raise HTTPException(503, "model not loaded") from e
     return {"status": "ok", "model": clf.meta["model_name"], "img_size": clf.size, "classes": len(clf.meta["classes"])}
 
 
 @app.post("/predict")
-async def predict(file: UploadFile = File(...), top_k: int = Query(5, ge=1, le=10)) -> dict:
-    data = await file.read(MAX_UPLOAD_BYTES + 1)
+def predict(file: UploadFile = File(...), top_k: int = Query(5, ge=1, le=10)) -> dict:
+    # sync endpoint: FastAPI runs it in a worker thread, so CPU-bound inference doesn't block the event loop
+    data = file.file.read(MAX_UPLOAD_BYTES + 1)
     if len(data) > MAX_UPLOAD_BYTES:
         raise HTTPException(413, f"image larger than {MAX_UPLOAD_BYTES // 2**20} MB")
     try:
         img = Image.open(io.BytesIO(data))
         if img.format not in ALLOWED_FORMATS:
             raise HTTPException(415, f"unsupported image format {img.format}; use JPEG, PNG or WebP")
+        if img.width * img.height > Image.MAX_IMAGE_PIXELS:  # PIL itself only raises above 2x the limit
+            raise HTTPException(413, "image has too many pixels")
         img.load()
     except (UnidentifiedImageError, Image.DecompressionBombError, OSError) as e:
         raise HTTPException(400, "file is not a readable image") from e

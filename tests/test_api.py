@@ -90,3 +90,40 @@ def test_health_reports_missing_model(monkeypatch):
     monkeypatch.delenv("FAUNAVISION_MODEL", raising=False)
     api.get_classifier.cache_clear()
     assert TestClient(api.app).get("/health").status_code == 503
+
+
+def test_review_margin_comes_from_sidecar(client, tmp_path):
+    from faunavision import api
+
+    meta_path = tmp_path / "m.json"
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    meta["review_margin"] = 1e-9  # effectively never flag
+    meta_path.write_text(json.dumps(meta), encoding="utf-8")
+    api.get_classifier.cache_clear()
+    r = client.post("/predict", files={"file": ("a.png", _png((200, 199, 0)), "image/png")})
+    assert r.json()["lookalike_review"] is False
+
+
+def test_extreme_aspect_ratio_is_cheap_and_correct(client):
+    from faunavision import api
+
+    clf = api.get_classifier()
+    x = clf.preprocess(Image.new("RGB", (20_000, 3), (255, 0, 0)))
+    assert x.shape == (1, 3, 32, 32) and np.allclose(x[0, 0], 1.0)
+
+
+def test_rejects_too_many_pixels(client, monkeypatch):
+    monkeypatch.setattr(Image, "MAX_IMAGE_PIXELS", 1000)
+    assert client.post("/predict", files={"file": ("a.png", _png((1, 2, 3), (40, 40)), "image/png")}).status_code == 413
+
+
+def test_health_hides_error_details(monkeypatch, tmp_path):
+    from fastapi.testclient import TestClient
+
+    from faunavision import api
+
+    monkeypatch.setenv("FAUNAVISION_MODEL", str(tmp_path / "secret_dir" / "missing.onnx"))
+    api.get_classifier.cache_clear()
+    r = TestClient(api.app).get("/health")
+    assert r.status_code == 503 and "secret_dir" not in r.text
+    api.get_classifier.cache_clear()

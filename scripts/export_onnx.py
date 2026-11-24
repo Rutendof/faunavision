@@ -27,7 +27,9 @@ import torch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+from faunavision.data.classes import CLASSES  # noqa: E402
 from faunavision.data.dataset import CLASS_NAMES  # noqa: E402
+from faunavision.metrics import tune_review_margin  # noqa: E402
 
 
 def load_checkpoint(path: Path) -> tuple[torch.nn.Module, dict]:
@@ -78,12 +80,26 @@ def main() -> None:
     p.add_argument("--out", type=Path, required=True, help="output .onnx path")
     p.add_argument("--opset", type=int, default=17)
     p.add_argument("--metrics", type=Path, default=None,
-                   help="the run's reports/results/<run>/metrics.json: copies the val-fitted temperature")
+                   help="the run's reports/results/<run>/metrics.json: copies the val-fitted temperature "
+                        "and tunes the lookalike-review margin on val_logits.npz beside it")
+    p.add_argument("--review-recall", type=float, default=0.8,
+                   help="share of validation lookalike errors the review flag must catch")
     args = p.parse_args()
 
     model, meta = load_checkpoint(args.ckpt)
     if args.metrics:
         meta["temperature"] = json.loads(args.metrics.read_text(encoding="utf-8"))["val"]["temperature"]
+        val = args.metrics.with_name("val_logits.npz")
+        if val.exists():
+            v = np.load(val)
+            tuned = tune_review_margin(v["logits"], v["labels"], CLASS_NAMES,
+                                       {c: CLASSES[c].cluster for c in CLASS_NAMES},
+                                       meta["temperature"], args.review_recall)
+            meta["review_margin"], meta["review_tuning"] = tuned["margin"], tuned
+            print(f"review margin {tuned['margin']:.3f}: catches {tuned['recall']:.0%} of val lookalike errors "
+                  f"(max {tuned['max_recall']:.0%}), flags {tuned['flag_rate']:.0%} of crops")
+        else:
+            print(f"no {val.name} beside metrics.json; API will use its default review margin")
     export(model, meta["img_size"], args.out, args.opset)
     args.out.with_suffix(".json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     diff = verify(model, args.out, meta["img_size"])

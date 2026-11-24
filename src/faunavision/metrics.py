@@ -84,6 +84,42 @@ def softmax(logits: np.ndarray, temperature: float = 1.0) -> np.ndarray:
     return e / e.sum(axis=1, keepdims=True)
 
 
+def review_flags(probs: np.ndarray, cluster_of: np.ndarray, margin: float) -> np.ndarray:
+    """Lookalike-review flag: top-2 classes share a cluster and are closer than ``margin``."""
+    top2 = np.argsort(-probs, axis=1)[:, :2]
+    p = np.take_along_axis(probs, top2, axis=1)
+    return (cluster_of[top2[:, 0]] == cluster_of[top2[:, 1]]) & (p[:, 0] - p[:, 1] < margin)
+
+
+def tune_review_margin(logits: np.ndarray, y: np.ndarray, class_names: list[str], clusters: dict[str, str],
+                       temperature: float = 1.0, target_recall: float = 0.8) -> dict:
+    """Smallest margin whose review flag catches ``target_recall`` of lookalike errors.
+
+    A lookalike error is a wrong top-1 inside the true class's cluster (white
+    rhino called black rhino). Fit on validation data. ``flag_rate`` is the
+    share of all crops sent to review: the ranger workload this margin costs.
+    Errors whose runner-up is outside the cluster can never be flagged, so
+    ``max_recall`` may sit below the target; the margin then covers all that can.
+    """
+    cluster_of = np.array([clusters[c] for c in class_names])
+    probs = softmax(logits, temperature)
+    top2 = np.argsort(-probs, axis=1)[:, :2]
+    pred = top2[:, 0]
+    errors = (pred != y) & (cluster_of[pred] == cluster_of[y])
+    flaggable = errors & (cluster_of[top2[:, 0]] == cluster_of[top2[:, 1]])
+    n_err = int(errors.sum())
+    if n_err == 0:
+        return {"margin": 0.0, "recall": 1.0, "max_recall": 1.0, "flag_rate": 0.0, "n_lookalike_errors": 0}
+    p =np.take_along_axis(probs, top2, axis=1)
+    gaps = np.sort((p[:, 0] - p[:, 1])[flaggable])
+    need = min(int(np.ceil(target_recall * n_err)), len(gaps))
+    margin = float(gaps[need - 1] + 1e-6) if need else 0.0
+    flags = review_flags(probs, cluster_of, margin)
+    return {"margin": round(margin, 6), "recall": float((flags & errors).sum() / n_err),
+            "max_recall": float(flaggable.sum() / n_err), "flag_rate": float(flags.mean()),
+            "n_lookalike_errors": n_err}
+
+
 def cluster_report(pred: np.ndarray, y: np.ndarray, class_names: list[str], clusters: dict[str, str]) -> dict:
     """Per-cluster accuracy and lookalike confusion.
 

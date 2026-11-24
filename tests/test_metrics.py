@@ -65,3 +65,24 @@ def test_summarize_near_miss_share():
     s = summarize(logits, y, NAMES, CLUSTERS)
     assert s["near_miss_share_of_errors"] == 0.5
     assert set(s["per_class"]) == {"white_rhino", "lion"}
+
+
+def test_tune_review_margin_hits_target_recall_with_smallest_margin():
+    from faunavision.metrics import tune_review_margin
+
+    names = ["a1", "a2", "b"]
+    clusters = {"a1": "A", "a2": "A", "b": "B"}
+    # log-probs give exact softmax probabilities at T=1
+    rows = [[0.55, 0.45, 0.0],   # lookalike error, gap 0.10
+            [0.70, 0.30, 0.0],   # lookalike error, gap 0.40
+            [0.60, 0.05, 0.35],  # lookalike error, runner-up outside cluster: unflaggable
+            [0.95, 0.05, 0.0],   # correct
+            [0.10, 0.0, 0.90]]   # correct, other cluster
+    y = np.array([1, 1, 1, 0, 2])
+    logits = np.log(np.array(rows) + 1e-12)
+    r = tune_review_margin(logits, y, names, clusters, target_recall=0.3)
+    assert abs(r["margin"] - 0.10) < 1e-3 and abs(r["recall"] - 1 / 3) < 1e-9
+    r = tune_review_margin(logits, y, names, clusters, target_recall=1.0)
+    assert abs(r["margin"] - 0.40) < 1e-3          # covers every flaggable error
+    assert abs(r["max_recall"] - 2 / 3) < 1e-9 and r["n_lookalike_errors"] == 3
+    assert abs(r["flag_rate"] - 2 / 5) < 1e-9      # the correct 0.95/0.05 row is not flagged
