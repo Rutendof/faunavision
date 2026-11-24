@@ -87,6 +87,19 @@ def lr_at(step, total, warmup, base):
     return base * 0.5 * (1 + math.cos(math.pi * progress))
 
 
+def adapt_state_to_model(state: dict, model) -> dict:
+    """Resample a ViT's position embeddings when --init comes from another resolution (224 -> 448 px)."""
+    pe = state.get("pos_embed")
+    if pe is not None and hasattr(model, "pos_embed") and pe.shape != model.pos_embed.shape:
+        from timm.layers import resample_abs_pos_embed
+
+        prefix = getattr(model, "num_prefix_tokens", 1)
+        old = int(round((pe.shape[1] - prefix) ** 0.5))
+        state = {**state, "pos_embed": resample_abs_pos_embed(
+            pe, new_size=list(model.patch_embed.grid_size), old_size=[old, old], num_prefix_tokens=prefix)}
+    return state
+
+
 def load_teacher(path: Path, student, device: str) -> TeacherAdapter:
     """Rebuild a trained model from its best.pt and wrap it to accept the student's batches."""
     ck = torch.load(path, map_location=device, weights_only=True)
@@ -138,7 +151,7 @@ def main() -> None:
     model = timm.create_model(args.model, pretrained=True, num_classes=len(CLASS_NAMES), **kwargs).to(device)
     if args.init:
         state = torch.load(args.init, map_location=device, weights_only=True)["model"]
-        model.load_state_dict(state)
+        model.load_state_dict(adapt_state_to_model(state, model))
     if hasattr(model, "set_grad_checkpointing") and device == "cuda":
         model.set_grad_checkpointing(True)  # fits ViT-B at 448 px on a 16 GB GPU
     train_tf, eval_tf = build_transforms(model, args.img_size)
