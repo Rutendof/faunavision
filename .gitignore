@@ -8,6 +8,7 @@ checkpoints/
 *.pth
 *.onnx
 *.safetensors
+/exports/
 wandb/
 mlruns/
 

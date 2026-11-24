@@ -1,0 +1,9 @@
+# Only pyproject.toml, src/ and exports/model.* are needed in the image.
+# Training data must never enter an image (licence terms forbid redistribution).
+*
+!pyproject.toml
+!src/
+!exports/model.onnx
+!exports/model.json
+**/__pycache__
+**/*.egg-info
