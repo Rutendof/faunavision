@@ -12,6 +12,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+export = ["onnx>=1.16", "onnxscript>=0.1", "onnxruntime>=1.18"]  # model 6 export + API runtime
 
 [build-system]
 requires = ["setuptools>=68"]

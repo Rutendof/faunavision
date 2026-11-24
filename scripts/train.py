@@ -1,4 +1,4 @@
-"""Fine-tune a pretrained backbone on the crops (models 2-5).
+"""Fine-tune a pretrained backbone on the crops (models 2-5), or distil a student (model 6).
 
 Examples:
     # ResNet-50 baseline
@@ -8,6 +8,8 @@ Examples:
     # Laptop smoke test
     python scripts/train.py --model resnet18.a1_in1k --manifest data/processed/manifest_mini.csv \
         --crops data/crops_mini --epochs 1 --batch-size 16 --run smoke
+    # Model 6: distil model 5 into a small student for ONNX / CPU inference
+    python scripts/train.py --model efficientnet_b0.ra_in1k --run student_b0         --teacher checkpoints/dinov2_b14_448/best.pt --kd-alpha 0.7 --kd-temp 2
 
 Recipe: AdamW, warmup + cosine schedule, label smoothing, RandAugment,
 optional layer-wise LR decay (ViTs), weight EMA, mixed precision on GPU.
@@ -38,6 +40,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from faunavision.data.classes import CLASSES  # noqa: E402
+from faunavision.distill import TeacherAdapter, kd_loss  # noqa: E402
 from faunavision.data.dataset import CLASS_INDEX, CLASS_NAMES, CropDataset, available_rows  # noqa: E402
 from faunavision.metrics import fit_temperature, summarize  # noqa: E402
 
@@ -84,6 +87,20 @@ def lr_at(step, total, warmup, base):
     return base * 0.5 * (1 + math.cos(math.pi * progress))
 
 
+def load_teacher(path: Path, student, device: str) -> TeacherAdapter:
+    """Rebuild a trained model from its best.pt and wrap it to accept the student's batches."""
+    ck = torch.load(path, map_location=device, weights_only=True)
+    if ck.get("classes") != CLASS_NAMES:
+        raise ValueError(f"{path} was trained on a different class list")
+    name, size = ck["model_name"], ck["img_size"]
+    kwargs = {"img_size": size} if "vit" in name else {}
+    t = timm.create_model(name, pretrained=False, num_classes=len(CLASS_NAMES), **kwargs)
+    t.load_state_dict(ck["model"])
+    s_cfg, t_cfg = (timm.data.resolve_model_data_config(m) for m in (student, t))
+    print(f"teacher {name} @ {size}px from {path}")
+    return TeacherAdapter(t, s_cfg["mean"], s_cfg["std"], t_cfg["mean"], t_cfg["std"], size).to(device)
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--manifest", type=Path, default=ROOT / "data" / "processed" / "manifest.csv")
@@ -105,6 +122,9 @@ def main() -> None:
     p.add_argument("--resume", action="store_true")
     p.add_argument("--init", type=Path, default=None, help="start from this checkpoint's weights (e.g. 224 px run)")
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--teacher", type=Path, default=None, help="best.pt of a trained model: enables distillation")
+    p.add_argument("--kd-alpha", type=float, default=0.7, help="weight of the soft-target loss")
+    p.add_argument("--kd-temp", type=float, default=2.0, help="distillation temperature")
     args = p.parse_args()
 
     torch.manual_seed(args.seed)
@@ -122,6 +142,7 @@ def main() -> None:
     if hasattr(model, "set_grad_checkpointing") and device == "cuda":
         model.set_grad_checkpointing(True)  # fits ViT-B at 448 px on a 16 GB GPU
     train_tf, eval_tf = build_transforms(model, args.img_size)
+    teacher = load_teacher(args.teacher, model, device) if args.teacher else None
 
     rows = available_rows(pd.read_csv(args.manifest), args.crops)
     splits = {s: rows[rows.split == s] for s in ("train", "val", "test")}
@@ -164,9 +185,13 @@ def main() -> None:
             step = epoch * steps_per_epoch + i
             for g in opt.param_groups:
                 g["lr"] = lr_at(step, total, warmup, g["base_lr"])
+            x, y = x.to(device, non_blocking=True), y.to(device)
             with torch.autocast(device_type=device, dtype=torch.float16, enabled=amp):
-                loss = F.cross_entropy(model(x.to(device, non_blocking=True)), y.to(device),
-                                       label_smoothing=args.label_smoothing)
+                out = model(x)
+                if teacher is not None:
+                    loss = kd_loss(out, teacher(x), y, args.kd_alpha, args.kd_temp, args.label_smoothing)
+                else:
+                    loss = F.cross_entropy(out, y, label_smoothing=args.label_smoothing)
             opt.zero_grad(set_to_none=True)
             scaler.scale(loss).backward()
             scaler.unscale_(opt)
